@@ -173,6 +173,12 @@ int eServerSocket::startListening(struct addrinfo *addr)
 		close();
 		return -1;
 	}
+	
+	if (listen(getDescriptor(), 10) < 0)
+	{
+		close();
+		return -1;
+	}	
 	return 0;
 }
 

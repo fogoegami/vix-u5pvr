@@ -97,18 +97,6 @@ eServerSocket::eServerSocket(int port, eMainloop *ml): eSocket(ml)
 		eDebug("[eServerSocket] getaddrinfo: %s", gai_strerror(res));
 		return;
 	}
-	if(bind(getDescriptor(),
-		(struct sockaddr *) &serv_addr,
-		sizeof(serv_addr))<0)
-	{
-		eDebug("[SERVERSOCKET] ERROR on bind() (%m)");
-		okflag=0;
-	}
-#if HAVE_HISILICON
-	listen(getDescriptor(), 10);
-#else	
-	listen(getDescriptor(), 0);
-#endif		   
 
 	if (startListening(addr) >= 0)
 	{
@@ -138,27 +126,12 @@ eServerSocket::eServerSocket(std::string path, eMainloop *ml) : eSocket(ml)
 	addr.ai_addrlen = sizeof(serv_addr_un);
 
 	unlink(path.c_str());
-#if HAVE_LINUXSOCKADDR
-	if(bind(getDescriptor(),
-	(struct sockaddr *) &serv_addr,
-	strlen(serv_addr.sun_path) + sizeof(serv_addr.sun_family))<0)
-#else
-	if(bind(getDescriptor(),
-		(struct sockaddr *) &serv_addr,
-		sizeof(serv_addr))<0)
-#endif
+
+	if (startListening(&addr) >= 0)
 	{
-		eDebug("[SERVERSOCKET] ERROR on bind() (%m)");
-		okflag=0;
-										   
+		okflag = 1;
+		rsn->setRequested(eSocketNotifier::Read);
 	}
-#if HAVE_HISILICON
-	listen(getDescriptor(), 10);
-#else	
-	listen(getDescriptor(), 0);
-#endif
-	
-	rsn->setRequested(eSocketNotifier::Read);
 }
 
 eServerSocket::~eServerSocket()

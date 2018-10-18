@@ -71,42 +71,53 @@ void eServerSocket::notifier(int)
 	newConnection(clientfd);
 }
 
-eServerSocket::eServerSocket(int port, eMainloop *ml): eSocket(ml)
+eServerSocket::eServerSocket(int port, eMainloop *ml): eSocket(ml, AF_INET6)
 {
-	int res;
-	struct addrinfo *addr = NULL;
-	struct addrinfo hints;
-	char portnumber[16];
-
-	okflag = 0;
+	struct sockaddr_in6 serv_addr;
 	strRemoteHost = "";
 
-	memset(&hints, 0, sizeof(hints));
-	hints.ai_family = AF_UNSPEC; /* both ipv4 and ipv6 */
-	hints.ai_socktype = SOCK_STREAM;
-	hints.ai_protocol = 0; /* any */
-#ifdef AI_ADDRCONFIG
-	hints.ai_flags = AI_PASSIVE | AI_NUMERICSERV | AI_ADDRCONFIG; /* only return ipv6 if we have an ipv6 address ourselves, and ipv4 if we have an ipv4 address ourselves */
-#else
-	hints.ai_flags = AI_PASSIVE | AI_NUMERICSERV; /* AI_ADDRCONFIG is not available */
-#endif
-	snprintf(portnumber, sizeof(portnumber), "%d", port);
+	bzero(&serv_addr, sizeof(serv_addr));
+	serv_addr.sin6_family=AF_INET6;
+	serv_addr.sin6_addr=in6addr_any;
+	serv_addr.sin6_port=htons(port);
 
-	if ((res = getaddrinfo(NULL, portnumber, &hints, &addr)) || !addr)
-	{
-		eDebug("[eServerSocket] getaddrinfo: %s", gai_strerror(res));
-		return;
-	}
+	okflag=1;
+	int val=1;
+	int v6only=0;
 
-	if (startListening(addr) >= 0)
+	setsockopt(getDescriptor(), SOL_SOCKET, SO_REUSEADDR, &val, sizeof(val));
+	setsockopt(getDescriptor(), IPPROTO_IPV6, IPV6_V6ONLY, &v6only, sizeof(v6only));
+								 
+								 
+					
+																																										 
+	 
+																				   
+	  
+													  
+
+	if(bind(getDescriptor(),
+		(struct sockaddr *) &serv_addr,
+		sizeof(serv_addr))<0)
 	{
-		okflag = 1;
-		rsn->setRequested(eSocketNotifier::Read);
+		eDebug("[SERVERSOCKET] ERROR on bind() (%m)");
+		okflag=0;
 	}
-	freeaddrinfo(addr);
+#if HAVE_HISILICON
+	listen(getDescriptor(), 10);
+#else	
+	listen(getDescriptor(), 0);
+#endif	
+
+							   
+  
+			 
+	rsn->setRequested(eSocketNotifier::Read);
+  
+					
 }
 
-eServerSocket::eServerSocket(std::string path, eMainloop *ml) : eSocket(ml)
+eServerSocket::eServerSocket(std::string path, eMainloop *ml) : eSocket(ml, AF_LOCAL)
 {
 	struct sockaddr_un serv_addr_un;
 	struct addrinfo addr;
@@ -114,24 +125,39 @@ eServerSocket::eServerSocket(std::string path, eMainloop *ml) : eSocket(ml)
 	okflag = 0;
 	strRemoteHost = "";
 
-	memset(&serv_addr_un, 0, sizeof(serv_addr_un));
-	serv_addr_un.sun_family = AF_LOCAL;
-	strcpy(serv_addr_un.sun_path, path.c_str());
+	memset(&serv_addr, 0, sizeof(serv_addr));
+	serv_addr.sun_family = AF_LOCAL;
+	strcpy(serv_addr.sun_path, path.c_str());
 
-	memset(&addr, 0, sizeof(addr));
-	addr.ai_family = AF_LOCAL;
-	addr.ai_socktype = SOCK_STREAM;
-	addr.ai_protocol = 0; /* any */
-	addr.ai_addr = (struct sockaddr *)&serv_addr_un;
-	addr.ai_addrlen = sizeof(serv_addr_un);
+	okflag=1;
+						   
+								
+								
+												 
+										
 
 	unlink(path.c_str());
-
-	if (startListening(&addr) >= 0)
+#if HAVE_LINUXSOCKADDR
+	if(bind(getDescriptor(),
+	(struct sockaddr *) &serv_addr,
+	strlen(serv_addr.sun_path) + sizeof(serv_addr.sun_family))<0)
+#else
+	if(bind(getDescriptor(),
+		(struct sockaddr *) &serv_addr,
+		sizeof(serv_addr))<0)
+#endif
 	{
-		okflag = 1;
-		rsn->setRequested(eSocketNotifier::Read);
+		eDebug("[SERVERSOCKET] ERROR on bind() (%m)");
+		okflag=0;
+										   
 	}
+#if HAVE_HISILICON
+	listen(getDescriptor(), 10);
+#else	
+	listen(getDescriptor(), 0);
+#endif
+	
+	rsn->setRequested(eSocketNotifier::Read);
 }
 
 eServerSocket::~eServerSocket()

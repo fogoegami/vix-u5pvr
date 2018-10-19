@@ -23,12 +23,19 @@ if [ -e /proc/stb/info/boxtype ]; then
 		fi
 	fi
 fi
-
-if [ -x @bindir@/showiframe ]; then
-	if [ -f @sysconfdir@/enigma2/backdrop.mvi ]; then
-		@bindir@/showiframe @sysconfdir@/enigma2/backdrop.mvi
-	elif [ -f @datadir@/backdrop.mvi ]; then
-		@bindir@/showiframe @datadir@/backdrop.mvi
+if [ -x /usr/bin/showiframe ]; then
+	if [ -e /proc/stb/info/boxtype ]; then
+		stbcheck=`cat /proc/stb/info/boxtype | cut -c1-2`
+		if [ ! $stbcheck == "u5" ]; then
+			killall -9 showiframe; sleep 1
+		fi
+	else
+		killall -9 showiframe; sleep 1
+	fi
+	if [ -f /etc/enigma2/backdrop.mvi ]; then
+		/usr/bin/showiframe /etc/enigma2/backdrop.mvi
+	elif [ -f /usr/share/backdrop.mvi ]; then
+		/usr/bin/showiframe /usr/share/backdrop.mvi
 	fi
 fi
 
@@ -80,8 +87,15 @@ ret=$?
 
 if [ "$ret" -ne "1" ]; then
 	if [ -e /proc/stb/info/boxtype ]; then
-		stbcheck=`cat /proc/stb/info/boxtype`
-		if [ $stbcheck == "sf8008" ] ; then
+		stbcheck=`cat /proc/stb/info/boxtype | cut -c1-2`
+		if [ $stbcheck == "u5" ]; then
+			killall -9 showiframe; sleep 5
+		fi
+		if [ $stbcheck == "cc" ]; then
+			killall -9 libreader; sleep 5
+		fi
+		stbcheck=`cat /proc/stb/info/boxtype | cut -c1-6`
+		if [ $stbcheck == "sf8008" ]; then
 			killall -9 libreader; sleep 5
 		fi
 	fi

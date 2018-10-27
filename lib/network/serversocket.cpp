@@ -97,11 +97,7 @@ eServerSocket::eServerSocket(int port, eMainloop *ml): eSocket(ml)
 		eDebug("[eServerSocket] getaddrinfo: %s", gai_strerror(res));
 		return;
 	}
-#if HAVE_HISILICON
-	listen(getDescriptor(), 10);
-#else	
-	listen(getDescriptor(), 0);
-#endif
+
 	if (startListening(addr) >= 0)
 	{
 		okflag = 1;

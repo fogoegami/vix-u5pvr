@@ -14046,3 +14046,12 @@ msgstr "Zapping"
 #
 #~ msgid "whitelist"
 #~ msgstr "Lista blanca"
+
+msgid "NOW"
+msgstr "AHORA"
+
+msgid "NEXT"
+msgstr "SIGUIENTE"
+
+msgid "MORE"
+msgstr "MÁS"

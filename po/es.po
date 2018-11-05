@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-23 19:30+0200\n"
-"PO-Revision-Date: 2018-11-05 16:43+0100\n"
+"PO-Revision-Date: 2018-11-05 17:35+0100\n"
 "Last-Translator: Andy Blackburn <andyblac@icloud.com>\n"
 "Language-Team: www.CostaBlancaTranslations.com <maria@CostaBlancaTranslations.com>\n"
 "Language: es\n"
@@ -3640,7 +3640,7 @@ msgid "Enable favourite edit"
 msgstr "Habilitar edición de favoritos"
 
 msgid "Enable infobar fade-out"
-msgstr ""
+msgstr "Activa infobar fade-out"
 
 #
 #, fuzzy
@@ -4781,10 +4781,10 @@ msgid "Infobar EPG"
 msgstr "Bara de información del EPG"
 
 msgid "Infobar fade-out speed"
-msgstr ""
+msgstr "Velocidad infobar fade-out"
 
 msgid "Infobar frontend data source"
-msgstr ""
+msgstr "Infobar fuente de datos frontend"
 
 #
 msgid "InfobarEPG settings"
@@ -8801,7 +8801,7 @@ msgstr "Ver fondo en modo radio."
 
 #, fuzzy
 msgid "Show background in Radio mode"
-msgstr "Ver fondo en modo radio."
+msgstr "Ver fondo en modo radio"
 
 msgid "Show background when tuned to a radio channel."
 msgstr "Ver fondo cuando se sintonice un canal de radio."
@@ -8811,7 +8811,11 @@ msgstr "Ver grupo al inicio."
 
 #, fuzzy
 msgid "Show channel number in infobar"
-msgstr "Ver números de canal en la selección de canales."
+msgstr "Ver números de canal en la selección de canales"
+
+#, fuzzy
+msgid "Show event genre information"
+msgstr "Mostrar información género en eventos"
 
 msgid "Show channel numbers in channel selection"
 msgstr "Ver números de canal en la selección de canales."
@@ -8939,20 +8943,25 @@ msgstr "Ver u ocultar la descripción ampliada (depende de Skin)."
 
 #, fuzzy
 msgid "Show picon background color"
-msgstr "Ver color de fondo de Picon."
+msgstr "Ver color de fondo de Picon"
 
 #, fuzzy
 msgid "Show picons in service list"
-msgstr "Ver iconos de estado en la lista de películas."
+msgstr "Ver iconos de estado en la lista de películas"
 
 #
 msgid "Show positioner movement"
-msgstr "Mostrar movimiento del motor."
+msgstr "Mostrar movimiento del motor"
 
 #
 #, fuzzy
 msgid "Show positioner position"
-msgstr "Mostrar movimiento del motor."
+msgstr "Mostrar movimiento del motor"
+
+#
+#, fuzzy
+msgid "Include CI assignment"
+msgstr "Incluir asignación de CI"
 
 #, fuzzy
 msgid "Show program information..."
@@ -8964,7 +8973,7 @@ msgid "Show record indicator"
 msgstr "Ver segunda barra de información."
 
 msgid "Show screensaver"
-msgstr ""
+msgstr "Mostrar Salvapantallas"
 
 #
 msgid "Show second infobar"
@@ -9407,7 +9416,11 @@ msgstr ""
 
 #, fuzzy
 msgid "Sort setting screens alphabetically"
-msgstr "Ordenar la pantalla de ajustes alfabéticamente."
+msgstr "Ordenar la pantalla de ajustes alfabéticamente"
+
+#, fuzzy
+msgid "Show menu numbers"
+msgstr "Mostrar menu con números"
 
 #
 msgid "Sound"

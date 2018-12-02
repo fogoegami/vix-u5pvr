@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-23 19:30+0200\n"
-"PO-Revision-Date: 2018-11-28 21:43+0100\n"
+"PO-Revision-Date: 2018-11-05 17:35+0100\n"
 "Last-Translator: Andy Blackburn <andyblac@icloud.com>\n"
 "Language-Team: www.CostaBlancaTranslations.com <maria@CostaBlancaTranslations.com>\n"
 "Language: es\n"
@@ -4136,9 +4136,6 @@ msgstr "Comprobación del sistema de archivos"
 
 msgid "Final position at"
 msgstr "Posición final a"
-
-msgid "Welcome..."
-msgstr "Bienvenido..."
 
 msgid "Final position at index"
 msgstr "Posición final a indice"

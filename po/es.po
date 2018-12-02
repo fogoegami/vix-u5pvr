@@ -4140,9 +4140,6 @@ msgstr "Posición final a"
 msgid "Welcome..."
 msgstr "Bienvenido..."
 
-msgid "Restore Wizard"
-msgstr "Asistente de restauración"
-
 msgid "Final position at index"
 msgstr "Posición final a indice"
 

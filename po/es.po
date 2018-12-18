@@ -13017,15 +13017,6 @@ msgstr "zap and record"
 msgid "zapped"
 msgstr "zapeado"
 
-msgid "NOW"
-msgstr "AHORA"
-
-msgid "NEXT"
-msgstr "SIGUIENTE"
-
-msgid "MORE"
-msgstr "MÁS"
-
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"
 

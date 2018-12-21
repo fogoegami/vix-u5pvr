@@ -110,7 +110,7 @@
 	    <widget source="session.CurrentService" render="Label" position="80,0" size="100,15" font="FdLcD;12" noWrap="1">
 		    <convert type="ServiceName">NameOnly</convert>
 	    </widget>
-	    <widget source="session.Event_Now" render="Label" position="0,39" size="255,35" font="FdLcD;22" noWrap="1">
+	    <widget source="session.Event_Now" render="RollerCharLCDLong" position="0,39" size="255,35" font="FdLcD;22" noWrap="1">
 		    <convert type="EventName">Name</convert>
 	    </widget>
 	    <widget source="session.Event_Now" render="Label" position="0,5" size="80,26" font="FdLcD;28" noWrap="1">

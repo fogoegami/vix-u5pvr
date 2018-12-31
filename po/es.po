@@ -642,8 +642,8 @@ msgid ""
 "A finished power timer wants to shut down\n"
 "your %s %s. Shutdown now?"
 msgstr ""
-"A finished power timer wants to shut down\n"
-"your %s %s. Shutdown now?"
+"Un temporizador de encendido ha terminado quiere apagar\n"
+"su %s %s. Apagar Ahora?"
 
 #
 #, python-format
@@ -651,16 +651,16 @@ msgid ""
 "A finished powertimer wants to reboot your %s %s.\n"
 "Do that now?"
 msgstr ""
-"A finished powertimer wants to reboot your %s %s.\n"
-"Do that now?"
+"Un temporizador de encendido ha terminado quiere reiniciar su %s %s.\n"
+"Hacer eso Ahora?"
 
 #
 msgid ""
 "A finished powertimer wants to restart the user interface.\n"
 "Do that now?"
 msgstr ""
-"A finished powertimer wants to restart the user interface.\n"
-"Do that now?"
+"Un temporizador de encendido ha terminado quiere reiniciar la interfaz de usuario.\n"
+"Hacer eso Ahora?"
 
 #
 #, python-format
@@ -668,8 +668,8 @@ msgid ""
 "A finished powertimer wants to set your\n"
 "%s %s to standby. Do that now?"
 msgstr ""
-"A finished powertimer wants to set your\n"
-"%s %s to standby. Do that now?"
+"Un temporizador de encendido ha terminado quiere configurar su\n"
+"%s %s en Modo espera. Hacer eso Ahora?"
 
 #
 #, python-format
@@ -677,8 +677,8 @@ msgid ""
 "A finished powertimer wants to shutdown your %s %s.\n"
 "Do that now?"
 msgstr ""
-"A finished powertimer wants to shutdown your %s %s.\n"
-"Do that now?"
+"Un temporizador de encendido ha terminado quiere apagar su %s %s.\n"
+"Hacer eso Ahora?"
 
 #
 #, python-format
@@ -686,8 +686,8 @@ msgid ""
 "A finished record timer wants to set your\n"
 "%s %s to standby. Do that now?"
 msgstr ""
-"A finished record timer wants to set your\n"
-"%s %s to standby. Do that now?"
+"Un temporizador de grabación ha terminado quiere configurar su\n"
+"%s %s en modo espera. Hacer eso Ahora?"
 
 #
 #, python-format
@@ -695,8 +695,8 @@ msgid ""
 "A finished record timer wants to shut down\n"
 "your %s %s. Shutdown now?"
 msgstr ""
-"A finished record timer wants to shut down\n"
-"your %s %s. Shutdown now?"
+"Un temporizador de grabación ha terminado quiere apagar\n"
+"su %s %s. Apagar ahora?"
 
 #, python-format
 msgid ""
@@ -711,8 +711,8 @@ msgid ""
 "A recording is currently in progress.\n"
 "What do you want to do?"
 msgstr ""
-"A recording is currently in progress.\n"
-"What do you want to do?"
+"Una grabación está actualmente en progreso.\n"
+"Qué quieres hacer?"
 
 msgid "A recording is currently running. Please stop the recording before trying to scan."
 msgstr "Hay una grabación en curso. Detén la grabación antes de iniciar la búsqueda."

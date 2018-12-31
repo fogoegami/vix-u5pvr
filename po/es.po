@@ -642,8 +642,8 @@ msgid ""
 "A finished power timer wants to shut down\n"
 "your %s %s. Shutdown now?"
 msgstr ""
-"A finished power timer wants to shut down\n"
-"your %s %s. Shutdown now?"
+"Un temporizador de encendido ha terminado quiere apagar\n"
+"su %s %s. Apagar Ahora?"
 
 #
 #, python-format
@@ -651,16 +651,16 @@ msgid ""
 "A finished powertimer wants to reboot your %s %s.\n"
 "Do that now?"
 msgstr ""
-"A finished powertimer wants to reboot your %s %s.\n"
-"Do that now?"
+"Un temporizador de encendido ha terminado quiere reiniciar su %s %s.\n"
+"Hacer eso Ahora?"
 
 #
 msgid ""
 "A finished powertimer wants to restart the user interface.\n"
 "Do that now?"
 msgstr ""
-"A finished powertimer wants to restart the user interface.\n"
-"Do that now?"
+"Un temporizador de encendido ha terminado quiere reiniciar la interfaz de usuario.\n"
+"Hacer eso Ahora?"
 
 #
 #, python-format
@@ -668,8 +668,8 @@ msgid ""
 "A finished powertimer wants to set your\n"
 "%s %s to standby. Do that now?"
 msgstr ""
-"A finished powertimer wants to set your\n"
-"%s %s to standby. Do that now?"
+"Un temporizador de encendido ha terminado quiere configurar su\n"
+"%s %s en Modo espera. Hacer eso Ahora?"
 
 #
 #, python-format
@@ -677,8 +677,8 @@ msgid ""
 "A finished powertimer wants to shutdown your %s %s.\n"
 "Do that now?"
 msgstr ""
-"A finished powertimer wants to shutdown your %s %s.\n"
-"Do that now?"
+"Un temporizador de encendido ha terminado quiere apagar su %s %s.\n"
+"Hacer eso Ahora?"
 
 #
 #, python-format
@@ -686,8 +686,8 @@ msgid ""
 "A finished record timer wants to set your\n"
 "%s %s to standby. Do that now?"
 msgstr ""
-"A finished record timer wants to set your\n"
-"%s %s to standby. Do that now?"
+"Un temporizador de grabación ha terminado quiere configurar su\n"
+"%s %s en modo espera. Hacer eso Ahora?"
 
 #
 #, python-format
@@ -695,8 +695,8 @@ msgid ""
 "A finished record timer wants to shut down\n"
 "your %s %s. Shutdown now?"
 msgstr ""
-"A finished record timer wants to shut down\n"
-"your %s %s. Shutdown now?"
+"Un temporizador de grabación ha terminado quiere apagar\n"
+"su %s %s. Apagar ahora?"
 
 #, python-format
 msgid ""
@@ -711,14 +711,14 @@ msgid ""
 "A recording is currently in progress.\n"
 "What do you want to do?"
 msgstr ""
-"A recording is currently in progress.\n"
-"What do you want to do?"
+"Una grabación está actualmente en progreso.\n"
+"Qué quieres hacer?"
 
 msgid "A recording is currently running. Please stop the recording before trying to scan."
 msgstr "Hay una grabación en curso. Detén la grabación antes de iniciar la búsqueda."
 
 msgid "A repeating timer or just once?"
-msgstr "¿De repetición o solo una vez?"
+msgstr "¿Repetir temporizador o solo una vez?"
 
 #
 #, python-format
@@ -1084,34 +1084,34 @@ msgid "Allows the %s %s to store the EPG data regularly."
 msgstr "Permite que la %s %s lea los datos grabados en el EPG periódicamente."
 
 msgid "Allows you to adjust the amount of time the resolution infomation display on screen."
-msgstr "Allows you to adjust the amount of time the resolution infomation display on screen."
+msgstr "Le permite ajustar la cantidad de tiempo que la información de resolución se muestra en la pantalla."
 
 msgid "Allows you to enable the debug logs. They contain very detailed information about everything the system does. Reboot required to enable this!"
-msgstr "Allows you to enable the debug logs. They contain very detailed information about everything the system does. Reboot required to enable this!"
+msgstr "Le permite habilitar los registros de depuración. Contienen información muy detallada sobre todo lo que hace el sistema. Reinicio requerido para habilitar esto!"
 
 msgid "Allows you to enable/disable displaying icons on the front panel."
-msgstr "Allows you to enable/disable displaying icons on the front panel."
+msgstr "Le permite activar/desactivar la visualización de iconos en el panel frontal."
 
 msgid "Allows you to hide the extensions of known file types."
-msgstr "Te permite ocultar extensiones de tipos de archivo conocidos."
+msgstr "Le permite ocultar extensiones de tipos de archivo conocidos."
 
 msgid "Allows you to send a copy of the log to yourself."
-msgstr "Te permite enviarte una copia del historial."
+msgstr "Le permite enviarte una copia del historial."
 
 msgid "Allows you to set the maximum size (MB) of the individual debug logs. When that size is reached, a new file will be created."
-msgstr "Allows you to set the maximum size (MB) of the individual debug logs. When that size is reached, a new file will be created."
+msgstr "Le permite establecer el tamaño máximo (MB) de los registros de depuración individuales. Cuando se alcance ese tamaño, se creará un nuevo archivo."
 
 msgid "Allows you to setup the button to do what you choose."
 msgstr "Permite configurar la tecla para que haga lo que quieras."
 
 msgid "Allows you to show/hide CCcam Info in extensions (blue button)."
-msgstr "Allows you to show/hide CCcam Info in extensions (blue button)."
+msgstr "Le permite mostrar/ocultar información de CCcam en extensiones (botón azul)."
 
 msgid "Allows you to show/hide Log Manager in extensions (blue button)."
-msgstr "Te permite mostrar/ocultar el administrador de historiales en extensiones (tecla azul)."
+msgstr "Le permite mostrar/ocultar el administrador de historiales en extensiones (tecla azul)."
 
 msgid "Allows you to show/hide OScam Info in extensions (blue button)."
-msgstr "Allows you to show/hide OScam Info in extensions (blue button)."
+msgstr "Le permite mostrar/ocultar información de OScam en las extensiones (botón azul)."
 
 #
 msgid "Alpha"
@@ -1122,7 +1122,7 @@ msgstr "Alfanumérico"
 
 #
 msgid "Also on standby"
-msgstr "Also on standby"
+msgstr "También en espera"
 
 #
 msgid "Alternative"
@@ -1142,7 +1142,7 @@ msgid "Always ask"
 msgstr "Preguntar siempre"
 
 msgid "Always hide infobar"
-msgstr "Always hide infobar"
+msgstr "Siempre ocultar infobar"
 
 msgid "Always show bouquets"
 msgstr "Visualizar grupos siempre"
@@ -1160,14 +1160,14 @@ msgstr "Se ha producido un error desconocido!"
 
 #
 msgid "Animation Setup"
-msgstr "Animation Setup"
+msgstr "Configuración Animación"
 
 msgid "Animation Speed"
-msgstr "Animation Speed"
+msgstr "Configuración Velocidad"
 
 #
 msgid "Animations"
-msgstr "Animations"
+msgstr "Animaciones"
 
 msgid "Any activity"
 msgstr "Cualquier actividad"
@@ -1178,15 +1178,15 @@ msgstr "Árabe"
 
 #, python-format
 msgid "Are you ready to install \"%s\" ?"
-msgstr "Are you ready to install \"%s\" ?"
+msgstr "¿Listo para instalar \"%s\" ?"
 
 #, python-format
 msgid "Are you ready to remove \"%s\" ?"
-msgstr "Are you ready to remove \"%s\" ?"
+msgstr "Listo para eliminar \"%s\" ?"
 
 #
 msgid "Are you sure to remove this entry?"
-msgstr "Are you sure to remove this entry?"
+msgstr "Estás seguro de eliminar esta entrada?"
 
 #
 msgid ""
@@ -1204,10 +1204,10 @@ msgstr ""
 "la siguiente copia?\n"
 
 msgid "Are you sure you want to delete all the selected logs:\n"
-msgstr "Are you sure you want to delete all the selected logs:\n"
+msgstr "Estás seguro de que deseas eliminar todos los registros seleccionados:\n"
 
 msgid "Are you sure you want to delete the EPG data from:\n"
-msgstr "Are you sure you want to delete the EPG data from:\n"
+msgstr "Está seguro que desea eliminar los datos de EPG desde:\n"
 
 msgid "Are you sure you want to delete this log:\n"
 msgstr "¿Seguro que quieres borrar este historial?\n"
@@ -1225,24 +1225,24 @@ msgid "Are you sure you want to exit this wizard?"
 msgstr "¿Seguro que quieres salir de este asistente?"
 
 msgid "Are you sure you want to purge all deleted user bouquets?"
-msgstr "Are you sure you want to purge all deleted user bouquets?"
+msgstr "Estás seguro que deseas eliminar todos los bouquets de usuario?"
 
 msgid "Are you sure you want to reload the EPG data from:\n"
 msgstr "¿Seguro que quieres volver a cargar los datos EPG de...?\n"
 
 #, python-format
 msgid "Are you sure you want to remove all %d.%d%s%s services?"
-msgstr "Are you sure you want to remove all %d.%d%s%s services?"
+msgstr "Estás seguro que quieres eliminar todos %d.%d%s%s servicios?"
 
 msgid "Are you sure you want to remove all cable services?"
-msgstr "Are you sure you want to remove all cable services?"
+msgstr "Estás seguro que quieres eliminar todos los servicios de cable?"
 
 msgid "Are you sure you want to remove all terrestrial services?"
-msgstr "Are you sure you want to remove all terrestrial services?"
+msgstr "Estás seguro que quieres eliminar todos los servicios terrestres?"
 
 #
 msgid "Are you sure you want to remove this entry?"
-msgstr "Are you sure you want to remove this entry?"
+msgstr "Estás seguro que quieres eliminar esta entrada?"
 
 #
 msgid ""
@@ -1262,7 +1262,7 @@ msgstr ""
 "¿Seguro que quieres restaurar\n"
 "la siguiente copia?\n"
 "%s\n"
-"Tu receptor se reiniciará cuando se restaure la copia de seguridad!"
+"Su receptor se reiniciará cuando se restaure la copia de seguridad!"
 
 msgid ""
 "Are you sure you want to restore the backup?\n"
@@ -1279,7 +1279,7 @@ msgstr "¿Seguro que quieres enviar este historial?\n"
 
 #, python-format
 msgid "Are you sure you want to update your %s %s ?"
-msgstr "Are you sure you want to update your %s %s ?"
+msgstr "Estás seguro de que quieres actualizar su %s %s ?"
 
 #
 msgid "Artist"
@@ -1293,13 +1293,13 @@ msgid "Ask user"
 msgstr "Preguntar al usuario"
 
 msgid "Ask user (with default as 'no')"
-msgstr "Ask user (with default as 'no')"
+msgstr "Preguntar al usuario (con valor predeterminado 'no')"
 
 msgid "Ask user (with default as 'yes')"
-msgstr "Ask user (with default as 'yes')"
+msgstr "Preguntar al usuario (con valor predeterminado 'si')"
 
 msgid "Aspect ratio"
-msgstr "Aspecto"
+msgstr "Aspecto radio"
 
 #
 msgid "Assigned CAIds:"
@@ -1316,7 +1316,7 @@ msgid "Attach a file"
 msgstr "Adjuntar archivo"
 
 msgid "Attention, this is repeated timer!\n"
-msgstr "Attention, this is repeated timer!\n"
+msgstr "Atención, esto se repite en temporizador!\n"
 
 msgid "Audio"
 msgstr "Audio"
@@ -1367,18 +1367,18 @@ msgid "Auto Deep Standby"
 msgstr "Hibernación automática"
 
 msgid "Auto EXIF Orientation rotation/flipping"
-msgstr "Auto EXIF Orientation rotation/flipping"
+msgstr "Auto EXIF Rotación de la orientación/voltear"
 
 #
 msgid "Auto Standby"
 msgstr "Modo de espera automático"
 
 msgid "Auto Volume Level"
-msgstr "Auto Volume Level"
+msgstr "Nivel de volumen automático"
 
 #
 msgid "Auto chapter split every ? minutes (0=never)"
-msgstr "División automática de capítulos cada ? minutos (0=nunca)"
+msgstr "Auto capítulo dividido cada? minutos (0=nunca)"
 
 #
 msgid "Auto flesh"
@@ -1394,7 +1394,7 @@ msgid "Auto language selection"
 msgstr "Selección automática de idioma"
 
 msgid "Auto play blu-ray file"
-msgstr "Auto play blu-ray file"
+msgstr "Auto play archivo blu-ray"
 
 #
 msgid "Auto scart switching"
@@ -1402,7 +1402,7 @@ msgstr "Cambio automático de SCART"
 
 #
 msgid "AutoTimer overview"
-msgstr "AutoTimer overview"
+msgstr "Vista general de AutoTemporizador"
 
 #
 msgid "Automatic"
@@ -1413,16 +1413,16 @@ msgid "Automatic Scan"
 msgstr "Búsqueda automática"
 
 msgid "Automatic image backup"
-msgstr "Copia automática de Image"
+msgstr "Copia automática de Imagen"
 
 msgid "Automatic refresh"
 msgstr "Reinicio automático"
 
 msgid "Automatic resolution"
-msgstr "Automatic resolution"
+msgstr "Resolución Automática"
 
 msgid "Automatic resolution label"
-msgstr "Automatic resolution label"
+msgstr "Etiqueta Resolución Automática"
 
 msgid "Automatic save"
 msgstr "Guardado automático"
@@ -1434,10 +1434,10 @@ msgid "Automatic settings backup"
 msgstr "Copia de configuración automática"
 
 msgid "Automatically start timeshift after"
-msgstr "Automatically start timeshift after"
+msgstr "Iniciar automáticamente timeshift después"
 
 msgid "Automatically turn on external subtitles"
-msgstr "Automatically turn on external subtitles"
+msgstr "Activar automáticamente los subtítulos externos"
 
 msgid "Automatically update Client/Server View?"
 msgstr "¿Actualizar automáticamente la visualización de cliente/servidor?"
@@ -1467,7 +1467,7 @@ msgid "Back"
 msgstr "Atrás"
 
 msgid "Back/Recall"
-msgstr "Back/Recall"
+msgstr "Atrás/Recordar"
 
 #
 msgid "Background"
@@ -3453,73 +3453,73 @@ msgid "Enable 5V for active antenna"
 msgstr "Activar 5V para la antena activa"
 
 msgid "Enable EIT EPG"
-msgstr "Habilitar EIT EPG"
+msgstr "Activar EIT EPG"
 
 msgid "Enable FreeSat EPG"
-msgstr "Enable FreeSat EPG"
+msgstr "Activar FreeSat EPG"
 
 msgid "Enable MHW EPG"
-msgstr "Habilitar MHW EPG"
+msgstr "Activar MHW EPG"
 
 msgid "Enable Netmed EPG"
-msgstr "Habilitar Netmed EPG"
+msgstr "Activar Netmed EPG"
 
 msgid "Enable ViaSat EPG"
-msgstr "Habilitar ViaSat EPG"
+msgstr "Activar ViaSat EPG"
 
 msgid "Enable Virgin EPG"
-msgstr "Enable Virgin EPG"
+msgstr "Activar Virgin EPG"
 
 msgid "Enable Wake On LAN"
-msgstr "Enable Wake On LAN"
+msgstr "Activar Wake On LAN"
 
 #
 msgid "Enable auto cable scan"
-msgstr "Enable auto cable scan"
+msgstr "Activar auto cable scan"
 
 msgid "Enable auto fast scan"
-msgstr "Enable auto fast scan"
+msgstr "Activar auto fast scan"
 
 #
 msgid "Enable bouquet edit"
-msgstr "Enable bouquet edit"
+msgstr "Activar editar bouquet"
 
 msgid "Enable debug logs *"
-msgstr "Enable debug logs *"
+msgstr "Activar registros de depuración *"
 
 msgid "Enable fallback remote receiver"
-msgstr "Enable fallback remote receiver"
+msgstr "Activar receptor remoto de reserva"
 
 #
 msgid "Enable favourite edit"
-msgstr "Enable favourite edit"
+msgstr "Activar edición favoritos"
 
 msgid "Enable infobar fade-out"
-msgstr "Activa infobar fade-out"
+msgstr "Activar infobar fade-out"
 
 #
 msgid "Enable move mode"
-msgstr "Enable move mode"
+msgstr "Activar modo de movimiento"
 
 #
 msgid "Enable multiple bouquets"
-msgstr "Habilitar múltiples grupos"
+msgstr "Activar múltiples grupos"
 
 msgid "Enable panic button"
-msgstr "Habilitar botón de pánico"
+msgstr "Activar botón de pánico"
 
 #
 msgid "Enable parental protection"
-msgstr "Enable parental protection"
+msgstr "Activar la protección parental"
 
 msgid "Enable teletext caching"
-msgstr "Habilitar caché de teletexto"
+msgstr "Activar caché de teletexto"
 
 msgid "Enable the use of the tuners of a remote enigma2 receiver when no local tuner is available (e.g. when the tuner is occupied or service type is unavailable on the local tuner)."
-msgstr "Enable the use of the tuners of a remote enigma2 receiver when no local tuner is available (e.g. when the tuner is occupied or service type is unavailable on the local tuner)."
+msgstr "Habilite el uso de los sintonizadores de un receptor remoto de enigma2 cuando no haya disponible un sintonizador local (por ejemplo, cuando el sintonizador está ocupado o el tipo de servicio no está disponible en el sintonizador local)."
 
 msgid "Enable timer conflict detection"
-msgstr "Enable timer conflict detection"
+msgstr "Activar la detección de conflictos de temporizador"
 
 #
 msgid "Enabled"
@@ -3546,15 +3546,15 @@ msgid "Encryption:"
 msgstr "Encriptación:"
 
 msgid "End"
-msgstr "End"
+msgstr "Fin"
 
 #
 msgid "End alternatives edit"
-msgstr "End alternatives edit"
+msgstr "Fin alternativas de edición"
 
 #
 msgid "End bouquet edit"
-msgstr "End bouquet edit"
+msgstr "Finalizar edición de bouquet"
 
 #
 msgid "End favourites edit"
@@ -5678,7 +5678,7 @@ msgstr "DVDROM no soportado!"
 
 #
 msgid "No Connection"
-msgstr "Sin conexión"
+msgstr "Sin Conexión"
 
 #
 msgid "No HDD found or HDD not initialized!"
@@ -5706,7 +5706,7 @@ msgstr "No se ha introducido ninguna tarjeta!"
 
 #
 msgid "No connection"
-msgstr "No connection"
+msgstr "Sin conexión"
 
 #
 msgid ""
@@ -5741,11 +5741,11 @@ msgstr "Ningún número de posición disponible"
 
 #
 msgid "No free tuner available!"
-msgstr "No free tuner available!"
+msgstr "No hay sintonizador disponible!"
 
 #
 msgid "No free tuner!"
-msgstr "No hay ningún sintonizador libre!"
+msgstr "Sin sintonizador libre!"
 
 msgid "No httpport defined in oscam.conf. This value is required!"
 msgstr "No se ha definido el puerto http en oscam.conf. Es obligatorio hacerlo!"
@@ -5766,7 +5766,7 @@ msgstr "No se han encontrado redes"
 
 #
 msgid "No new plugins found"
-msgstr "No new plugins found"
+msgstr "No se han encontrado nuevos plugins"
 
 msgid "No of items switch (increase or reduced)"
 msgstr "Nº de elementos intercambiados (aumentar o reducir)"
@@ -9508,8 +9508,8 @@ msgid ""
 "Thank you for using the wizard. Your %s %s is now ready to use.\n"
 "Please press OK to start using your %s %s."
 msgstr ""
-"Gracias por usar el asistente. Tu %s %s ya está lista.\n"
-"Pulsa 'OK' para empezar a usar tu %s %s."
+"Gracias por usar el asistente. Su %s %s ya está lista.\n"
+"Pulsa 'OK' para empezar a usar su %s %s."
 
 msgid "The %s %s reads the stored EPG data every (hours)."
 msgstr "La %s %s lee los datos guardados en EPG cada (horas)."
@@ -10720,7 +10720,7 @@ msgstr "Vídeo PID"
 
 #, python-format
 msgid "Video content: %ix%i%s %iHz"
-msgstr "Video content: %ix%i%s %iHz"
+msgstr "Contenido de video: %ix%i%s %iHz"
 
 #
 msgid "Video enhancement preview"
@@ -10765,7 +10765,7 @@ msgid "Videoformat"
 msgstr "Formato de vídeo"
 
 msgid "Videomode"
-msgstr "Videomode"
+msgstr "Modo de vídeo"
 
 msgid "Videosize"
 msgstr "Tamaño de vídeo"
@@ -10995,7 +10995,7 @@ msgstr ""
 
 #
 msgid "Welcome to the image upgrade wizard. The wizard will assist you in upgrading the firmware of your %s %s by providing a backup facility for your current settings and a short explanation of how to upgrade your firmware."
-msgstr "Bienvenido al asistente de actualización de Image. El asistente te guiará sobre cómo actualizar Firmware de tu %s %s, con la posibilidad de hacer una copia de seguridad de la configuración actual y una breve explicación de cómo actualizar Firmware."
+msgstr "Bienvenido al asistente de actualización de Image. El asistente te guiará sobre cómo actualizar Firmware de su %s %s, con la posibilidad de hacer una copia de seguridad de la configuración actual y una breve explicación de cómo actualizar Firmware."
 
 #
 msgid ""
@@ -11007,7 +11007,7 @@ msgid ""
 msgstr ""
 "Bienvenido.\n"
 "\n"
-"Si quieres conectar la %s %s a internet, este asistente te guiará en la configuración básica de red de la %s %s.\n"
+"Si quieres conectar su %s %s a internet, este asistente te guiará en la configuración básica de red de la %s %s.\n"
 "\n"
 "Pulsa 'OK' para empezar a configurar la red"
 
@@ -11019,7 +11019,7 @@ msgid ""
 msgstr ""
 "Bienvenido.\n"
 "\n"
-"El asistente de inicio te guiará por la configuración básica de tu %s %s.\n"
+"El asistente de inicio te guiará por la configuración básica de su %s %s.\n"
 "Pulsa la tecla 'OK' del mando para ir al siguiente paso."
 
 #
@@ -11043,13 +11043,13 @@ msgid "What do you want to scan?"
 msgstr "¿Qué quieres buscar?"
 
 msgid "When enabled enigma2 will load unlinked userbouquets. This means that userbouquets that are available, but not included in the bouquets.tv or bouquets.radio files, will still be loaded. This allows you for example to keep your own user bouquet while installed settings are upgraded"
-msgstr "When enabled enigma2 will load unlinked userbouquets. This means that userbouquets that are available, but not included in the bouquets.tv or bouquets.radio files, will still be loaded. This allows you for example to keep your own user bouquet while installed settings are upgraded"
+msgstr "Cuando esté habilitado, enigma2 cargará los paquetes de usuarios no vinculados. Esto significa que los paquetes de usuario que están disponibles, pero no están incluidos en los archivos bouquets.tv o bouquets.radio, todavía se cargarán. Esto le permite, por ejemplo, mantener su propio ramo de usuarios mientras se actualizan las configuraciones instaladas"
 
 msgid "When enabled the LNB power will not be switched off in standby"
-msgstr "When enabled the LNB power will not be switched off in standby"
+msgstr "Cuando está habilitada, la alimentación de LNB no se apagará en el modo de espera"
 
 msgid "When enabled the LNB toneburst will be forced"
-msgstr "When enabled the LNB toneburst will be forced"
+msgstr "Cuando se habilite se forzará el sonido tonal LNB"
 
 msgid "When enabled the online checker will also check for experimental versions"
 msgstr "Cuando está activado, el verificador online comprabará también las versiones experimentales"
@@ -11067,13 +11067,13 @@ msgid "When enabled, a popup message will be shown when a recording starts."
 msgstr "Cuando está activado, aparecerá un mensaje cuando empiece una grabación."
 
 msgid "When enabled, a recording is allowed to interrupt live TV, when there are no free tuners."
-msgstr "When enabled, a recording is allowed to interrupt live TV, when there are no free tuners."
+msgstr "Cuando está habilitada, una grabación puede interrumpir la TV en vivo, cuando no hay sintonizadores libres."
 
 msgid "When enabled, a warning will be displayed and the user will get an option to stop or to continue the timeshift."
-msgstr "When enabled, a warning will be displayed and the user will get an option to stop or to continue the timeshift."
+msgstr "Cuando esté habilitado, se mostrará una advertencia y el usuario tendrá la opción de detener o continuar el timeshift."
 
 msgid "When enabled, a warning will be displayed that timeshift is not supported in an IP stream.."
-msgstr "When enabled, a warning will be displayed that timeshift is not supported in an IP stream.."
+msgstr "Cuando esté habilitado, se mostrará una advertencia de que timehift no es compatible con una transmisión IP.."
 
 msgid "When enabled, always descramble receiving http streams. This takes up more resources (descrambling demuxers), only enable if necessary. Individual streams are always descrambled if 0x100 is added to the service type, regardless of this setting. Default off."
 msgstr "When enabled, always descramble receiving http streams. This takes up more resources (descrambling demuxers), only enable if necessary. Individual streams are always descrambled if 0x100 is added to the service type, regardless of this setting. Default off."
@@ -11210,14 +11210,14 @@ msgid ""
 "\n"
 "Do you really want to do a factory reset?"
 msgstr ""
-"When you perform a factory reset, you will lose ALL of your configuration data\n"
-"(including bouquets, services, satellite data ...)\n"
-"After completion of the factory reset, your %s %s will restart automatically!\n"
+"Cuando realice un restablecimiento de fábrica, perderá TODOS sus datos de configuración\n"
+"(Incluidos los bouquets, servicios, datos satelitales ...)\n"
+"Después de completar el restablecimiento de fábrica, su %s %s se reiniciará automáticamente!\n"
 "\n"
-"Do you really want to do a factory reset?"
+"¿Realmente quieres hacer un restablecimiento de fábrica?"
 
 msgid "When you use the remote fallback tuner for recording, the timer conflict detection can't properly detect conflicts. This option allows you to turn off the timer confict detection. This setting is only for advanced users; the default is 'yes'."
-msgstr "When you use the remote fallback tuner for recording, the timer conflict detection can't properly detect conflicts. This option allows you to turn off the timer confict detection. This setting is only for advanced users; the default is 'yes'."
+msgstr "Cuando utiliza el sintonizador remoto alternativo para la grabación, la detección de conflictos del temporizador no puede detectar los conflictos correctamente. Esta opción le permite desactivar la detección de conflictos del temporizador. Esta configuración es solo para usuarios avanzados; el valor predeterminado es 'sí'."
 
 #
 msgid "Where do you want to backup your settings?"
@@ -11419,10 +11419,10 @@ msgstr "Puedes cancelar la instalación."
 
 #
 msgid "You can cancel the removal."
-msgstr "Ha cancelado la desinstalación."
+msgstr "Puedes cancelar la eliminación."
 
 msgid "You can continue watching TV while this is running."
-msgstr "You can continue watching TV while this is running."
+msgstr "Puedes seguir viendo la televisión mientras esto está funcionando."
 
 msgid "You can have the list sorted by time or alphanumerical."
 msgstr "Puedes ordenar la lista por orden horario o alfanumérico."
@@ -12153,7 +12153,7 @@ msgstr "libre"
 
 #
 msgid "free diskspace"
-msgstr "eespacio libre en disco"
+msgstr "espacio libre en disco"
 
 msgid "from"
 msgstr "from"

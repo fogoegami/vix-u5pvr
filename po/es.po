@@ -718,7 +718,7 @@ msgid "A recording is currently running. Please stop the recording before trying
 msgstr "Hay una grabación en curso. Detén la grabación antes de iniciar la búsqueda."
 
 msgid "A repeating timer or just once?"
-msgstr "¿Repetir temporizador o solo una vez?"
+msgstr "¿De repetición o solo una vez?"
 
 #
 #, python-format

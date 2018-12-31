@@ -1262,7 +1262,7 @@ msgstr ""
 "¿Seguro que quieres restaurar\n"
 "la siguiente copia?\n"
 "%s\n"
-"Su receptor se reiniciará cuando se restaure la copia de seguridad!"
+"Tu receptor se reiniciará cuando se restaure la copia de seguridad!"
 
 msgid ""
 "Are you sure you want to restore the backup?\n"
@@ -5687,7 +5687,7 @@ msgstr "DVDROM no soportado!"
 
 #
 msgid "No Connection"
-msgstr "Sin Conexión"
+msgstr "Sin conexión"
 
 #
 msgid "No HDD found or HDD not initialized!"
@@ -5715,7 +5715,7 @@ msgstr "No se ha introducido ninguna tarjeta!"
 
 #
 msgid "No connection"
-msgstr "Sin conexión"
+msgstr "No connection"
 
 #
 msgid ""
@@ -5750,11 +5750,11 @@ msgstr "Ningún número de posición disponible"
 
 #
 msgid "No free tuner available!"
-msgstr "No hay sintonizador disponible!"
+msgstr "No free tuner available!"
 
 #
 msgid "No free tuner!"
-msgstr "Sin sintonizador libre!"
+msgstr "No hay ningún sintonizador libre!"
 
 msgid "No httpport defined in oscam.conf. This value is required!"
 msgstr "No se ha definido el puerto http en oscam.conf. Es obligatorio hacerlo!"
@@ -5775,7 +5775,7 @@ msgstr "No se han encontrado redes"
 
 #
 msgid "No new plugins found"
-msgstr "No se han encontrado nuevos plugins"
+msgstr "No new plugins found"
 
 msgid "No of items switch (increase or reduced)"
 msgstr "Nº de elementos intercambiados (aumentar o reducir)"
@@ -9517,8 +9517,8 @@ msgid ""
 "Thank you for using the wizard. Your %s %s is now ready to use.\n"
 "Please press OK to start using your %s %s."
 msgstr ""
-"Gracias por usar el asistente. Su %s %s ya está lista.\n"
-"Pulsa 'OK' para empezar a usar su %s %s."
+"Gracias por usar el asistente. Tu %s %s ya está lista.\n"
+"Pulsa 'OK' para empezar a usar tu %s %s."
 
 msgid "The %s %s reads the stored EPG data every (hours)."
 msgstr "La %s %s lee los datos guardados en EPG cada (horas)."
@@ -10729,7 +10729,7 @@ msgstr "Vídeo PID"
 
 #, python-format
 msgid "Video content: %ix%i%s %iHz"
-msgstr "Contenido de video: %ix%i%s %iHz"
+msgstr "Video content: %ix%i%s %iHz"
 
 #
 msgid "Video enhancement preview"
@@ -10774,7 +10774,7 @@ msgid "Videoformat"
 msgstr "Formato de vídeo"
 
 msgid "Videomode"
-msgstr "Modo de vídeo"
+msgstr "Videomode"
 
 msgid "Videosize"
 msgstr "Tamaño de vídeo"
@@ -11004,7 +11004,7 @@ msgstr ""
 
 #
 msgid "Welcome to the image upgrade wizard. The wizard will assist you in upgrading the firmware of your %s %s by providing a backup facility for your current settings and a short explanation of how to upgrade your firmware."
-msgstr "Bienvenido al asistente de actualización de Image. El asistente te guiará sobre cómo actualizar Firmware de su %s %s, con la posibilidad de hacer una copia de seguridad de la configuración actual y una breve explicación de cómo actualizar Firmware."
+msgstr "Bienvenido al asistente de actualización de Image. El asistente te guiará sobre cómo actualizar Firmware de tu %s %s, con la posibilidad de hacer una copia de seguridad de la configuración actual y una breve explicación de cómo actualizar Firmware."
 
 #
 msgid ""
@@ -11016,7 +11016,7 @@ msgid ""
 msgstr ""
 "Bienvenido.\n"
 "\n"
-"Si quieres conectar su %s %s a internet, este asistente te guiará en la configuración básica de red de la %s %s.\n"
+"Si quieres conectar la %s %s a internet, este asistente te guiará en la configuración básica de red de la %s %s.\n"
 "\n"
 "Pulsa 'OK' para empezar a configurar la red"
 
@@ -11028,7 +11028,7 @@ msgid ""
 msgstr ""
 "Bienvenido.\n"
 "\n"
-"El asistente de inicio te guiará por la configuración básica de su %s %s.\n"
+"El asistente de inicio te guiará por la configuración básica de tu %s %s.\n"
 "Pulsa la tecla 'OK' del mando para ir al siguiente paso."
 
 #
@@ -11052,13 +11052,13 @@ msgid "What do you want to scan?"
 msgstr "¿Qué quieres buscar?"
 
 msgid "When enabled enigma2 will load unlinked userbouquets. This means that userbouquets that are available, but not included in the bouquets.tv or bouquets.radio files, will still be loaded. This allows you for example to keep your own user bouquet while installed settings are upgraded"
-msgstr "Cuando esté habilitado, enigma2 cargará los paquetes de usuarios no vinculados. Esto significa que los paquetes de usuario que están disponibles, pero no están incluidos en los archivos bouquets.tv o bouquets.radio, todavía se cargarán. Esto le permite, por ejemplo, mantener su propio ramo de usuarios mientras se actualizan las configuraciones instaladas"
+msgstr "When enabled enigma2 will load unlinked userbouquets. This means that userbouquets that are available, but not included in the bouquets.tv or bouquets.radio files, will still be loaded. This allows you for example to keep your own user bouquet while installed settings are upgraded"
 
 msgid "When enabled the LNB power will not be switched off in standby"
-msgstr "Cuando está habilitada, la alimentación de LNB no se apagará en el modo de espera"
+msgstr "When enabled the LNB power will not be switched off in standby"
 
 msgid "When enabled the LNB toneburst will be forced"
-msgstr "Cuando se habilite se forzará el sonido tonal LNB"
+msgstr "When enabled the LNB toneburst will be forced"
 
 msgid "When enabled the online checker will also check for experimental versions"
 msgstr "Cuando está activado, el verificador online comprabará también las versiones experimentales"
@@ -11076,13 +11076,13 @@ msgid "When enabled, a popup message will be shown when a recording starts."
 msgstr "Cuando está activado, aparecerá un mensaje cuando empiece una grabación."
 
 msgid "When enabled, a recording is allowed to interrupt live TV, when there are no free tuners."
-msgstr "Cuando está habilitada, una grabación puede interrumpir la TV en vivo, cuando no hay sintonizadores libres."
+msgstr "When enabled, a recording is allowed to interrupt live TV, when there are no free tuners."
 
 msgid "When enabled, a warning will be displayed and the user will get an option to stop or to continue the timeshift."
-msgstr "Cuando esté habilitado, se mostrará una advertencia y el usuario tendrá la opción de detener o continuar el timeshift."
+msgstr "When enabled, a warning will be displayed and the user will get an option to stop or to continue the timeshift."
 
 msgid "When enabled, a warning will be displayed that timeshift is not supported in an IP stream.."
-msgstr "Cuando esté habilitado, se mostrará una advertencia de que timehift no es compatible con una transmisión IP.."
+msgstr "When enabled, a warning will be displayed that timeshift is not supported in an IP stream.."
 
 msgid "When enabled, always descramble receiving http streams. This takes up more resources (descrambling demuxers), only enable if necessary. Individual streams are always descrambled if 0x100 is added to the service type, regardless of this setting. Default off."
 msgstr "When enabled, always descramble receiving http streams. This takes up more resources (descrambling demuxers), only enable if necessary. Individual streams are always descrambled if 0x100 is added to the service type, regardless of this setting. Default off."
@@ -11219,14 +11219,14 @@ msgid ""
 "\n"
 "Do you really want to do a factory reset?"
 msgstr ""
-"Cuando realice un restablecimiento de fábrica, perderá TODOS sus datos de configuración\n"
-"(Incluidos los bouquets, servicios, datos satelitales ...)\n"
-"Después de completar el restablecimiento de fábrica, su %s %s se reiniciará automáticamente!\n"
+"When you perform a factory reset, you will lose ALL of your configuration data\n"
+"(including bouquets, services, satellite data ...)\n"
+"After completion of the factory reset, your %s %s will restart automatically!\n"
 "\n"
-"¿Realmente quieres hacer un restablecimiento de fábrica?"
+"Do you really want to do a factory reset?"
 
 msgid "When you use the remote fallback tuner for recording, the timer conflict detection can't properly detect conflicts. This option allows you to turn off the timer confict detection. This setting is only for advanced users; the default is 'yes'."
-msgstr "Cuando utiliza el sintonizador remoto alternativo para la grabación, la detección de conflictos del temporizador no puede detectar los conflictos correctamente. Esta opción le permite desactivar la detección de conflictos del temporizador. Esta configuración es solo para usuarios avanzados; el valor predeterminado es 'sí'."
+msgstr "When you use the remote fallback tuner for recording, the timer conflict detection can't properly detect conflicts. This option allows you to turn off the timer confict detection. This setting is only for advanced users; the default is 'yes'."
 
 #
 msgid "Where do you want to backup your settings?"
@@ -11428,10 +11428,10 @@ msgstr "Puedes cancelar la instalación."
 
 #
 msgid "You can cancel the removal."
-msgstr "Puedes cancelar la eliminación."
+msgstr "Ha cancelado la desinstalación."
 
 msgid "You can continue watching TV while this is running."
-msgstr "Puedes seguir viendo la televisión mientras esto está funcionando."
+msgstr "You can continue watching TV while this is running."
 
 msgid "You can have the list sorted by time or alphanumerical."
 msgstr "Puedes ordenar la lista por orden horario o alfanumérico."

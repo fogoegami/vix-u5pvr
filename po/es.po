@@ -1084,34 +1084,34 @@ msgid "Allows the %s %s to store the EPG data regularly."
 msgstr "Permite que la %s %s lea los datos grabados en el EPG periódicamente."
 
 msgid "Allows you to adjust the amount of time the resolution infomation display on screen."
-msgstr "Le permite ajustar la cantidad de tiempo que la información de resolución se muestra en la pantalla."
+msgstr "Allows you to adjust the amount of time the resolution infomation display on screen."
 
 msgid "Allows you to enable the debug logs. They contain very detailed information about everything the system does. Reboot required to enable this!"
-msgstr "Le permite habilitar los registros de depuración. Contienen información muy detallada sobre todo lo que hace el sistema. Reinicio requerido para habilitar esto!"
+msgstr "Allows you to enable the debug logs. They contain very detailed information about everything the system does. Reboot required to enable this!"
 
 msgid "Allows you to enable/disable displaying icons on the front panel."
-msgstr "Le permite activar/desactivar la visualización de iconos en el panel frontal."
+msgstr "Allows you to enable/disable displaying icons on the front panel."
 
 msgid "Allows you to hide the extensions of known file types."
-msgstr "Le permite ocultar extensiones de tipos de archivo conocidos."
+msgstr "Te permite ocultar extensiones de tipos de archivo conocidos."
 
 msgid "Allows you to send a copy of the log to yourself."
-msgstr "Le permite enviarte una copia del historial."
+msgstr "Te permite enviarte una copia del historial."
 
 msgid "Allows you to set the maximum size (MB) of the individual debug logs. When that size is reached, a new file will be created."
-msgstr "Le permite establecer el tamaño máximo (MB) de los registros de depuración individuales. Cuando se alcance ese tamaño, se creará un nuevo archivo."
+msgstr "Allows you to set the maximum size (MB) of the individual debug logs. When that size is reached, a new file will be created."
 
 msgid "Allows you to setup the button to do what you choose."
 msgstr "Permite configurar la tecla para que haga lo que quieras."
 
 msgid "Allows you to show/hide CCcam Info in extensions (blue button)."
-msgstr "Le permite mostrar/ocultar información de CCcam en extensiones (botón azul)."
+msgstr "Allows you to show/hide CCcam Info in extensions (blue button)."
 
 msgid "Allows you to show/hide Log Manager in extensions (blue button)."
-msgstr "Le permite mostrar/ocultar el administrador de historiales en extensiones (tecla azul)."
+msgstr "Te permite mostrar/ocultar el administrador de historiales en extensiones (tecla azul)."
 
 msgid "Allows you to show/hide OScam Info in extensions (blue button)."
-msgstr "Le permite mostrar/ocultar información de OScam en las extensiones (botón azul)."
+msgstr "Allows you to show/hide OScam Info in extensions (blue button)."
 
 #
 msgid "Alpha"
@@ -1122,7 +1122,7 @@ msgstr "Alfanumérico"
 
 #
 msgid "Also on standby"
-msgstr "También en espera"
+msgstr "Also on standby"
 
 #
 msgid "Alternative"
@@ -1142,7 +1142,7 @@ msgid "Always ask"
 msgstr "Preguntar siempre"
 
 msgid "Always hide infobar"
-msgstr "Siempre ocultar infobar"
+msgstr "Always hide infobar"
 
 msgid "Always show bouquets"
 msgstr "Visualizar grupos siempre"
@@ -1160,14 +1160,14 @@ msgstr "Se ha producido un error desconocido!"
 
 #
 msgid "Animation Setup"
-msgstr "Configuración Animación"
+msgstr "Animation Setup"
 
 msgid "Animation Speed"
-msgstr "Configuración Velocidad"
+msgstr "Animation Speed"
 
 #
 msgid "Animations"
-msgstr "Animaciones"
+msgstr "Animations"
 
 msgid "Any activity"
 msgstr "Cualquier actividad"
@@ -1178,15 +1178,15 @@ msgstr "Árabe"
 
 #, python-format
 msgid "Are you ready to install \"%s\" ?"
-msgstr "¿Listo para instalar \"%s\" ?"
+msgstr "Are you ready to install \"%s\" ?"
 
 #, python-format
 msgid "Are you ready to remove \"%s\" ?"
-msgstr "Listo para eliminar \"%s\" ?"
+msgstr "Are you ready to remove \"%s\" ?"
 
 #
 msgid "Are you sure to remove this entry?"
-msgstr "Estás seguro de eliminar esta entrada?"
+msgstr "Are you sure to remove this entry?"
 
 #
 msgid ""
@@ -1204,10 +1204,10 @@ msgstr ""
 "la siguiente copia?\n"
 
 msgid "Are you sure you want to delete all the selected logs:\n"
-msgstr "Estás seguro de que deseas eliminar todos los registros seleccionados:\n"
+msgstr "Are you sure you want to delete all the selected logs:\n"
 
 msgid "Are you sure you want to delete the EPG data from:\n"
-msgstr "Está seguro que desea eliminar los datos de EPG desde:\n"
+msgstr "Are you sure you want to delete the EPG data from:\n"
 
 msgid "Are you sure you want to delete this log:\n"
 msgstr "¿Seguro que quieres borrar este historial?\n"
@@ -1225,24 +1225,24 @@ msgid "Are you sure you want to exit this wizard?"
 msgstr "¿Seguro que quieres salir de este asistente?"
 
 msgid "Are you sure you want to purge all deleted user bouquets?"
-msgstr "Estás seguro que deseas eliminar todos los bouquets de usuario?"
+msgstr "Are you sure you want to purge all deleted user bouquets?"
 
 msgid "Are you sure you want to reload the EPG data from:\n"
 msgstr "¿Seguro que quieres volver a cargar los datos EPG de...?\n"
 
 #, python-format
 msgid "Are you sure you want to remove all %d.%d%s%s services?"
-msgstr "Estás seguro que quieres eliminar todos %d.%d%s%s servicios?"
+msgstr "Are you sure you want to remove all %d.%d%s%s services?"
 
 msgid "Are you sure you want to remove all cable services?"
-msgstr "Estás seguro que quieres eliminar todos los servicios de cable?"
+msgstr "Are you sure you want to remove all cable services?"
 
 msgid "Are you sure you want to remove all terrestrial services?"
-msgstr "Estás seguro que quieres eliminar todos los servicios terrestres?"
+msgstr "Are you sure you want to remove all terrestrial services?"
 
 #
 msgid "Are you sure you want to remove this entry?"
-msgstr "Estás seguro que quieres eliminar esta entrada?"
+msgstr "Are you sure you want to remove this entry?"
 
 #
 msgid ""
@@ -1279,7 +1279,7 @@ msgstr "¿Seguro que quieres enviar este historial?\n"
 
 #, python-format
 msgid "Are you sure you want to update your %s %s ?"
-msgstr "Estás seguro de que quieres actualizar su %s %s ?"
+msgstr "Are you sure you want to update your %s %s ?"
 
 #
 msgid "Artist"
@@ -1293,13 +1293,13 @@ msgid "Ask user"
 msgstr "Preguntar al usuario"
 
 msgid "Ask user (with default as 'no')"
-msgstr "Preguntar al usuario (con valor predeterminado 'no')"
+msgstr "Ask user (with default as 'no')"
 
 msgid "Ask user (with default as 'yes')"
-msgstr "Preguntar al usuario (con valor predeterminado 'si')"
+msgstr "Ask user (with default as 'yes')"
 
 msgid "Aspect ratio"
-msgstr "Aspecto radio"
+msgstr "Aspecto"
 
 #
 msgid "Assigned CAIds:"
@@ -1316,7 +1316,7 @@ msgid "Attach a file"
 msgstr "Adjuntar archivo"
 
 msgid "Attention, this is repeated timer!\n"
-msgstr "Atención, esto se repite en temporizador!\n"
+msgstr "Attention, this is repeated timer!\n"
 
 msgid "Audio"
 msgstr "Audio"
@@ -1367,18 +1367,18 @@ msgid "Auto Deep Standby"
 msgstr "Hibernación automática"
 
 msgid "Auto EXIF Orientation rotation/flipping"
-msgstr "Auto EXIF Rotación de la orientación/voltear"
+msgstr "Auto EXIF Orientation rotation/flipping"
 
 #
 msgid "Auto Standby"
 msgstr "Modo de espera automático"
 
 msgid "Auto Volume Level"
-msgstr "Nivel de volumen automático"
+msgstr "Auto Volume Level"
 
 #
 msgid "Auto chapter split every ? minutes (0=never)"
-msgstr "Auto capítulo dividido cada? minutos (0=nunca)"
+msgstr "División automática de capítulos cada ? minutos (0=nunca)"
 
 #
 msgid "Auto flesh"
@@ -1394,7 +1394,7 @@ msgid "Auto language selection"
 msgstr "Selección automática de idioma"
 
 msgid "Auto play blu-ray file"
-msgstr "Auto play archivo blu-ray"
+msgstr "Auto play blu-ray file"
 
 #
 msgid "Auto scart switching"
@@ -1402,7 +1402,7 @@ msgstr "Cambio automático de SCART"
 
 #
 msgid "AutoTimer overview"
-msgstr "Vista general de AutoTemporizador"
+msgstr "AutoTimer overview"
 
 #
 msgid "Automatic"
@@ -1413,13 +1413,13 @@ msgid "Automatic Scan"
 msgstr "Búsqueda automática"
 
 msgid "Automatic image backup"
-msgstr "Copia automática de Imagen"
+msgstr "Copia automática de Image"
 
 msgid "Automatic refresh"
 msgstr "Reinicio automático"
 
 msgid "Automatic resolution"
-msgstr "Resolución Automática"
+msgstr "Automatic resolution"
 
 msgid "Automatic resolution label"
 msgstr "Automatic resolution label"
@@ -1434,10 +1434,10 @@ msgid "Automatic settings backup"
 msgstr "Copia de configuración automática"
 
 msgid "Automatically start timeshift after"
-msgstr "Iniciar automáticamente timeshift después"
+msgstr "Automatically start timeshift after"
 
 msgid "Automatically turn on external subtitles"
-msgstr "Activar automáticamente los subtítulos externos"
+msgstr "Automatically turn on external subtitles"
 
 msgid "Automatically update Client/Server View?"
 msgstr "¿Actualizar automáticamente la visualización de cliente/servidor?"
@@ -1467,7 +1467,7 @@ msgid "Back"
 msgstr "Atrás"
 
 msgid "Back/Recall"
-msgstr "Atrás/Recordar"
+msgstr "Back/Recall"
 
 #
 msgid "Background"

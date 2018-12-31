@@ -2575,15 +2575,6 @@ msgstr "Could not record due to an invalid service %s"
 msgid "Could not save configfile %s!"
 msgstr "No se ha podido grabar el archivo de configuración %s!"
 
-msgid "Country"
-msgstr "País"
-
-msgid "Country for EPG event genre information"
-msgstr "País para la información de género evento EPG"
-
-msgid "Country for EPG event rating information"
-msgstr "País para la información de clasificación de eventos de EPG"
-
 msgid "Crash Logs"
 msgstr "Historiales de fallo"
 
@@ -3462,73 +3453,73 @@ msgid "Enable 5V for active antenna"
 msgstr "Activar 5V para la antena activa"
 
 msgid "Enable EIT EPG"
-msgstr "Activar EIT EPG"
+msgstr "Habilitar EIT EPG"
 
 msgid "Enable FreeSat EPG"
-msgstr "Activar FreeSat EPG"
+msgstr "Enable FreeSat EPG"
 
 msgid "Enable MHW EPG"
-msgstr "Activar MHW EPG"
+msgstr "Habilitar MHW EPG"
 
 msgid "Enable Netmed EPG"
-msgstr "Activar Netmed EPG"
+msgstr "Habilitar Netmed EPG"
 
 msgid "Enable ViaSat EPG"
-msgstr "Activar ViaSat EPG"
+msgstr "Habilitar ViaSat EPG"
 
 msgid "Enable Virgin EPG"
-msgstr "Activar Virgin EPG"
+msgstr "Enable Virgin EPG"
 
 msgid "Enable Wake On LAN"
-msgstr "Activar Wake On LAN"
+msgstr "Enable Wake On LAN"
 
 #
 msgid "Enable auto cable scan"
-msgstr "Activar auto cable scan"
+msgstr "Enable auto cable scan"
 
 msgid "Enable auto fast scan"
-msgstr "Activar auto fast scan"
+msgstr "Enable auto fast scan"
 
 #
 msgid "Enable bouquet edit"
-msgstr "Activar editar bouquet"
+msgstr "Enable bouquet edit"
 
 msgid "Enable debug logs *"
-msgstr "Activar registros de depuración *"
+msgstr "Enable debug logs *"
 
 msgid "Enable fallback remote receiver"
-msgstr "Activar receptor remoto de reserva"
+msgstr "Enable fallback remote receiver"
 
 #
 msgid "Enable favourite edit"
-msgstr "Activar edición favoritos"
+msgstr "Enable favourite edit"
 
 msgid "Enable infobar fade-out"
-msgstr "Activar infobar fade-out"
+msgstr "Activa infobar fade-out"
 
 #
 msgid "Enable move mode"
-msgstr "Activar modo de movimiento"
+msgstr "Enable move mode"
 
 #
 msgid "Enable multiple bouquets"
-msgstr "Activar múltiples grupos"
+msgstr "Habilitar múltiples grupos"
 
 msgid "Enable panic button"
-msgstr "Activar botón de pánico"
+msgstr "Habilitar botón de pánico"
 
 #
 msgid "Enable parental protection"
-msgstr "Activar la protección parental"
+msgstr "Enable parental protection"
 
 msgid "Enable teletext caching"
-msgstr "Activar caché de teletexto"
+msgstr "Habilitar caché de teletexto"
 
 msgid "Enable the use of the tuners of a remote enigma2 receiver when no local tuner is available (e.g. when the tuner is occupied or service type is unavailable on the local tuner)."
-msgstr "Habilite el uso de los sintonizadores de un receptor remoto de enigma2 cuando no haya disponible un sintonizador local (por ejemplo, cuando el sintonizador está ocupado o el tipo de servicio no está disponible en el sintonizador local)."
+msgstr "Enable the use of the tuners of a remote enigma2 receiver when no local tuner is available (e.g. when the tuner is occupied or service type is unavailable on the local tuner)."
 
 msgid "Enable timer conflict detection"
-msgstr "Activar la detección de conflictos de temporizador"
+msgstr "Enable timer conflict detection"
 
 #
 msgid "Enabled"
@@ -3555,15 +3546,15 @@ msgid "Encryption:"
 msgstr "Encriptación:"
 
 msgid "End"
-msgstr "Fin"
+msgstr "End"
 
 #
 msgid "End alternatives edit"
-msgstr "Fin alternativas de edición"
+msgstr "End alternatives edit"
 
 #
 msgid "End bouquet edit"
-msgstr "Finalizar edición de bouquet"
+msgstr "End bouquet edit"
 
 #
 msgid "End favourites edit"
@@ -12162,7 +12153,7 @@ msgstr "libre"
 
 #
 msgid "free diskspace"
-msgstr "espacio libre en disco"
+msgstr "eespacio libre en disco"
 
 msgid "from"
 msgstr "from"

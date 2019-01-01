@@ -56,7 +56,7 @@ msgid ""
 "Manage extensions or plugins for your %s %s"
 msgstr ""
 "\n"
-"Manage extensions or plugins for your %s %s"
+"Gestiona extensiones o plugins para su %s %s"
 
 #
 #, python-format
@@ -65,7 +65,7 @@ msgid ""
 "Online update of your %s %s software."
 msgstr ""
 "\n"
-"Online update of your %s %s software."
+"Actualización en línea de su %s %s software."
 
 #
 msgid ""
@@ -80,7 +80,7 @@ msgid ""
 "Recording in progress."
 msgstr ""
 "\n"
-"Recording in progress."
+"Grabación en progreso."
 
 #
 #, python-format
@@ -89,7 +89,7 @@ msgid ""
 "Restore your %s %s settings."
 msgstr ""
 "\n"
-"Restore your %s %s settings."
+"Restaura su %s %s configuración."
 
 #
 #, python-format
@@ -98,7 +98,7 @@ msgid ""
 "Restore your %s %s with a new firmware."
 msgstr ""
 "\n"
-"Restore your %s %s with a new firmware."
+"Restaura su %s %s con un nuevo firmware."
 
 #
 msgid ""
@@ -136,11 +136,11 @@ msgstr ""
 
 #, python-format
 msgid " (Channel %s)"
-msgstr " (Channel %s)"
+msgstr " (Canal %s)"
 
 #, python-format
 msgid " (Partition %d)"
-msgstr " (Partition %d)"
+msgstr " (Partición %d)"
 
 msgid " (PiP)"
 msgstr " (PiP)"
@@ -153,16 +153,16 @@ msgstr " (TV)"
 
 #
 msgid " (disabled)"
-msgstr " (disabled)"
+msgstr " (disactivado)"
 
 msgid " (higher than any auto)"
-msgstr " (higher than any auto)"
+msgstr " (más alto que cualquier auto)"
 
 msgid " (higher than rotor any auto)"
-msgstr " (higher than rotor any auto)"
+msgstr " (más alto que cualquier motor auto)"
 
 msgid " (lower than any auto)"
-msgstr " (lower than any auto)"
+msgstr " (más bajo que cualquier auto)"
 
 msgid " and"
 msgstr " y"
@@ -298,8 +298,8 @@ msgstr "%d minutos"
 #, python-format
 msgid "%d pixel wide"
 msgid_plural "%d pixels wide"
-msgstr[0] "%d pixel wide"
-msgstr[1] "%d pixels wide"
+msgstr[0] "%d pixel amplio"
+msgstr[1] "%d pixels amplios"
 
 #, python-format
 msgid "%d second"
@@ -328,21 +328,21 @@ msgstr "%k:%M %e/%m"
 
 #, python-format
 msgid "%s %s advanced remote control (native)"
-msgstr "%s %s advanced remote control (native)"
+msgstr "%s %s control remoto avanzado (nativo)"
 
 #
 #, python-format
 msgid "%s %s format data DVD (HDTV compatible)"
-msgstr "%s %s format data DVD (HDTV compatible)"
+msgstr "%s %s formato datos DVD (HDTV compatible)"
 
 #, python-format
 msgid "%s %s front panel"
-msgstr "%s %s front panel"
+msgstr "%s %s panel frontal"
 
 #
 #, python-format
 msgid "%s %s ir keyboard"
-msgstr "%s %s ir keyboard"
+msgstr "%s %s ir teclado"
 
 #, python-format
 msgid "%s %s ir mouse"
@@ -350,12 +350,12 @@ msgstr "%s %s ir mouse"
 
 #, python-format
 msgid "%s %s remote control (native)"
-msgstr "%s %s remote control (native)"
+msgstr "%s %s control remoto (nativo)"
 
 #
 #, python-format
 msgid "%s %s software because updates are available."
-msgstr "%s %s software because updates are available."
+msgstr "%s %s software porque las actualizaciones están disponibles."
 
 #
 #, python-format
@@ -417,7 +417,7 @@ msgstr "* Sólo disponible si hay más de una interfaz activa."
 
 #
 msgid "* current animation"
-msgstr "* current animation"
+msgstr "* animación actual"
 
 msgid "/s"
 msgstr "/s"
@@ -542,7 +542,7 @@ msgid "3D Surround"
 msgstr "3D Surround"
 
 msgid "3D Surround Speaker Position"
-msgstr "3D Surround Speaker Position"
+msgstr "3D Surround Speaker Posición"
 
 msgid "3D setup"
 msgstr "Configuración 3D"
@@ -610,14 +610,14 @@ msgid ""
 "A background update check is in progress,\n"
 "please wait a few minutes and try again."
 msgstr ""
-"A background update check is in progress,\n"
-"please wait a few minutes and try again."
+"Una verificación de actualización de fondo está en progreso,\n"
+"Por favor, espere unos minutos e intente de nuevo."
 
 msgid "A background update check is in progress, please wait a few minutes and then try again."
-msgstr "A background update check is in progress, please wait a few minutes and then try again."
+msgstr "Se está realizando una verificación de actualización en segundo plano, espere unos minutos y vuelva a intentarlo."
 
 msgid "A background update check is in progress, please wait a few minutes and try again."
-msgstr "Comprobación de actualización de fondo en curso. Espera unos minutos y vuelve a intentarlo."
+msgstr "Se está realizando una verificación de actualización en segundo plano, espere unos minutos e intente nuevamente."
 
 #, python-format
 msgid ""
@@ -745,8 +745,8 @@ msgid ""
 "A sleep timer wants to set your\n"
 "%s %s to standby. Proceed?"
 msgstr ""
-"A sleep timer wants to set your\n"
-"%s %s to standby. Proceed?"
+"Un temporizador de reposo quiere configurar su\n"
+"%s %s en espera. Proceder?"
 
 #
 #, python-format
@@ -754,8 +754,8 @@ msgid ""
 "A sleep timer wants to shut down\n"
 "your %s %s. Proceed?"
 msgstr ""
-"A sleep timer wants to shut down\n"
-"your %s %s. Proceed?"
+"Un temporizador de reposo quiere apagar\n"
+"su %s %s. Proceder?"
 
 #
 msgid "A small overview of the available icon states and actions."
@@ -792,7 +792,7 @@ msgid "AV aspect is %s."
 msgstr "El aspecto AV es %s."
 
 msgid "AV settings"
-msgstr "AV settings"
+msgstr "AV configuración"
 
 #
 msgid "Abort"
@@ -800,15 +800,15 @@ msgstr "Abortar"
 
 #
 msgid "Abort alternatives edit"
-msgstr "Abort alternatives edit"
+msgstr "Abortar editar alternativas"
 
 #
 msgid "Abort bouquet edit"
-msgstr "Abort bouquet edit"
+msgstr "Abortar editar bouquet"
 
 #
 msgid "Abort favourites edit"
-msgstr "Abort favourites edit"
+msgstr "Abortar editar favoritos"
 
 #
 msgid "About"
@@ -826,11 +826,11 @@ msgid "Activate"
 msgstr "Activar"
 
 msgid "Activate HbbTV (RedButton)"
-msgstr "Activate HbbTV (RedButton)"
+msgstr "Activate HbbTV (BotónRojo)"
 
 #
 msgid "Activate MAC address configuration"
-msgstr "Activate MAC address configuration"
+msgstr "Activar la configuración de la dirección MAC"
 
 #
 msgid "Activate Picture in Picture"
@@ -842,7 +842,7 @@ msgstr "Activar configuración actual"
 
 #
 msgid "Activate network adapter configuration"
-msgstr "Activate network adapter configuration"
+msgstr "Activar la configuración del adaptador de red"
 
 #
 msgid "Activate network settings"
@@ -852,10 +852,10 @@ msgid "Activate the configured network settings."
 msgstr "Activar los ajustes configurados de red."
 
 msgid "Activate timeshift end"
-msgstr "Activate timeshift end"
+msgstr "Activate final timeshift"
 
 msgid "Activate timeshift end and pause"
-msgstr "Activate timeshift end and pause"
+msgstr "Activate final timeshift y pausa"
 
 msgid "Active"
 msgstr "Activo"
@@ -893,7 +893,7 @@ msgid "Add a new title"
 msgstr "Añadir un nuevo título"
 
 msgid "Add a record timer"
-msgstr "Add a record timer"
+msgstr "Añadir un temporizador de grabación"
 
 msgid "Add a record timer for current event"
 msgstr "Añadir un temporizador de grabación para el programa actual"
@@ -902,11 +902,11 @@ msgid "Add a zap timer for current event"
 msgstr "Añadir un temporizador de zapping para el programa actual"
 
 msgid "Add a zap timer for next event"
-msgstr "Add a zap timer for next event"
+msgstr "Añadir un temporizador zap para el próximo evento"
 
 #
 msgid "Add alternatives"
-msgstr "Add alternatives"
+msgstr "Añadir Alternativas"
 
 #
 msgid "Add bookmark"
@@ -914,11 +914,11 @@ msgstr "Añadir marcador"
 
 #
 msgid "Add bouquet"
-msgstr "Add bouquet"
+msgstr "Añadir bouquet"
 
 #
 msgid "Add bouquet to parental protection"
-msgstr "Add bouquet to parental protection"
+msgstr "Añadir bouquet a protección parental"
 
 #
 msgid "Add directory to playlist"
@@ -934,7 +934,7 @@ msgstr "Añadir archivos a la lista de reproducción"
 
 #
 msgid "Add marker"
-msgstr "Add marker"
+msgstr "Añadir marker"
 
 #
 msgid "Add provider"
@@ -958,11 +958,11 @@ msgstr "Añadir canal"
 
 #
 msgid "Add service to bouquet"
-msgstr "Add service to bouquet"
+msgstr "Añadir servicio al bouquet"
 
 #
 msgid "Add service to favourites"
-msgstr "Add service to favourites"
+msgstr "Añadir servicio a favoritos"
 
 #
 msgid "Add timer"
@@ -982,7 +982,7 @@ msgstr "Añadir a favoritos"
 
 #
 msgid "Add to parental protection"
-msgstr "Add to parental protection"
+msgstr "Añadir a protección parental"
 
 msgid "Add/Remove timer for current event"
 msgstr "Añadir/eliminar temporizador para el programa actual"
@@ -1002,7 +1002,7 @@ msgstr "Ajusta la configuración de colores de forma que todas las sombras de co
 
 #
 msgid "Advanced"
-msgstr "Advanced"
+msgstr "Avanzado"
 
 #
 msgid "Advanced options"
@@ -1044,23 +1044,23 @@ msgstr "Todas las edades"
 
 #
 msgid "All frequency"
-msgstr "All frequency"
+msgstr "Todas las frecuencias"
 
 #
 msgid "All resolutions"
-msgstr "All resolutions"
+msgstr "Todas las resoluciones"
 
 msgid "All satellites 1 (USALS)"
-msgstr "All satellites 1 (USALS)"
+msgstr "Todos los satelites 1 (USALS)"
 
 msgid "All satellites 2 (USALS)"
-msgstr "All satellites 2 (USALS)"
+msgstr "Todos los satelites 2 (USALS)"
 
 msgid "All satellites 3 (USALS)"
-msgstr "All satellites 3 (USALS)"
+msgstr "Todos los satelites 3 (USALS)"
 
 msgid "All satellites 4 (USALS)"
-msgstr "All satellites 4 (USALS)"
+msgstr "Todos los satelites 4 (USALS)"
 
 msgid "Allocate"
 msgstr "Asignar"
@@ -1075,7 +1075,7 @@ msgid "Allow subtitles for hearing impaired"
 msgstr "Permitir subtítulos para sordos"
 
 msgid "Allow unstable (experimental) updates"
-msgstr "Allow unstable (experimental) updates"
+msgstr "Permitir actualizaciones inestables (experimentales)"
 
 msgid "Allows the %s %s to read the stored EPG data regularly."
 msgstr "Permite que la %s %s lea los datos grabados en el EPG periódicamente."
@@ -1788,7 +1788,7 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 msgid "Cancel save timeshift as movie"
-msgstr "Cancel save timeshift as movie"
+msgstr "Cancelar guardar timeshift como película"
 
 msgid "Cannot delete file"
 msgstr "No se puede borrar el archivo"
@@ -1800,11 +1800,11 @@ msgid "Cannot find any signal ..., aborting !"
 msgstr "Ningún señal encontrado... se abandona!"
 
 msgid "Cannot move to the trash can"
-msgstr "Cannot move to the trash can"
+msgstr "No se puede mover a la papelera"
 
 #
 msgid "Capabilities: "
-msgstr "Capabilities: "
+msgstr "Capacidades: "
 
 #
 msgid "Capacity: "
@@ -1826,29 +1826,29 @@ msgid "Cardserial"
 msgstr "Nº serie de tarjeta"
 
 msgid "Cascade PiP"
-msgstr "Cascade PiP"
+msgstr "Cascada PiP"
 
 msgid "Center DVB subtitles"
 msgstr "Centrar subtítulos DVB"
 
 msgid "Change PIN"
-msgstr "Change PIN"
+msgstr "Cambiar PIN"
 
 #
 msgid "Change bouquets in quickzap"
 msgstr "Cambiar de lista en zapping rápido"
 
 msgid "Change next timer"
-msgstr "Change next timer"
+msgstr "Cambiar el siguiente temporizador"
 
 msgid "Change recording (add time)"
-msgstr "Change recording (add time)"
+msgstr "Cambiar grabación (añadir tiempo)"
 
 msgid "Change recording (duration)"
 msgstr "Cambiar grabación (duración)"
 
 msgid "Change recording (end time)"
-msgstr "Change recording (end time)"
+msgstr "Cambiar grabación (hora de finalización)"
 
 msgid "Change repeat and delay settings?"
 msgstr "¿Cambiar ajustes de repetición y retraso?"
@@ -1859,11 +1859,11 @@ msgstr "Cambiar tamaño del salto"
 
 #
 msgid "Change timer"
-msgstr "Change timer"
+msgstr "Cambiar temporizador"
 
 #
 msgid "Change to bouquet"
-msgstr "Change to bouquet"
+msgstr "Cambiar a bouquet"
 
 #
 msgid "Channel"
@@ -1879,16 +1879,16 @@ msgid "Channel List"
 msgstr "Lista de canales"
 
 msgid "Channel down"
-msgstr "Channel down"
+msgstr "Canal abajo"
 
 msgid "Channel info"
-msgstr "Channel info"
+msgstr "Canal info"
 
 msgid "Channel list context menu"
 msgstr "Menú de contexto de lista de canales"
 
 msgid "Channel list cursor behavior"
-msgstr "Channel list cursor behavior"
+msgstr "Comportamiento del cursor de la lista de canales"
 
 msgid "Channel list on mode change"
 msgstr "Lista de canales en cambio de modo"
@@ -1915,11 +1915,11 @@ msgstr "Selección de canal"
 
 #
 msgid "Channel selection settings"
-msgstr "Channel selection settings"
+msgstr "Selección de Canales configuración"
 
 #
 msgid "Channel up"
-msgstr "Channel up"
+msgstr "Channel arriba"
 
 #
 msgid "Channel:"
@@ -1972,8 +1972,8 @@ msgid ""
 "Checking tuner %s\n"
 "DiSEqC port %s for %s"
 msgstr ""
-"Checking tuner %s\n"
-"DiSEqC port %s for %s"
+"Checkando tuner %s\n"
+"DiSEqC puerto %s para %s"
 
 msgid "Children/Youth"
 msgstr "Niños y adolescentes"
@@ -1996,7 +1996,7 @@ msgid "Choose between Daily, Weekly, Weekdays or user defined."
 msgstr "Elige: diario, semanal, entre semana o autodefinido."
 
 msgid "Choose the location for crash and debug logs folder."
-msgstr "Choose the location for crash and debug logs folder."
+msgstr "Elija la ubicación de carpeta para registros de errores y depuración."
 
 msgid "Choose the location where the EPG data will be stored when the %s %s is shut down. The location must be available at boot time."
 msgstr "Elegir la ubicación donde se guardarán los datos EPG cuando se apaga la %s %s. La ubicación deberá estar disponible durante el reinicio."
@@ -2008,22 +2008,22 @@ msgid "Choose time interval to which the graphics will be rounded off."
 msgstr "Elegir el intervalo de tiempo en el que se redondean los gráficos."
 
 msgid "Choose what you want the '0' button to do when PIP is active."
-msgstr "Choose what you want the '0' button to do when PIP is active."
+msgstr "Elija lo que desea que haga el botón '0' cuando PIP esté activo."
 
 msgid "Choose whether AAC sound tracks should be transcoded."
-msgstr "Choose whether AAC sound tracks should be transcoded."
+msgstr "Elija si las pistas de sonido AAC deben transcodificarse."
 
 msgid "Choose whether multi channel sound tracks should be downmixed to stereo."
 msgstr "Elige si las pistas de audio multicanal deben mezclarse a estéreo."
 
 msgid "Choose whether multi channel sound tracks should be output as PCM."
-msgstr "Choose whether multi channel sound tracks should be output as PCM."
+msgstr "Elija si las pistas de sonido multicanal deben emitirse como PCM."
 
 msgid "Choose whether or not to show an icon when a motorised dish is moving."
-msgstr "Choose whether or not to show an icon when a motorised dish is moving."
+msgstr "Elija si desea mostrar o no un icono cuando un plato motorizado se está moviendo."
 
 msgid "Choose which level of menu/settings to display. 'Expert' level shows all items."
-msgstr "Choose which level of menu/settings to display. 'Expert' level shows all items."
+msgstr "Elija qué nivel de menú/configuración visualizar. El nivel 'Experto' muestra todos los artículos."
 
 msgid "Choose which tuner to configure."
 msgstr "Elegir qué sintonizador configurar."
@@ -2044,7 +2044,7 @@ msgid "Circular right"
 msgstr "Derecha circular"
 
 msgid "Clean network trash cans"
-msgstr "Clean network trash cans"
+msgstr "Papelera de red limpia"
 
 msgid "Cleaning Trashes"
 msgstr "Vaciando papeleras"
@@ -2062,7 +2062,7 @@ msgid "Clear before scan"
 msgstr "Limpiar antes de buscar"
 
 msgid "Clear fixed"
-msgstr "Clear Fixed"
+msgstr "Limpieza Fijada"
 
 #
 msgid "Clear log"
@@ -2084,13 +2084,13 @@ msgstr "Cerrar"
 
 #
 msgid "Close PiP on exit"
-msgstr "Cerrar PiP en exit"
+msgstr "Cerrar PiP y salir"
 
 msgid "Close bouquet list."
-msgstr "Close bouquet list."
+msgstr "Cierra lista bouquet."
 
 msgid "Close dialog"
-msgstr "Close dialog"
+msgstr "Cerrar diálogo"
 
 #
 msgid "Close title selection"

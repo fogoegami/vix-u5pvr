@@ -96,7 +96,7 @@ self.session.openWithCallback(msgClosed, EpgDeleteMsg)
 					<id val="skinsetup"/>
 					<item weight="1" level="0" text="Skin" entryID="skin_setup"><screen module="SkinSelector" screen="SkinSelector"/></item>
 					<item level="2" text="3D" entryID="osd3dsetup" requires="CanChange3DOsd"><screen module="UserInterfacePositioner" screen="OSD3DSetupScreen"/></item>
-					<item level="2" text="OSD posicion" entryID="osdsetup" requires="OsdSetup"><screen module="UserInterfacePositioner" screen="UserInterfacePositioner"/></item>
+					<item level="2" text="OSD posición" entryID="osdsetup" requires="OsdSetup"><screen module="UserInterfacePositioner" screen="UserInterfacePositioner"/></item>
 				</menu>
 				<!-- Menu / Setup / User Interface / Front Panel -->
 				<menu weight="4" level="0" text="Panel frontal display" entryID="display_selection" requires="Display">
@@ -168,10 +168,10 @@ self.session.open(SABnzbdSetupScreen)
 			<!-- Menu / Setup / Time Settings -->
 			<item level="0" entryID="time_setup"><setup id="time"/></item>
 			<!-- Menu / Setup / Recordings, Playback & Timeshift -->
-			<menu weight="11" level="1" text="Recording, playback &amp; timeshift" entryID="rec_setup">
+			<menu weight="11" level="1" text="Grabación, playback &amp; timeshift" entryID="rec_setup">
 			 	<id val="rec" />
 					<item weight="10" level="0" text="Timeshift" entryID="timshift_setup"><screen module="Timeshift" screen="TimeshiftSettings" /></item>
-					<item weight="15" level="0" text="Recording &amp; playback" entryID="recording_setup"><screen module="Recordings" screen="RecordingSettings" /></item>
+					<item weight="15" level="0" text="Grabación &amp; playback" entryID="recording_setup"><screen module="Recordings" screen="RecordingSettings" /></item>
 			</menu>
 			<!-- Menu / Setup / System (OLD SYSTEM ENTRY FOR COMPATIBILITY) -->
 			<menu weight="98" level="0" text="System" entryID="system_selection">
@@ -221,7 +221,7 @@ self.session.open(HdmiCECSetupScreen)
 			<id val="timermenu"/>
 			<item weight="1" level="0" text="Timers" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
 			<item weight="100" level="0" text="Temporizadores Cron" entryID="crontimer_edit"><screen module="CronTimer" screen="CronTimers"/></item>
-			<item weight="100" level="0" text="Temporizadores Alimentacion" entryID="powertimer_edit"><screen module="PowerTimerEdit" screen="PowerTimerEditList"/></item>
+			<item weight="100" level="0" text="Temporizadores Alimentación" entryID="powertimer_edit"><screen module="PowerTimerEdit" screen="PowerTimerEditList"/></item>
 		</menu>
 
 <!-- Menu / Information -->

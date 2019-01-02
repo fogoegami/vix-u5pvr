@@ -1529,7 +1529,7 @@ msgstr "Comportamiento de \"pausa\" en pausa"
 
 #
 msgid "Behavior of 0 key in PiP-mode"
-msgstr "Comportamiento de la tecla '0' en modo PiP-modo"
+msgstr "Comportamiento de la tecla '0' en PiP-modo"
 
 #
 msgid "Behavior when a movie is started"
@@ -4797,7 +4797,7 @@ msgid "Jump back 24 hours"
 msgstr "Retroceder 24 horas"
 
 msgid "Jump first press in channel selection"
-msgstr "Saltar primero presionar en la selección de canales"
+msgstr "Saltar primero al presionar en la lista de canales"
 
 msgid "Jump forward 24 hours"
 msgstr "Adelantar 24 horas"
@@ -8832,7 +8832,7 @@ msgid "Slow motion speeds"
 msgstr "Velocidades de cámara lenta"
 
 msgid "Small"
-msgstr "Pequeña"
+msgstr "Pequeño"
 
 #
 msgid "Small progress"

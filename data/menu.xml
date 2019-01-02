@@ -96,10 +96,10 @@ self.session.openWithCallback(msgClosed, EpgDeleteMsg)
 					<id val="skinsetup"/>
 					<item weight="1" level="0" text="Skin" entryID="skin_setup"><screen module="SkinSelector" screen="SkinSelector"/></item>
 					<item level="2" text="3D" entryID="osd3dsetup" requires="CanChange3DOsd"><screen module="UserInterfacePositioner" screen="OSD3DSetupScreen"/></item>
-					<item level="2" text="OSD position" entryID="osdsetup" requires="OsdSetup"><screen module="UserInterfacePositioner" screen="UserInterfacePositioner"/></item>
+					<item level="2" text="OSD posición" entryID="osdsetup" requires="OsdSetup"><screen module="UserInterfacePositioner" screen="UserInterfacePositioner"/></item>
 				</menu>
 				<!-- Menu / Setup / User Interface / Front Panel -->
-				<menu weight="4" level="0" text="Front panel display" entryID="display_selection" requires="Display">
+				<menu weight="4" level="0" text="Panel frontal display" entryID="display_selection" requires="Display">
 					<id val="display"/>
 					<item weight="1" level="0" text="Settings" entryID="display_setup"><setup id="display"/></item>
 					<item weight="2" level="0" text="Skin" entryID="lcd_skin_setup"><screen module="SkinSelector" screen="LcdSkinSelector"/></item>
@@ -113,7 +113,7 @@ self.session.openWithCallback(msgClosed, EpgDeleteMsg)
 				<!-- Menu / Setup / User Interface / Subtitles -->
 				<item weight="7" level="2" entryID="subtitle_setup"><setup id="subtitlesetup"/></item>
 				<!-- Menu / Setup / User Interface / Language Selection -->
-				<item weight="8" level="0" text="Language" entryID="language_setup"><screen module="LanguageSelection"/></item>
+				<item weight="8" level="0" text="Lenguage" entryID="language_setup"><screen module="LanguageSelection"/></item>
 				<!-- Menu / Setup / User Interface / Parental Control -->
 				<item weight="9" level="0" text="Parental control" entryID="parental_setup"><screen module="ParentalControlSetup" screen="ParentalControlSetup"/></item>
 			</menu>
@@ -121,11 +121,11 @@ self.session.openWithCallback(msgClosed, EpgDeleteMsg)
 			<menu weight="5" text="Network" entryID="network_menu">
 				<id val="network"/>
 				<!-- Menu / Setup / Network / Device -->
-				<item weight="1" level="0" text="Device" entryID="device_setup"><screen module="NetworkSetup" screen="NetworkAdapterSelection"/></item>
+				<item weight="1" level="0" text="Dispositivos" entryID="device_setup"><screen module="NetworkSetup" screen="NetworkAdapterSelection"/></item>
 				<!-- Menu / Setup / Network / Mounts -->
-				<item weight="2" level="1" text="Mounts" entryID="netmounts_setup"><screen module="NetworkSetup" screen="NetworkMountsMenu"/></item>
+				<item weight="2" level="1" text="Montajes" entryID="netmounts_setup"><screen module="NetworkSetup" screen="NetworkMountsMenu"/></item>
 				<!-- Menu / Setup / Network / Utilities -->
-				<menu weight="3" level="0" text="Utilities" entryID="services_menu">
+				<menu weight="3" level="0" text="Utilidades" entryID="services_menu">
 					<id val="netservices"/>
 					<item level="2" text="AFP" entryID="netafp_setup"><screen module="NetworkSetup" screen="NetworkAfp"/></item>
 					<item level="2" text="FTP" entryID="netftp_setup"><screen module="NetworkSetup" screen="NetworkFtp"/></item>
@@ -159,7 +159,7 @@ self.session.open(SABnzbdSetupScreen)
 				<item weight="99" level="2" text="OScam info" entryID="oscaminfo" requires="OScamInstalled"><screen module="OScamInfo" screen="OscamInfoMenu"/></item>
 			</menu>
 			<!-- Menu / Setup / Storage -->
-			<menu weight="9" level="0" text="Storage" entryID="hardisk_selection" requires="Harddisk">
+			<menu weight="9" level="0" text="Almacenamiento" entryID="hardisk_selection" requires="Harddisk">
 				<id val="harddisk"/>
 				<item level="1" text="Settings" entryID="harddisk_setup"><setup id="harddisk"/></item>
 				<item level="0" text="Inicializar dispositivos" entryID="harddisk_init"><screen module="HarddiskSetup" screen="HarddiskSelection"/></item>
@@ -168,10 +168,10 @@ self.session.open(SABnzbdSetupScreen)
 			<!-- Menu / Setup / Time Settings -->
 			<item level="0" entryID="time_setup"><setup id="time"/></item>
 			<!-- Menu / Setup / Recordings, Playback & Timeshift -->
-			<menu weight="11" level="1" text="Grabacion, playback &amp; timeshift" entryID="rec_setup">
+			<menu weight="11" level="1" text="Grabación, playback &amp; timeshift" entryID="rec_setup">
 			 	<id val="rec" />
 					<item weight="10" level="0" text="Timeshift" entryID="timshift_setup"><screen module="Timeshift" screen="TimeshiftSettings" /></item>
-					<item weight="15" level="0" text="Recording &amp; playback" entryID="recording_setup"><screen module="Recordings" screen="RecordingSettings" /></item>
+					<item weight="15" level="0" text="Grabación &amp; playback" entryID="recording_setup"><screen module="Recordings" screen="RecordingSettings" /></item>
 			</menu>
 			<!-- Menu / Setup / System (OLD SYSTEM ENTRY FOR COMPATIBILITY) -->
 			<menu weight="98" level="0" text="System" entryID="system_selection">
@@ -220,8 +220,8 @@ self.session.open(HdmiCECSetupScreen)
 		<menu weight="5" text="Timers" entryID="timer_menu">
 			<id val="timermenu"/>
 			<item weight="1" level="0" text="Timers" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
-			<item weight="100" level="0" text="Cron timers" entryID="crontimer_edit"><screen module="CronTimer" screen="CronTimers"/></item>
-			<item weight="100" level="0" text="Power timers" entryID="powertimer_edit"><screen module="PowerTimerEdit" screen="PowerTimerEditList"/></item>
+			<item weight="100" level="0" text="Temporizadores Cron" entryID="crontimer_edit"><screen module="CronTimer" screen="CronTimers"/></item>
+			<item weight="100" level="0" text="Temporizadores Alimentación" entryID="powertimer_edit"><screen module="PowerTimerEdit" screen="PowerTimerEditList"/></item>
 		</menu>
 
 <!-- Menu / Information -->

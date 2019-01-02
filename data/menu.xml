@@ -113,7 +113,7 @@ self.session.openWithCallback(msgClosed, EpgDeleteMsg)
 				<!-- Menu / Setup / User Interface / Subtitles -->
 				<item weight="7" level="2" entryID="subtitle_setup"><setup id="subtitlesetup"/></item>
 				<!-- Menu / Setup / User Interface / Language Selection -->
-				<item weight="8" level="0" text="Language" entryID="language_setup"><screen module="LanguageSelection"/></item>
+				<item weight="8" level="0" text="Lenguage" entryID="language_setup"><screen module="LanguageSelection"/></item>
 				<!-- Menu / Setup / User Interface / Parental Control -->
 				<item weight="9" level="0" text="Parental control" entryID="parental_setup"><screen module="ParentalControlSetup" screen="ParentalControlSetup"/></item>
 			</menu>

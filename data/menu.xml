@@ -159,7 +159,7 @@ self.session.open(SABnzbdSetupScreen)
 				<item weight="99" level="2" text="OScam info" entryID="oscaminfo" requires="OScamInstalled"><screen module="OScamInfo" screen="OscamInfoMenu"/></item>
 			</menu>
 			<!-- Menu / Setup / Storage -->
-			<menu weight="9" level="0" text="Almacenamiento" entryID="hardisk_selection" requires="Harddisk">
+			<menu weight="9" level="0" text="Storage" entryID="hardisk_selection" requires="Harddisk">
 				<id val="harddisk"/>
 				<item level="1" text="Settings" entryID="harddisk_setup"><setup id="harddisk"/></item>
 				<item level="0" text="Inicializar dispositivos" entryID="harddisk_init"><screen module="HarddiskSetup" screen="HarddiskSelection"/></item>

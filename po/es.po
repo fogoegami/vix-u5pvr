@@ -1529,7 +1529,7 @@ msgstr "Comportamiento de \"pausa\" en pausa"
 
 #
 msgid "Behavior of 0 key in PiP-mode"
-msgstr "Comportamiento de la tecla '0' en PiP-modo"
+msgstr "Comportamiento de la tecla '0' en modo Pip"
 
 #
 msgid "Behavior when a movie is started"
@@ -10340,16 +10340,16 @@ msgid "Turkish"
 msgstr "Turco"
 
 msgid "Turn off HDMI-IN PiP mode"
-msgstr "Apagar HDMI-IN PiP modo"
+msgstr "Apagar HDMI-IN modo Pip"
 
 msgid "Turn off HDMI-IN full screen mode"
-msgstr "Apagar HDMI-IN full modo pantalla"
+msgstr "Apagar HDMI-IN modo pantalla completa"
 
 msgid "Turn on HDMI-IN PiP mode"
-msgstr "Encender HDMI-IN PiP modo"
+msgstr "Activar HDMI-IN modo Pip"
 
 msgid "Turn on HDMI-IN full screen mode"
-msgstr "Activar pantalla completa HDMI-IN modo"
+msgstr "Activar HDMI-IN modo pantalla completa"
 
 msgid "Turn on the power LED during standby."
 msgstr "Encienda el LED de encendido durante el modo de espera."

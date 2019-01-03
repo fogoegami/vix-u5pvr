@@ -7167,7 +7167,7 @@ msgid "Recording"
 msgstr "Grabando"
 
 msgid "Recording and playback settings"
-msgstr "Ajustes de grabación y reproducción"
+msgstr "Ajustes de grabación & timeshift"
 
 msgid "Recording in progress"
 msgstr "Grabación en curso"

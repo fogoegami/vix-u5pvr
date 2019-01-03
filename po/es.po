@@ -1655,7 +1655,7 @@ msgid "ButtonSetup"
 msgstr "ButtonSetup"
 
 msgid "By Team ViX"
-msgstr "Por el equipo de ViX"
+msgstr "Por el equipo ViX"
 
 msgid "Bypass HDMI EDID Check"
 msgstr "Bypass HDMI EDID Comprobar"
@@ -12199,7 +12199,7 @@ msgid ""
 "has been sent to the ViX team.\n"
 "please quote"
 msgstr ""
-"ha sido enviado al equipo de vix.\n"
+"ha sido enviado al equipo vix.\n"
 "por favor cítese"
 
 msgid "height"

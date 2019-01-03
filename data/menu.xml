@@ -113,7 +113,7 @@ self.session.openWithCallback(msgClosed, EpgDeleteMsg)
 				<!-- Menu / Setup / User Interface / Subtitles -->
 				<item weight="7" level="2" entryID="subtitle_setup"><setup id="subtitlesetup"/></item>
 				<!-- Menu / Setup / User Interface / Language Selection -->
-				<item weight="8" level="0" text="Lenguage" entryID="language_setup"><screen module="LanguageSelection"/></item>
+				<item weight="8" level="0" text="Language" entryID="language_setup"><screen module="LanguageSelection"/></item>
 				<!-- Menu / Setup / User Interface / Parental Control -->
 				<item weight="9" level="0" text="Parental control" entryID="parental_setup"><screen module="ParentalControlSetup" screen="ParentalControlSetup"/></item>
 			</menu>
@@ -220,8 +220,8 @@ self.session.open(HdmiCECSetupScreen)
 		<menu weight="5" text="Timers" entryID="timer_menu">
 			<id val="timermenu"/>
 			<item weight="1" level="0" text="Timers" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
-			<item weight="100" level="0" text="Cron timers" entryID="crontimer_edit"><screen module="CronTimer" screen="CronTimers"/></item>
-			<item weight="100" level="0" text="Power timers" entryID="powertimer_edit"><screen module="PowerTimerEdit" screen="PowerTimerEditList"/></item>
+			<item weight="100" level="0" text="CronTimers" entryID="crontimer_edit"><screen module="CronTimer" screen="CronTimers"/></item>
+			<item weight="100" level="0" text="PowerTimers" entryID="powertimer_edit"><screen module="PowerTimerEdit" screen="PowerTimerEditList"/></item>
 		</menu>
 
 <!-- Menu / Information -->

@@ -32,13 +32,13 @@
 				<item weight="3" entryID="tunermisc_setup"><setup id="tunermisc"/></item>
 				<item weight="20" text="Automatic scan" entryID="auto_scan" conditional="nimmanager.somethingConnected()" requires="ClientModeDisabled"><screen module="ScanSetup" screen="ScanSimple"/></item>
 				<item weight="30" text="Manual scan" entryID="manual_scan" conditional="nimmanager.somethingConnected()" requires="ClientModeDisabled"><screen module="ScanSetup"/></item>
-				<item weight="100" text="Fallback configuration" entryID="fallback_mode" requires="ClientModeDisabled"><screen  module="FallbackTunerSetup" screen="FallbackTunerSetup"/></item>
+				<item weight="100" text="Enable fallback remote receiver" entryID="fallback_mode" requires="ClientModeDisabled"><screen  module="FallbackTunerSetup" screen="FallbackTunerSetup"/></item>
 			</menu>
 			<!-- Menu / Setup / EPG -->
 			<menu weight="3" text="EPG" entryID="epg_menu">
 				<id val="epg"/>
 				<item level="0" entryID="epg_setup"><setup id="epgsettings"/></item>
-				<menu level="2" text="Load-save-delete" entryID="epgloadsave_menu">
+				<menu level="2" text="Load-Save-Delete" entryID="epgloadsave_menu">
 					<id val="epgloadsave_menu"/>
 					<item level="0" entryID="saveepgcache" text="Save EPG">
 <code>
@@ -121,11 +121,11 @@ self.session.openWithCallback(msgClosed, EpgDeleteMsg)
 			<menu weight="5" text="Network" entryID="network_menu">
 				<id val="network"/>
 				<!-- Menu / Setup / Network / Device -->
-				<item weight="1" level="0" text="Device" entryID="device_setup"><screen module="NetworkSetup" screen="NetworkAdapterSelection"/></item>
+				<item weight="1" level="0" text="Devices" entryID="device_setup"><screen module="NetworkSetup" screen="NetworkAdapterSelection"/></item>
 				<!-- Menu / Setup / Network / Mounts -->
-				<item weight="2" level="1" text="Mounts" entryID="netmounts_setup"><screen module="NetworkSetup" screen="NetworkMountsMenu"/></item>
+				<item weight="2" level="1" text="Network mounts" entryID="netmounts_setup"><screen module="NetworkSetup" screen="NetworkMountsMenu"/></item>
 				<!-- Menu / Setup / Network / Utilities -->
-				<menu weight="3" level="0" text="Utilities" entryID="services_menu">
+				<menu weight="3" level="0" text="Utilidades" entryID="services_menu">
 					<id val="netservices"/>
 					<item level="2" text="AFP" entryID="netafp_setup"><screen module="NetworkSetup" screen="NetworkAfp"/></item>
 					<item level="2" text="FTP" entryID="netftp_setup"><screen module="NetworkSetup" screen="NetworkFtp"/></item>
@@ -162,13 +162,13 @@ self.session.open(SABnzbdSetupScreen)
 			<menu weight="9" level="0" text="Storage" entryID="hardisk_selection" requires="Harddisk">
 				<id val="harddisk"/>
 				<item level="1" text="Settings" entryID="harddisk_setup"><setup id="harddisk"/></item>
-				<item level="0" text="Initialize devices" entryID="harddisk_init"><screen module="HarddiskSetup" screen="HarddiskSelection"/></item>
+				<item level="0" text="Initialize" entryID="harddisk_init"><screen module="HarddiskSetup" screen="HarddiskSelection"/></item>
 				<item level="0" text="Filesystem check" entryID="harddisk_check"><screen module="HarddiskSetup" screen="HarddiskFsckSelection"/></item>
 			</menu>
 			<!-- Menu / Setup / Time Settings -->
 			<item level="0" entryID="time_setup"><setup id="time"/></item>
 			<!-- Menu / Setup / Recordings, Playback & Timeshift -->
-			<menu weight="11" level="1" text="Recordings, playback &amp; timeshift" entryID="rec_setup">
+			<menu weight="11" level="1" text="Recording and playback settings" entryID="rec_setup">
 			 	<id val="rec" />
 					<item weight="10" level="0" text="Timeshift" entryID="timshift_setup"><screen module="Timeshift" screen="TimeshiftSettings" /></item>
 					<item weight="15" level="0" text="Recording &amp; playback" entryID="recording_setup"><screen module="Recordings" screen="RecordingSettings" /></item>
@@ -232,7 +232,7 @@ self.session.open(HdmiCECSetupScreen)
 			<item level="0" text="Memory" entryID="memory_screen"><screen module="About" screen="SystemMemoryInfo"/></item>
 			<item level="0" text="Network" entryID="network_screen"><screen module="About" screen="SystemNetworkInfo"/></item>
 			<item level="1" text="Service" entryID="service_info_screen"><screen module="ServiceInfo" screen="ServiceInfo"/></item>
-			<item level="2" text="Streaming clients" entryID="streaming_clients_info_screen"><screen module="StreamingClientsInfo"/></item>
+			<item level="2" text="Streaming clients info" entryID="streaming_clients_info_screen"><screen module="StreamingClientsInfo"/></item>
 		</menu>
 
 <!-- Menu / VCR Scart -->

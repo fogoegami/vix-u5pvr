@@ -9019,7 +9019,7 @@ msgstr "Modo de espera / Reiniciar"
 
 #
 msgid "Standby and Restart"
-msgstr "Espera y reinicio"
+msgstr "Modos Espera & Reinicios"
 
 #
 msgid "StandbyLED"

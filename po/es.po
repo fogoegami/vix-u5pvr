@@ -4482,7 +4482,7 @@ msgid "List available networks"
 msgstr "Enumerar redes disponibles"
 
 msgid "List of storage devices"
-msgstr "Enumerar dispositivos de almacenamiento"
+msgstr "Dispositivos de almacenamiento"
 
 #, python-format
 msgid "List version %d, found %d channel"

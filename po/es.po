@@ -5313,7 +5313,7 @@ msgid "ONID"
 msgstr "ONID"
 
 msgid "OSD"
-msgstr "OSD"
+msgstr "Ajustar Skin en TV"
 
 msgid "OSD 3D Setup"
 msgstr "Configuración OSD 3D"

@@ -6089,7 +6089,7 @@ msgid "Open service list and select the previous channel for PiP"
 msgstr "Abra la lista de servicios y seleccione el canal anterior para PiP"
 
 msgid "Open setup tuner "
-msgstr "Abrir el sintonizador de configuración "
+msgstr "Abrir configuración sintonizador "
 
 msgid "Open the favourites list"
 msgstr "Abrir la lista de favoritos"

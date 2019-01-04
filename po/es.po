@@ -4,16 +4,16 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-23 19:30+0200\n"
-"PO-Revision-Date: 2019-01-02 22:22+0100\n"
-"Last-Translator: Andy Blackburn <andyblac@icloud.com>\n"
-"Language-Team: www.CostaBlancaTranslations.com <maria@CostaBlancaTranslations.com>\n"
+"PO-Revision-Date: 2019-01-04 21:54+0100\n"
+"Last-Translator: Fogo\n"
+"Language-Team: ViX\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.2\n"
-"X-Poedit-SourceCharset: iso-8859-1\n"
 
 msgid ""
 "\n"
@@ -11558,11 +11558,9 @@ msgstr "zapeado"
 #~ msgid "AB"
 #~ msgstr "AB"
 
-#, fuzzy
 #~ msgid "Action on long power button press"
 #~ msgstr "Acción con pulsación larga de la tecla de encendido"
 
-#, fuzzy
 #~ msgid "Action on short power button press"
 #~ msgstr "Acción con pulsación corta de la tecla de encendido"
 
@@ -11572,7 +11570,6 @@ msgstr "zapeado"
 #~ msgid "Advanced video setup"
 #~ msgstr "Configuración avanzada de vídeo"
 
-#, fuzzy
 #~ msgid "Allows more detailed information to be in the crash log"
 #~ msgstr "Permite más detalles en el historial de caídas"
 
@@ -11600,11 +11597,9 @@ msgstr "zapeado"
 #~ msgid "Checking Feeds"
 #~ msgstr "Comprobando fuentes"
 
-#, fuzzy
 #~ msgid "Configure the function of a long press of the power button."
 #~ msgstr "Configurar la función de una pulsación larga de la tecla de encendido."
 
-#, fuzzy
 #~ msgid "Configure the function of a short press of the power button."
 #~ msgstr "Configurar la función de una pulsación corta de la tecla de encendido."
 
@@ -11614,7 +11609,6 @@ msgstr "zapeado"
 #~ msgid "Connected!"
 #~ msgstr "¡Conectado!"
 
-#, fuzzy
 #~ msgid "Could not connect to %s %s .NFI image feed server:"
 #~ msgstr "No se ha podido conectar al servidor de imágenes .NFI de %s %s:"
 
@@ -11636,7 +11630,6 @@ msgstr "zapeado"
 #~ msgid "Disconnect"
 #~ msgstr "Desconectar"
 
-#, fuzzy
 #~ msgid "Display"
 #~ msgstr "Ajustes de visualización"
 
@@ -11790,15 +11783,12 @@ msgstr "zapeado"
 #~ msgid "Select if you want the Subservice mode to be activated."
 #~ msgstr "Selecciona si quieres que el modo Subcanal se active."
 
-#, fuzzy
 #~ msgid "Select if you want to use the ViX colored buttons (set to 'no' if you want to use (Multi Quick Button)."
 #~ msgstr "Selecciona si quieres utilizar los botones de color de ViX. Marca 'no' si quieres usar el botón rápido (multi)."
 
-#, fuzzy
 #~ msgid "Select what you want the Channel +/- buttons to activate."
 #~ msgstr "Selecciona lo que quieres que active la tecla de canal +/-."
 
-#, fuzzy
 #~ msgid "Select what you want the TV button to activate."
 #~ msgstr "Selecciona lo que quieres que active la tecla TV."
 
@@ -11849,7 +11839,6 @@ msgstr "zapeado"
 #~ msgid "The wizard found a configuration backup. Do you want to restore your old settings from %s?"
 #~ msgstr "El asistente encontró una configuración guardada. ¿Quieres restaurar la configuración antigua desde %s?"
 
-#, fuzzy
 #~ msgid ""
 #~ "This plugin creates a USB stick which can be used to update the firmware of your %s %s without the need for a network or WLAN connection.\n"
 #~ "First, a USB stick needs to be prepared so that it becomes bootable.\n"
@@ -11864,7 +11853,6 @@ msgstr "zapeado"
 #~ msgid "Timer log"
 #~ msgstr "Historial de temporizadores"
 
-#, fuzzy
 #~ msgid ""
 #~ "To update your %s %s firmware, please follow these steps:\n"
 #~ "1) Turn off your box with the rear power switch and make sure the bootable USB stick is plugged in.\n"
@@ -11882,11 +11870,9 @@ msgstr "zapeado"
 #~ msgid "Uncommitted DiSEqC command"
 #~ msgstr "Comando DiSEqC 1.1"
 
-#, fuzzy
 #~ msgid "Use ViX colored Buttons*"
 #~ msgstr "Usar las teclas de colores de VIX*"
 
-#, fuzzy
 #~ msgid "Version:\t%s"
 #~ msgstr "Versión: %s"
 

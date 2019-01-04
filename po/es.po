@@ -11549,15 +11549,12 @@ msgstr "zapeado"
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"
 
-#
 #~ msgid "A recording is currently running. Please stop the recording before trying to start the satfinder."
 #~ msgstr "Hay una grabación en curso. Detén la grabación antes de iniciar el buscador de satélites."
 
-#
 #~ msgid "AA"
 #~ msgstr "AA"
 
-#
 #~ msgid "AB"
 #~ msgstr "AB"
 
@@ -11579,15 +11576,12 @@ msgstr "zapeado"
 #~ msgid "Allows more detailed information to be in the crash log"
 #~ msgstr "Permite más detalles en el historial de caídas"
 
-#
 #~ msgid "BA"
 #~ msgstr "BA"
 
-#
 #~ msgid "BB"
 #~ msgstr "BB"
 
-#
 #~ msgid "Change pin code"
 #~ msgstr "Cambiar código pin"
 
@@ -11617,7 +11611,6 @@ msgstr "zapeado"
 #~ msgid "Configure the refresh rate of the screen."
 #~ msgstr "Configurar la velocidad de actualización de la pantalla."
 
-#
 #~ msgid "Connected!"
 #~ msgstr "¡Conectado!"
 
@@ -11632,18 +11625,15 @@ msgstr "zapeado"
 #~ msgid "Currently installed image"
 #~ msgstr "Imagen actualmente instalada"
 
-#
 #~ msgid "Delete..."
 #~ msgstr "Borrar..."
 
 #~ msgid "Device Information"
 #~ msgstr "Información del dispositivo:"
 
-#
 #~ msgid "Dialing:"
 #~ msgstr "Marcando:"
 
-#
 #~ msgid "Disconnect"
 #~ msgstr "Desconectar"
 
@@ -11657,14 +11647,12 @@ msgstr "zapeado"
 #~ msgid "Download %s from server"
 #~ msgstr "Descargar %s del servidor"
 
-#
 #~ msgid "Download .NFI-files for USB-flasher"
 #~ msgstr "Descargar archivos .NFI para USB-Flasher"
 
 #~ msgid "Edit bouquets list"
 #~ msgstr "Editar lista de grupos"
 
-#
 #~ msgid "Edit services list"
 #~ msgstr "Editar la lista de canales"
 
@@ -11674,15 +11662,12 @@ msgstr "zapeado"
 #~ msgid "External (CF)"
 #~ msgstr "Externo (CF)"
 
-#
 #~ msgid "Finished restarting your network"
 #~ msgstr "Se ha terminado de reiniciar la red"
 
-#
 #~ msgid "Flash"
 #~ msgstr "Flash"
 
-#
 #~ msgid "Flashing failed"
 #~ msgstr "Ha fallado el parpadeo"
 
@@ -11713,11 +11698,9 @@ msgstr "zapeado"
 #~ msgid "Move to other directory"
 #~ msgstr "Ir a otro directorio"
 
-#
 #~ msgid "NFI image flashing"
 #~ msgstr "Imagen NFI Flashing"
 
-#
 #~ msgid "NFI image flashing completed. Press Yellow to Reboot!"
 #~ msgstr "Se ha descargado correctamente la imagen NFI Flashing. Pulsa la tecla amarilla para reiniciar!"
 
@@ -11727,14 +11710,12 @@ msgstr "zapeado"
 #~ msgid "New PIN"
 #~ msgstr "Nuevo PIN"
 
-#
 #~ msgid "No details for this image file"
 #~ msgstr "Sin detalles para este fichero de imagen"
 
 #~ msgid "No updates available. Please try again later."
 #~ msgstr "Sin actualizaciones disponibles. Inténtalo más tarde."
 
-#
 #~ msgid ""
 #~ "No valid service PIN found!\n"
 #~ "Do you like to change the service PIN now?\n"
@@ -11744,7 +11725,6 @@ msgstr "zapeado"
 #~ "¿Quieres cambiar el PIN de canal ahora?\n"
 #~ "Si respondes 'No', la protección de canales seguirá desabilitada."
 
-#
 #~ msgid ""
 #~ "No valid setup PIN found!\n"
 #~ "Do you like to change the setup PIN now?\n"
@@ -11760,26 +11740,21 @@ msgstr "zapeado"
 #~ msgid "Parental control editor"
 #~ msgstr "Editor de control paterno"
 
-#
 #~ msgid "Parental control setup"
 #~ msgstr "Configuración del control paterno"
 
-#
 #~ msgid "Parental control type"
 #~ msgstr "Tipo de control paterno"
 
-#
 #~ msgid "Phone number"
 #~ msgstr "Número de teléfono"
 
-#
 #~ msgid "Please check your network settings!"
 #~ msgstr "Comprueba la configuración de red!"
 
 #~ msgid "Please select an NFI file and press green key to flash!"
 #~ msgstr "Seleccione un fichero NFI y pulsa la tecla verde para flashear!"
 
-#
 #~ msgid "Please wait for activation of your network configuration..."
 #~ msgstr "Espera a la activación de su configuración de red..."
 
@@ -11798,7 +11773,6 @@ msgstr "zapeado"
 #~ msgid "Restart enigma"
 #~ msgstr "Reiniciar Enigma"
 
-#
 #~ msgid "Restore is running..."
 #~ msgstr "Restauración en curso..."
 
@@ -11832,18 +11806,15 @@ msgstr "zapeado"
 #~ msgid "Shall the USB stick wizard proceed and program the image file %s into flash memory?"
 #~ msgstr "¿El asistente de USB programará el fichero de imagen %s en la memoria flash?"
 
-#
 #~ msgid "Show services beginning with"
 #~ msgstr "Mostrar canales que empiecen por"
 
 #~ msgid "Show status icons in movielist"
 #~ msgstr "Ver iconos de estado en la lista de películas"
 
-#
 #~ msgid "Show tag menu"
 #~ msgstr "Ver menú de etiquetas"
 
-#
 #~ msgid "Single transponder"
 #~ msgstr "Transpondedor único"
 
@@ -11860,7 +11831,6 @@ msgstr "zapeado"
 #~ "La memoria USB se ha preparado para arrancarse.\n"
 #~ "Ya puedes descargar un fichero de imagen NFI!"
 
-#
 #~ msgid ""
 #~ "The following device was found:\n"
 #~ "\n"
@@ -11892,7 +11862,6 @@ msgstr "zapeado"
 #~ "Después, puede descargarse una imagen NFI desde el servidor de actualizaciones y guardarse en la memoria.\n"
 #~ "Si ya tienes una memoria USB arrancable, insértala ahora.  De lo contrario, inserta una memoria USB con un tamaño mínimo de 64 MB!"
 
-#
 #~ msgid "Timer log"
 #~ msgstr "Historial de temporizadores"
 
@@ -11908,11 +11877,9 @@ msgstr "zapeado"
 #~ "2) Vuelve a encenderlo y presiona el botón ABAJO en el panel frontal durante 10 segundos.\n"
 #~ "3) Espera al reinicio y sigue las instrucciones del asistente."
 
-#
 #~ msgid "USB stick wizard"
 #~ msgstr "Asistente de memoria USB"
 
-#
 #~ msgid "Uncommitted DiSEqC command"
 #~ msgstr "Comando DiSEqC 1.1"
 
@@ -11924,11 +11891,9 @@ msgstr "zapeado"
 #~ msgid "Version:\t%s"
 #~ msgstr "Versión: %s"
 
-#
 #~ msgid "Video fine tuning"
 #~ msgstr "Ajuste fino de vídeo"
 
-#
 #~ msgid "Video fine-tuning"
 #~ msgstr "Ajuste fino de vídeo"
 
@@ -11944,26 +11909,21 @@ msgstr "zapeado"
 #~ msgid "You can disable Telnet Server and use ssh to login."
 #~ msgstr "Puedes desactivar el servidor Telnet y usar ssh para conectarte."
 
-#
 #~ msgid "You have chosen to create a new .NFI flasher bootable USB stick. This will repartition the USB stick and therefore all data on it will be erased."
 #~ msgstr "Has elegido crear una nueva memoria USB .NFI Flasher autoarrancable. Se reparticionará la memoria USB y todos los datos serán borrados."
 
-#
 #~ msgid "complex"
 #~ msgstr "Complejo"
 
-#
 #~ msgid "continue"
 #~ msgstr "Continuar"
 
 #~ msgid "currently installed image: %s"
 #~ msgstr "Imagen actualmente instalada: %s"
 
-#
 #~ msgid "fine-tune your display"
 #~ msgstr "Afinar los ajustes de pantalla."
 
-#
 #~ msgid "leave movie player..."
 #~ msgstr "Salir del reproductor de películas..."
 
@@ -11979,6 +11939,5 @@ msgstr "zapeado"
 #~ msgid "uShare Log"
 #~ msgstr "Historial de uShare"
 
-#
 #~ msgid "whitelist"
 #~ msgstr "Lista blanca"

@@ -11614,7 +11614,6 @@ msgstr "zapeado"
 #~ msgid "Connected!"
 #~ msgstr "¡Conectado!"
 
-#
 #, fuzzy
 #~ msgid "Could not connect to %s %s .NFI image feed server:"
 #~ msgstr "No se ha podido conectar al servidor de imágenes .NFI de %s %s:"

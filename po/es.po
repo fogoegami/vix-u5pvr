@@ -10240,14 +10240,14 @@ msgstr ""
 
 #, python-format
 msgid "Your %s %s is rebooting"
-msgstr "Su %s %s esta reiniciando"
+msgstr "Su %s %s se está Reiniciando"
 
 #, python-format
 msgid "Your %s %s is shutting down"
-msgstr "Su %s %s está apagando"
+msgstr "Su %s %s se está Apagando"
 
 msgid "Your %s %s is shutting down. Please wait..."
-msgstr "La %s %s se está reiniciando. Espera un momento..."
+msgstr "Su %s %s se está Reiniciando. Espera un momento..."
 
 #, python-format
 msgid "Your %s %s might be unusable now. Please consult the manual for further assistance before rebooting your %s %s."

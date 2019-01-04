@@ -4084,7 +4084,7 @@ msgid "From :"
 msgstr "Desde:"
 
 msgid "Front Display Panel"
-msgstr "Panel frontal"
+msgstr "Panel frontal Display"
 
 #
 #, python-format
@@ -6759,7 +6759,7 @@ msgstr "PowerMenu"
 
 #
 msgid "PowerTimer List"
-msgstr "Lista de temporizadores de corriente"
+msgstr "Lista Temporizadores Alimentación"
 
 msgid "PowerTimers"
 msgstr "Temporizadores de alimentación"

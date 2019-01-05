@@ -99,7 +99,7 @@ self.session.openWithCallback(msgClosed, EpgDeleteMsg)
 					<item level="2" text="OSD" entryID="osdsetup" requires="OsdSetup"><screen module="UserInterfacePositioner" screen="UserInterfacePositioner"/></item>
 				</menu>
 				<!-- Menu / Setup / User Interface / Front Panel -->
-				<menu weight="4" level="0" text="Front panel display" entryID="display_selection" requires="Display">
+				<menu weight="4" level="0" text="Panel frontal display" entryID="display_selection" requires="Display">
 					<id val="display"/>
 					<item weight="1" level="0" text="Settings" entryID="display_setup"><setup id="display"/></item>
 					<item weight="2" level="0" text="Skin" entryID="lcd_skin_setup"><screen module="SkinSelector" screen="LcdSkinSelector"/></item>

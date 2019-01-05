@@ -8296,7 +8296,7 @@ msgstr "TB"
 #
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
-msgstr "Translatedby: www.costablancatranslations.com"
+msgstr "Traducido por fogo: www.micasa.com"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "El archivo TS es demasiado grande para el nivel 1 ISO9660!"

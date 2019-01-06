@@ -7252,7 +7252,7 @@ msgid "Sets the root folder of movie list, to remove the '..' from being shown i
 msgstr "Establece la carpeta raíz de la lista de películas, para eliminar el '..' que se muestra en esa carpeta."
 
 msgid "Settings"
-msgstr "Parámetros"
+msgstr "Ajustes"
 
 msgid "Settings..."
 msgstr "Ajustes..."

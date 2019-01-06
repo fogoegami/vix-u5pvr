@@ -7579,7 +7579,7 @@ msgid "Show single epg for current channel"
 msgstr "Ver sólo EPG del canal actual"
 
 msgid "Show source packages"
-msgstr "Ver paquetes de fuente"
+msgstr "Ver código de paquetes"
 
 msgid "Show status icons in movie list"
 msgstr "Mostrar iconos de estado en la lista de películas"

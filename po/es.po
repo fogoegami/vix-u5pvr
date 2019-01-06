@@ -7537,7 +7537,7 @@ msgid "Show picon background color"
 msgstr "Mostrar picon en fondo color"
 
 msgid "Show picons in service list"
-msgstr "Mostrar picons en lista de servicios"
+msgstr "Mostrar picons en lista de canales"
 
 msgid "Show positioner movement"
 msgstr "Mostrar movimiento del motor"

@@ -7146,7 +7146,7 @@ msgid "Set Framerate for MiniTV"
 msgstr "Establecer Framerate para MiniTV"
 
 msgid "Set as startup service"
-msgstr "Establecer como servicio de inicio"
+msgstr "Establecer como canal de inicio"
 
 msgid "Set default"
 msgstr "Establecer predeterminado"

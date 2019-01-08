@@ -3814,7 +3814,7 @@ msgid "Hard disk setup"
 msgstr "Configuración del disco duro"
 
 msgid "Hard disk standby after"
-msgstr "Disco duro en modo de espera después"
+msgstr "Disco duro en modo de espera después de"
 
 msgid "Harddisk setup"
 msgstr "Configuración de disco duro"

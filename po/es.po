@@ -7348,7 +7348,7 @@ msgid "Show EPG for current channel..."
 msgstr "Ver EPG del canal actual..."
 
 msgid "Show EPG for current service"
-msgstr "Ver EPG para el servicio actual"
+msgstr "Ver EPG único del canal actual"
 
 msgid "Show EPG..."
 msgstr "Ver EPG..."

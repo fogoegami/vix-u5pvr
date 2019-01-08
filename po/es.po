@@ -1715,7 +1715,7 @@ msgid "Channel preview mode"
 msgstr "Modo de previsualización de canales"
 
 msgid "Channel selection"
-msgstr "Selección de canal"
+msgstr "Configuración Lista de Canales"
 
 msgid "Channel selection settings"
 msgstr "Selección de Canales configuración"
@@ -4087,7 +4087,7 @@ msgid "InfoBar EPG mode"
 msgstr "Modo barra de información EPG"
 
 msgid "Infobar EPG"
-msgstr "Bara de información del EPG"
+msgstr "Barra de información del EPG"
 
 msgid "Infobar fade-out speed"
 msgstr "Velocidad infobar fade-out"
@@ -4672,7 +4672,7 @@ msgid "Maximum total space used (MB)"
 msgstr "Espacio total máximo utilizado (MB)"
 
 msgid "Maybe the reason that recording is currently running. Please stop the recording before trying to configure the positioner."
-msgstr "Tal vez la razón por la que la grabación se está ejecutando actualmente. Detenga la grabación antes de intentar configurar el posicionador."
+msgstr "Tal vez la razón por la que la grabación se está ejecutando actualmente. Detenga la grabación antes de intentar configurar el motor."
 
 msgid "Media playback Remaining/Elapsed as"
 msgstr "Reproducción restante/transcurrida de medios"
@@ -5943,16 +5943,16 @@ msgid "Position stored at index"
 msgstr "Posición guardada"
 
 msgid "Positioner"
-msgstr "Posicionador"
+msgstr "Motor"
 
 msgid "Positioner (selecting satellites)"
-msgstr "Posicionador (seleccionando satélites)"
+msgstr "Motor (seleccionando satélites)"
 
 msgid "Positioner setup"
-msgstr "Configuración del posicionador"
+msgstr "Configuración del motor"
 
 msgid "Positioner setup log"
-msgstr "Registro de configuración del posicionador"
+msgstr "Registro de configuración del motor"
 
 msgid "Power"
 msgstr "Power"
@@ -6761,10 +6761,10 @@ msgid "Save timeshift as movie and continue recording"
 msgstr "Guarda Timeshift como película y continúa grabando"
 
 msgid "Save timeshift as movie and stop recording"
-msgstr "Guarda el timehift como película y deja de grabar"
+msgstr "Guardar el timeshift como película y deja de grabar"
 
 msgid "Save timeshift in movie dir and zap"
-msgstr "Guarda timeshift en directorio películas y zapear"
+msgstr "Guardar timeshift en directorio películas y zapear"
 
 msgid "Saving EPG Cache..."
 msgstr "Guardando caché EPG..."

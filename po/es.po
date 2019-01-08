@@ -11546,6 +11546,9 @@ msgstr "zapear y grabar"
 msgid "zapped"
 msgstr "zapeado"
 
+msgid "Show True/False as graphical switch"
+msgstr "Mostrar verdadero/falso como interruptor gráfico"
+
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"
 

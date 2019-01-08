@@ -9840,3 +9840,6 @@ msgstr ""
 
 msgid "Your backup succeeded. We will now continue to explain the further upgrade process."
 msgstr ""
+
+msgid "Show True/False as graphical switch"
+msgstr ""

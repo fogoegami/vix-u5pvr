@@ -9855,15 +9855,3 @@ msgstr ""
 
 msgid "Choose a country scheme for decoding rating information in EPG events."
 msgstr ""
-
-msgid "Ignore DVB-S namespace sub network"
-msgstr ""
-
-msgid "Ignore DVB-C namespace sub network"
-msgstr ""
-
-msgid "Ignore DVB-T namespace sub network"
-msgstr ""
-
-msgid "On valid ONIDs, ignore frequency sub network part"
-msgstr ""

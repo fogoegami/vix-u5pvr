@@ -9844,9 +9844,6 @@ msgstr ""
 msgid "Show True/False as graphical switch"
 msgstr ""
 
-msgid "More"
-msgstr ""
-
 msgid "Country for EPG event genre information"
 msgstr ""
 
@@ -9857,4 +9854,25 @@ msgid "Choose a country scheme for decoding genre information in EPG events."
 msgstr ""
 
 msgid "Choose a country scheme for decoding rating information in EPG events."
+msgstr ""
+
+msgid "Task warning on shutdown"
+msgstr ""
+
+msgid "On shutdown/restart warn about any pending jobs being carried out in the background."
+msgstr ""
+
+msgid "Ignore DVB-S namespace sub network"
+msgstr ""
+
+msgid "Ignore DVB-C namespace sub network"
+msgstr ""
+
+msgid "Ignore DVB-T namespace sub network"
+msgstr ""
+
+msgid "On valid ONIDs, ignore frequency sub network part"
+msgstr ""
+
+msgid "Send 'sourceactive' before zap timers" 
 msgstr ""

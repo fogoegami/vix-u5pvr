@@ -3623,7 +3623,7 @@ msgid "Nothing, just leave this menu"
 msgstr ""
 
 msgctxt "now/next: 'now' event label"
-msgid "Now"
+msgid "now"
 msgstr ""
 
 msgid "Now, use the contrast setting to turn up the brightness of the background as much as possible, but make sure that you can still see the difference between the two brightest levels of shades.If you have done that, press OK."
@@ -9875,4 +9875,7 @@ msgid "On valid ONIDs, ignore frequency sub network part"
 msgstr ""
 
 msgid "Send 'sourceactive' before zap timers" 
+msgstr ""
+
+msgid "more"
 msgstr ""

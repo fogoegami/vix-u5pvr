@@ -11561,6 +11561,18 @@ msgstr "Elija un esquema de país para decodificar información de género en ev
 msgid "Choose a country scheme for decoding rating information in EPG events."
 msgstr "Elija un esquema de país para decodificar la información de calificación en eventos EPG."
 
+msgid "Ignore DVB-S namespace sub network"
+msgstr "Ignorar DVB-S en subred espacio de nombres"
+
+msgid "Ignore DVB-C namespace sub network"
+msgstr "Ignorar DVB-C en subred espacio de nombres"
+
+msgid "Ignore DVB-T namespace sub network"
+msgstr "Ignorar DVB-T en subred espacio de nombres"
+
+msgid "On valid ONIDs, ignore frequency sub network part"
+msgstr "En ONIDs válidos, ignorar la parte de frecuencia de subred"
+
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"
 

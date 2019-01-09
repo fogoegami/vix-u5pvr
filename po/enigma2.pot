@@ -9855,9 +9855,3 @@ msgstr ""
 
 msgid "Choose a country scheme for decoding rating information in EPG events."
 msgstr ""
-
-msgid "Task warning on shutdown"
-msgstr ""
-
-msgid "On shutdown/restart warn about any pending jobs being carried out in the backgound."
-msgstr ""

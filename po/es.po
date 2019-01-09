@@ -5279,8 +5279,8 @@ msgid "Now"
 msgstr "Ahora"
 
 msgctxt "now/next: 'now' event label"
-msgid "now"
-msgstr "ahora"
+msgid "Now"
+msgstr "Ahora"
 
 msgid "Now, use the contrast setting to turn up the brightness of the background as much as possible, but make sure that you can still see the difference between the two brightest levels of shades.If you have done that, press OK."
 msgstr "Ahora, use la configuración de contraste para aumentar el brillo del fondo tanto como sea posible, pero asegúrese de que aún pueda ver la diferencia entre los dos niveles de sombras más brillantes. Si lo ha hecho, presione OK."
@@ -11552,6 +11552,9 @@ msgstr "zapeado"
 msgid "Show True/False as graphical switch"
 msgstr "Mostrar verdadero/falso como interruptor gráfico"
 
+msgid "More"
+msgstr "Más"
+
 msgid "Country for EPG event genre information"
 msgstr "País para la información de género en evento EPG"
 
@@ -11584,9 +11587,6 @@ msgstr "En ONIDs válidos, ignorar la parte de frecuencia de subred"
 
 msgid "Send 'sourceactive' before zap timers" 
 msgstr "Enviar 'códigoactivo' antes de los temporizadores zap"
-
-msgid "more"
-msgstr "más"
 
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"

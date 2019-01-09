@@ -9859,7 +9859,7 @@ msgstr ""
 msgid "Task warning on shutdown"
 msgstr ""
 
-msgid "On shutdown/restart warn about any pending jobs being carried out in the backgound."
+msgid "On shutdown/restart warn about any pending jobs being carried out in the background."
 msgstr ""
 
 msgid "Ignore DVB-S namespace sub network"

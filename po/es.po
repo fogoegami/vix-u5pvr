@@ -11561,6 +11561,12 @@ msgstr "Elija un esquema de país para decodificar información de género en ev
 msgid "Choose a country scheme for decoding rating information in EPG events."
 msgstr "Elija un esquema de país para decodificar la información de calificación en eventos EPG."
 
+msgid "Task warning on shutdown"
+msgstr "Advertencia de tarea al apagar profundo"
+
+msgid "On shutdown/restart warn about any pending jobs being carried out in the backgound."
+msgstr "Al apagar/reiniciar, se advierte sobre cualquier trabajo pendiente que se realice en segundo plano."
+
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"
 

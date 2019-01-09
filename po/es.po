@@ -11561,9 +11561,6 @@ msgstr "Elija un esquema de país para decodificar información de género en ev
 msgid "Choose a country scheme for decoding rating information in EPG events."
 msgstr "Elija un esquema de país para decodificar la información de calificación en eventos EPG."
 
-msgid "Task warning on shutdown"
-msgstr "Advertencia de tarea al apagar profundo"
-
 msgid "Ignore DVB-S namespace sub network"
 msgstr "Ignorar DVB-S en subred espacio de nombres"
 

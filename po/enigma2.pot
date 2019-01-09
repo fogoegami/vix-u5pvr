@@ -9843,3 +9843,18 @@ msgstr ""
 
 msgid "Show True/False as graphical switch"
 msgstr ""
+
+msgid "More"
+msgstr ""
+
+msgid "Country for EPG event genre information"
+msgstr ""
+
+msgid "Country for EPG event rating information"
+msgstr ""
+
+msgid "Choose a country scheme for decoding genre information in EPG events."
+msgstr ""
+
+msgid "Choose a country scheme for decoding rating information in EPG events."
+msgstr ""

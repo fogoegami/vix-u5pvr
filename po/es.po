@@ -11564,7 +11564,7 @@ msgstr "Elija un esquema de país para decodificar la información de calificaci
 msgid "Task warning on shutdown"
 msgstr "Advertencia de tarea al apagar profundo"
 
-msgid "On shutdown/restart warn about any pending jobs being carried out in the backgound."
+msgid "On shutdown/restart warn about any pending jobs being carried out in the background."
 msgstr "Al apagar/reiniciar, se advierte sobre cualquier trabajo pendiente que se realice en segundo plano."
 
 msgid "Ignore DVB-S namespace sub network"

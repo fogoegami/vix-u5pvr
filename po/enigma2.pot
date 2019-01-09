@@ -9844,9 +9844,6 @@ msgstr ""
 msgid "Show True/False as graphical switch"
 msgstr ""
 
-msgid "More"
-msgstr ""
-
 msgid "Country for EPG event genre information"
 msgstr ""
 

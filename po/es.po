@@ -5275,9 +5275,6 @@ msgstr "Nada que actualizar"
 msgid "Nothing, just leave this menu"
 msgstr "Nada, solo deja este menu"
 
-msgid "Now"
-msgstr "Ahora"
-
 msgctxt "now/next: 'now' event label"
 msgid "Now"
 msgstr "Ahora"
@@ -11551,9 +11548,6 @@ msgstr "zapeado"
 
 msgid "Show True/False as graphical switch"
 msgstr "Mostrar verdadero/falso como interruptor gráfico"
-
-msgid "More"
-msgstr "Más"
 
 msgid "Country for EPG event genre information"
 msgstr "País para la información de género en evento EPG"

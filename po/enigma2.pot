@@ -9856,6 +9856,9 @@ msgstr ""
 msgid "Choose a country scheme for decoding rating information in EPG events."
 msgstr ""
 
+msgid "Task warning on shutdown"
+msgstr ""
+
 msgid "Ignore DVB-S namespace sub network"
 msgstr ""
 

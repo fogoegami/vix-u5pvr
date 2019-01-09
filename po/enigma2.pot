@@ -9861,3 +9861,15 @@ msgstr ""
 
 msgid "On shutdown/restart warn about any pending jobs being carried out in the backgound."
 msgstr ""
+
+msgid "Ignore DVB-S namespace sub network"
+msgstr ""
+
+msgid "Ignore DVB-C namespace sub network"
+msgstr ""
+
+msgid "Ignore DVB-T namespace sub network"
+msgstr ""
+
+msgid "On valid ONIDs, ignore frequency sub network part"
+msgstr ""

@@ -11568,13 +11568,13 @@ msgid "On shutdown/restart warn about any pending jobs being carried out in the 
 msgstr "Al apagar/reiniciar, se advierte sobre cualquier trabajo pendiente que se realice en segundo plano."
 
 msgid "Ignore DVB-S namespace sub network"
-msgstr "Ignorar DVB-S en subred de espacio de nombres"
+msgstr "Ignorar DVB-S en subred espacio de nombres"
 
 msgid "Ignore DVB-C namespace sub network"
-msgstr "Ignorar DVB-C en subred de espacio de nombres"
+msgstr "Ignorar DVB-C en subred espacio de nombres"
 
 msgid "Ignore DVB-T namespace sub network"
-msgstr "Ignorar DVB-T en subred de espacio de nombres"
+msgstr "Ignorar DVB-T en subred espacio de nombres"
 
 msgid "On valid ONIDs, ignore frequency sub network part"
 msgstr "En ONIDs válidos, ignorar la parte de frecuencia de subred"

@@ -9897,3 +9897,12 @@ msgstr ""
 
 msgid "Configuration..." 
 msgstr ""
+
+msgid "Fallback address type" 
+msgstr ""
+
+msgid "Fallback receiver IP address" 
+msgstr ""
+
+msgid "Fallback receiver streaming port" 
+msgstr ""

@@ -11592,7 +11592,10 @@ msgid "Uncover dashed flickering line for this service"
 msgstr "Descubrir la línea parpadeante discontinua para este canal"
 
 msgid "Cover DVB subs on this service" 
-msgstr "Cubrir DVB subservicio en este canal"
+msgstr "Cubrir DVB subwoofers en este canal"
+
+msgid "Do not center DVB subs on this service" 
+msgstr "No centre las subwoofers DVB en este canal"
 
 msgid "Configuration..." 
 msgstr "Configuración..."

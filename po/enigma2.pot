@@ -9897,6 +9897,3 @@ msgstr ""
 
 msgid "Configuration..." 
 msgstr ""
-
-msgid "Welcome..." 
-msgstr ""

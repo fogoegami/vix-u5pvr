@@ -11600,9 +11600,6 @@ msgstr "No centre las subwoofers DVB en este canal"
 msgid "Configuration..." 
 msgstr "Configuración..."
 
-msgid "Welcome..." 
-msgstr "Bienvenido..."
-
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"
 

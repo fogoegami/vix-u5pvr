@@ -9963,3 +9963,60 @@ msgstr ""
 
 msgid "Configure alignment of the timeline date." 
 msgstr ""
+
+msgid "Release notes" 
+msgstr ""
+
+msgid "Service & PIDs" 
+msgstr ""
+
+msgid "Tuner settings values" 
+msgstr ""
+
+msgid "Random password" 
+msgstr ""
+
+msgid "New password" 
+msgstr ""
+
+msgid "Setting a password is strongly advised if your STB is open to the internet. This is the case if you have in your router a port forwarded to the STB." 
+msgstr ""
+
+msgid "Use picon_lcd directory for picons on color LCD" 
+msgstr ""
+
+msgid "Configure the brightness level of the front panel display for dimmed operation." 
+msgstr ""
+
+msgid "Dim the LCD after specified time." 
+msgstr ""
+
+msgid "Delay in milliseconds before start of scrolling text on display." 
+msgstr ""
+
+msgid "Delay in milliseconds after finish scrolling text on display." 
+msgstr ""
+
+msgid "Enable blinking rec symbol on the LCD Display" 
+msgstr ""
+
+msgid "In the Standby Record on the LCD Display" 
+msgstr ""
+
+msgid "Set CI assignment for detection of available services." 
+msgstr ""
+
+msgid "This option allows you to choose whether or not to display genre information for the event." 
+msgstr ""
+
+msgid "This option allows you to show menu number quick links." 
+msgstr ""
+
+msgid "Change the Colorspace from Auto to RGB" 
+msgstr ""
+
+msgid "Choose whether multi channel ac3 sound tracks should be downmixed to stereo." 
+msgstr ""
+
+msgid "Choose whether multi channel aac sound tracks should be downmixed to stereo." 
+msgstr ""

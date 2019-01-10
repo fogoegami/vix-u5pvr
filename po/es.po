@@ -9056,7 +9056,7 @@ msgid "Transcoding: "
 msgstr "Transcoding: "
 
 msgid "Translations"
-msgstr "Translations"
+msgstr "Traducciones"
 
 msgid "Transmission mode"
 msgstr "Modo de trasmisión"
@@ -11665,6 +11665,63 @@ msgstr "Alineación de la fecha de la línea de tiempo"
 
 msgid "Configure alignment of the timeline date." 
 msgstr "Configurar la alineación de la fecha de la línea de tiempo."
+
+msgid "Release notes" 
+msgstr "Notas Publicación"
+
+msgid "Service & PIDs" 
+msgstr "Servicio & PIDs"
+
+msgid "Tuner settings values" 
+msgstr "Valores sintonizador"
+
+msgid "Random password" 
+msgstr "Contraseña aleatoria"
+
+msgid "New password" 
+msgstr "Nueva Contraseña"
+
+msgid "Setting a password is strongly advised if your STB is open to the internet. This is the case if you have in your router a port forwarded to the STB." 
+msgstr "Se recomienda establecer una contraseña si su STB está abierto a Internet. Este es el caso si tiene en su router un puerto reenviado a la STB."
+
+msgid "Use picon_lcd directory for picons on color LCD" 
+msgstr "Use el directorio picon_lcd para picons color LCD"
+
+msgid "Configure the brightness level of the front panel display for dimmed operation." 
+msgstr "Configure el nivel de brillo de la pantalla del panel frontal para una operación atenuada."
+
+msgid "Dim the LCD after specified time." 
+msgstr "Atenuar la pantalla LCD después de un tiempo especificado."
+
+msgid "Delay in milliseconds before start of scrolling text on display." 
+msgstr "Retardo en milisegundos antes del inicio del texto de desplazamiento en la pantalla."
+
+msgid "Delay in milliseconds after finish scrolling text on display." 
+msgstr "Retardo en milisegundos después de que termine de desplazar el texto en la pantalla."
+
+msgid "Enable blinking rec symbol on the LCD Display" 
+msgstr "Habilitar el símbolo de grabación parpadeante en la pantalla LCD"
+
+msgid "In the Standby Record on the LCD Display" 
+msgstr "En Modo de Espera grabación en la pantalla LCD"
+
+msgid "Set CI assignment for detection of available services." 
+msgstr "Establecer asignación de CI para la detección de servicios disponibles."
+
+msgid "This option allows you to choose whether or not to display genre information for the event." 
+msgstr "Esta opción le permite elegir si desea mostrar o no la información de género para el evento."
+
+msgid "This option allows you to show menu number quick links." 
+msgstr "Esta opción le permite mostrar enlaces rápidos de números de menú."
+
+msgid "Change the Colorspace from Auto to RGB" 
+msgstr "Cambia el espacio de color de Auto a RGB"
+
+msgid "Choose whether multi channel ac3 sound tracks should be downmixed to stereo." 
+msgstr "Elija si las pistas de sonido ac3 multicanal se deben mezclar en estéreo."
+
+msgid "Choose whether multi channel aac sound tracks should be downmixed to stereo." 
+msgstr "Elija si las pistas de sonido aac multicanal se deben mezclar en estéreo."
 
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"

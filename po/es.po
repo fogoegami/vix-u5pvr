@@ -11636,6 +11636,36 @@ msgstr "Elija el modo de vista de diseño (Texto o Gráficos)."
 msgid "Choose the layout view mode (Text / Graphics Multi channel EPG or Single channel EPG)." 
 msgstr "Elija el modo de vista de diseño (EPG multicanal de texto / gráficos o EPG de un solo canal)."
 
+msgid "Highlight current events" 
+msgstr "Resaltar eventos actuales"
+
+msgid "Enable to highlight events that are currently in progress." 
+msgstr "Habilitar para resaltar eventos que están actualmente en progreso."
+
+msgid "Alignment of service names" 
+msgstr "Alineación de nombres de servicios"
+
+msgid "Configure alignment of the service names." 
+msgstr "Configurar la alineación de los nombres de servicio."
+
+msgid "Alignment of service numbers" 
+msgstr "Alineación de números de servicio"
+
+msgid "Configure alignment of the service numbers." 
+msgstr "Configurar la alineación de los números de servicio."
+
+msgid "Alignment of events" 
+msgstr "Alineación de eventos"
+
+msgid "Configure alignment of service events." 
+msgstr "Configurar alineación de eventos de servicio."
+
+msgid "Alignment of timeline date" 
+msgstr "Alineación de la fecha de la línea de tiempo"
+
+msgid "Configure alignment of the timeline date." 
+msgstr "Configurar la alineación de la fecha de la línea de tiempo."
+
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"
 

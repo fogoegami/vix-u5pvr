@@ -9933,3 +9933,33 @@ msgstr ""
 
 msgid "Choose the layout view mode (Text / Graphics Multi channel EPG or Single channel EPG)." 
 msgstr ""
+
+msgid "Highlight current events" 
+msgstr ""
+
+msgid "Enable to highlight events that are currently in progress." 
+msgstr ""
+
+msgid "Alignment of service names" 
+msgstr ""
+
+msgid "Configure alignment of the service names." 
+msgstr ""
+
+msgid "Alignment of service numbers" 
+msgstr ""
+
+msgid "Configure alignment of the service numbers." 
+msgstr ""
+
+msgid "Alignment of events" 
+msgstr ""
+
+msgid "Configure alignment of service events." 
+msgstr ""
+
+msgid "Alignment of timeline date" 
+msgstr ""
+
+msgid "Configure alignment of the timeline date." 
+msgstr ""

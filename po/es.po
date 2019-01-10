@@ -11693,6 +11693,10 @@ msgstr "búsqueda EPG"
 msgid "search EPG from history..."
 msgstr "búsqueda EPG desde historia..."
 
+#, python-format
+msgid "Time Activity: %s"
+msgstr "Tiempo Actividad: %s"
+
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"
 

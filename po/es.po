@@ -11546,11 +11546,17 @@ msgstr "zapeado"
 msgid "Show True/False as graphical switch"
 msgstr "Mostrar verdadero/falso como interruptor gráfico"
 
+msgid "Enable to display all true/false, yes/no, on/off and enable/disable set up options as a graphical switch."
+msgstr "Habilite para mostrar todas las opciones verdadero/falso, sí/no, activado/desactivado y habilitar/deshabilitar la configuración como un interruptor gráfico."
+
 msgid "Country for EPG event genre information"
 msgstr "País para la información de género en evento EPG"
 
 msgid "Country for EPG event rating information"
 msgstr "País para la información de clasificación de eventos EPG"
+
+msgid "Auto Detect"
+msgstr "Auto Detectar"
 
 msgid "Choose a country scheme for decoding genre information in EPG events."
 msgstr "Elija un esquema de país para decodificar información de género en eventos EPG."
@@ -11578,6 +11584,21 @@ msgstr "En ONIDs válidos, ignorar la parte de frecuencia de subred"
 
 msgid "Send 'sourceactive' before zap timers" 
 msgstr "Enviar 'códigoactivo' antes de los temporizadores zap"
+
+msgid "Cover dashed flickering line for this service" 
+msgstr "Cubrir la línea parpadeante discontinua para este canal"
+
+msgid "Uncover dashed flickering line for this service" 
+msgstr "Descubrir la línea parpadeante discontinua para este canal"
+
+msgid "Cover DVB subs on this service" 
+msgstr "Cubrir DVB subservicio en este canal"
+
+msgid "Configuration..." 
+msgstr "Configuración..."
+
+msgid "Welcome..." 
+msgstr "Bienvenido..."
 
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"

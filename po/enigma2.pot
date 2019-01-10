@@ -9844,10 +9844,16 @@ msgstr ""
 msgid "Show True/False as graphical switch"
 msgstr ""
 
+msgid "Enable to display all true/false, yes/no, on/off and enable/disable set up options as a graphical switch."
+msgstr ""
+
 msgid "Country for EPG event genre information"
 msgstr ""
 
 msgid "Country for EPG event rating information"
+msgstr ""
+
+msgid "Auto Detect"
 msgstr ""
 
 msgid "Choose a country scheme for decoding genre information in EPG events."
@@ -9875,4 +9881,19 @@ msgid "On valid ONIDs, ignore frequency sub network part"
 msgstr ""
 
 msgid "Send 'sourceactive' before zap timers" 
+msgstr ""
+
+msgid "Cover dashed flickering line for this service" 
+msgstr ""
+
+msgid "Uncover dashed flickering line for this service" 
+msgstr ""
+
+msgid "Cover DVB subs on this service" 
+msgstr ""
+
+msgid "Configuration..." 
+msgstr ""
+
+msgid "Welcome..." 
 msgstr ""

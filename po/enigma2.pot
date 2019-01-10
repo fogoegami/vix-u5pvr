@@ -9133,7 +9133,7 @@ msgstr ""
 msgid "Setup the interval (in hours) to check for online updates."
 msgstr ""
 
-msgid "Setup your timezone."
+msgid "Setup your timezone area."
 msgstr ""
 
 msgid "Show CCcam Info in extensions?"
@@ -10019,4 +10019,25 @@ msgid "Choose whether multi channel ac3 sound tracks should be downmixed to ster
 msgstr ""
 
 msgid "Choose whether multi channel aac sound tracks should be downmixed to stereo." 
+msgstr ""
+
+msgid "Timezone area"
+msgstr ""
+
+msgid "Your timezone in the area."
+msgstr ""
+
+msgid "Choose between High Dynamic Range (HDR) or Picture in Picture (PIP). Both are not possible at the same time. A FULL REBOOT is required for it to take effect"
+msgstr ""
+
+msgid "Choose the display formatting style for dates. 'D' / 'DD' is the date and 'M' / 'MM' is the month in digits.  ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
+msgstr ""
+
+msgid "Choose the display formatting style for times. 'H' / 'HH' is the hour for a 24 hour clock, 'h' / 'hh' is the hour for a 12 hour clock, 'mm' is the minutes and 'ss' is the seconds.  ('HH' and 'hh' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
+msgstr ""
+
+msgid "Choose the front panel display formatting style for dates. 'D' / 'DD' is the date and 'M' / 'MM' is the month in digits.  ('DD' and 'MM' have leading zeros for single digit values.) The screen display will be based on your choice but can be influenced by the skin."
+msgstr ""
+
+msgid "Choose the front panel display formatting style for times. 'H' / 'HH' is the hour for a 24 hour clock, 'h' / 'hh' is the hour for a 12 hour clock, 'mm' is the minutes.  ('HH' and 'hh' have leading zeros for single digit values.) The front panel display will be based on your choice but can be influenced any applicable skin."
 msgstr ""

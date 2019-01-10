@@ -9927,3 +9927,9 @@ msgstr ""
 
 msgid "Client mode" 
 msgstr ""
+
+msgid "Choose the layout view mode (Text or Graphics)." 
+msgstr ""
+
+msgid "Choose the layout view mode (Text / Graphics Multi channel EPG or Single channel EPG)." 
+msgstr ""

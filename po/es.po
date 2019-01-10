@@ -11591,11 +11591,11 @@ msgstr "Cubrir la línea parpadeante discontinua para este canal"
 msgid "Uncover dashed flickering line for this service" 
 msgstr "Descubrir la línea parpadeante discontinua para este canal"
 
-msgid "Cover DVB subs on this service" 
-msgstr "Cubrir DVB subwoofers en este canal"
+msgid "Center DVB subs on this service" 
+msgstr "Centre subwoofers DVB en este canal"
 
 msgid "Do not center DVB subs on this service" 
-msgstr "No centre las subwoofers DVB en este canal"
+msgstr "No centre subwoofers DVB en este canal"
 
 msgid "Configuration..." 
 msgstr "Configuración..."

@@ -9889,7 +9889,7 @@ msgstr ""
 msgid "Uncover dashed flickering line for this service" 
 msgstr ""
 
-msgid "Cover DVB subs on this service" 
+msgid "Center DVB subs on this service" 
 msgstr ""
 
 msgid "Do not center DVB subs on this service" 

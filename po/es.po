@@ -11586,10 +11586,10 @@ msgid "Send 'sourceactive' before zap timers"
 msgstr "Enviar 'códigoactivo' antes de los temporizadores zap"
 
 msgid "Cover dashed flickering line for this service" 
-msgstr "Cubrir la línea parpadeante discontinua para este canal"
+msgstr "Cubrir la línea de arriba blanca discontinua para este canal"
 
 msgid "Uncover dashed flickering line for this service" 
-msgstr "Descubrir la línea parpadeante discontinua para este canal"
+msgstr "Descubrir la línea de arriba blanca discontinua para este canal"
 
 msgid "Center DVB subs on this service" 
 msgstr "Centre subwoofers DVB en este canal"

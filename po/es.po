@@ -11627,6 +11627,9 @@ msgstr "Ingrese la URL/IP del receptor remoto alternativo, por ej. '192.168.0.1'
 msgid "Default port is '%d'. Change if required." 
 msgstr "Puerto defecto es '%d'. Cambie si es necesario."
 
+msgid "Client mode" 
+msgstr "Modo cliente"
+
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"
 

@@ -9924,3 +9924,6 @@ msgstr ""
 
 msgid "Default port is '%d'. Change if required." 
 msgstr ""
+
+msgid "Client mode" 
+msgstr ""

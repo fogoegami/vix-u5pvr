@@ -598,7 +598,7 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-msgid "Add AutoTimer"
+msgid "Add Autotimer"
 msgstr ""
 
 msgid "Add Timer"
@@ -2031,7 +2031,7 @@ msgstr ""
 msgid "EPG Cache Check"
 msgstr ""
 
-msgid "EPG Search"
+msgid "EPG search"
 msgstr ""
 
 msgid "EPG settings"
@@ -2640,7 +2640,7 @@ msgstr ""
 msgid "IMDB search for current event"
 msgstr ""
 
-msgid "IMDb Search"
+msgid "IMDb search"
 msgstr ""
 
 msgid "IP address"
@@ -9905,4 +9905,85 @@ msgid "Fallback receiver IP address"
 msgstr ""
 
 msgid "Fallback receiver streaming port" 
+msgstr ""
+
+msgid "Enable usage of tuners from another Enigma2 receiver on the local network. Remote tuners will be used when tuners are not available on this receiver. (No free tuner or service type is not available.)" 
+msgstr ""
+
+msgid "'Network peer' automatically detects other Enigma2 receivers on the local network. You can also manually enter the URL or IP address." 
+msgstr ""
+
+msgid "Select a receiver to use for fallback tuners. If the host receiver is not listed, manually enter the URL or IP address" 
+msgstr ""
+
+msgid "Enter the IP address of the receiver to use for fallback tuners." 
+msgstr ""
+
+msgid "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in automatically when you select save." 
+msgstr ""
+
+msgid "Default port is '%d'. Change if required." 
+msgstr ""
+
+msgid "AutoTimers"
+msgstr ""
+
+msgid "Clone selected timer"
+msgstr ""
+
+msgid "All non-repeating timers"
+msgstr ""
+
+msgid "Only AutoTimers created during this session"
+msgstr ""
+
+msgid "Classic"
+msgstr ""
+
+msgid "Poll unit"
+msgstr ""
+
+msgid "Poll unit selects whether the poll interval should be interpreted in hours or minutes."
+msgstr ""
+
+msgid "Poll Interval (in minutes)"
+msgstr ""
+
+msgid "This is the delay in minutes that the AutoTimer will wait after doing a search before searching the EPG again."
+msgstr ""
+
+msgid "Skip poll during epg refresh"
+msgstr ""
+
+msgid "If enabled, the polling will be skipped if EPGRefresh is currently running."
+msgstr ""
+
+msgid "Popup timeout in seconds"
+msgstr ""
+
+msgid "If 0, the popup will remain open."
+msgstr ""
+
+msgid "Remove not existing events"
+msgstr ""
+
+msgid "Check the event id (eit) and remove the timer if there is no corresponding EPG event. Due to compatibility issues with SerienRecorder and IPRec, only timer created by AutoTimer are affected."
+msgstr ""
+
+msgid "Always write config"
+msgstr ""
+
+msgid "Write the config file after every change which the user quits by saving."
+msgstr ""
+
+msgid "Minute"
+msgstr ""
+
+msgid "IMDb search..."
+msgstr ""
+
+msgid "search EPG"
+msgstr ""
+
+msgid "search EPG from history..."
 msgstr ""

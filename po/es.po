@@ -779,8 +779,8 @@ msgstr "Configuración del adaptador"
 msgid "Add"
 msgstr "Añadir"
 
-msgid "Add AutoTimer"
-msgstr "Añadir autotemporizador"
+msgid "Add Autotimer"
+msgstr "Añadir Autotemporizador"
 
 msgid "Add Timer"
 msgstr "Añadir temporizador"
@@ -2987,8 +2987,8 @@ msgstr "EPG"
 msgid "EPG Cache Check"
 msgstr "Comprobando caché EPG"
 
-msgid "EPG Search"
-msgstr "Búsqueda en EPG"
+msgid "EPG search"
+msgstr "Búsqueda EPG"
 
 msgid "EPG filename"
 msgstr "Nombre de archivo EPG"
@@ -3930,7 +3930,7 @@ msgstr "Húngaro"
 msgid "IMDB search for current event"
 msgstr "Búsqueda IMDB del programa actual"
 
-msgid "IMDb Search"
+msgid "IMDb search"
 msgstr "Búsqueda IMDb"
 
 msgid "IP address"
@@ -11608,6 +11608,90 @@ msgstr "Retroceso dirección IP del receptor"
 
 msgid "Fallback receiver streaming port" 
 msgstr "Retroceso puerto streaming del receptor"
+
+msgid "Network peers" 
+msgstr "Compañeros de red"
+
+msgid "Enable usage of tuners from another Enigma2 receiver on the local network. Remote tuners will be used when tuners are not available on this receiver. (No free tuner or service type is not available.)" 
+msgstr "Habilite el uso de sintonizadores desde otro receptor Enigma2 en la red local. Los sintonizadores remotos se utilizarán cuando los sintonizadores no estén disponibles en este receptor. (No hay disponible sintonizador ni tipo de canal)."
+
+msgid "'Network peer' automatically detects other Enigma2 receivers on the local network. You can also manually enter the URL or IP address." 
+msgstr "'Re compañero' detecta automáticamente otros receptores Enigma2 en la red local. También puede introducir manualmente la dirección URL o IP."
+
+msgid "Select a receiver to use for fallback tuners. If the host receiver is not listed, manually enter the URL or IP address" 
+msgstr "Seleccione un receptor para utilizar para sintonizadores de reserva. Si el receptor central no está en la lista, ingrese manualmente la URL o la dirección IP"
+
+msgid "Enter the IP address of the receiver to use for fallback tuners." 
+msgstr "Introduzca la dirección IP del receptor que se utilizará para los sintonizadores de reserva."
+
+msgid "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in automatically when you select save." 
+msgstr "Ingrese la URL/IP del receptor remoto alternativo, por ej. '192.168.0.1'. Los demás detalles, como 'http://' y el número de puerto, se rellenarán automáticamente cuando seleccione guardar."
+
+msgid "Default port is '%d'. Change if required." 
+msgstr "Puerto defecto es '%d'. Cambie si es necesario."
+
+msgid "AutoTimers"
+msgstr "AutoTemporizador"
+
+msgid "Clone selected timer"
+msgstr "Clonar temporizador seleccionado"
+
+msgid "All non-repeating timers"
+msgstr "Todos temporizadores no-repetidos"
+
+msgid "Only AutoTimers created during this session"
+msgstr "Solo los AutoTemporizadores creados durante esta sesión"
+
+msgid "Classic"
+msgstr "Clásico"
+
+msgid "Poll unit"
+msgstr "Encuesta unidad"
+
+msgid "Poll unit selects whether the poll interval should be interpreted in hours or minutes."
+msgstr "La unidad de sondeo selecciona si el intervalo de sondeo debe interpretarse en horas o minutos."
+
+msgid "Poll Interval (in minutes)"
+msgstr "Intervalo Encuesta (en minutos)"
+
+msgid "This is the delay in minutes that the AutoTimer will wait after doing a search before searching the EPG again."
+msgstr "Este es el retraso en minutos que el temporizador automático esperará después de realizar una búsqueda antes de buscar nuevamente en la EPG."
+
+msgid "Skip poll during epg refresh"
+msgstr "Saltar encuesta durante la actualización de epg"
+
+msgid "If enabled, the polling will be skipped if EPGRefresh is currently running."
+msgstr "Si está habilitado, el sondeo se omitirá si EPGRefresh se está ejecutando actualmente."
+
+msgid "Popup timeout in seconds"
+msgstr "Ventana emergente fuera de tiempo en segundos"
+
+msgid "If 0, the popup will remain open."
+msgstr "Si es 0, la ventana emergente permanecerá abierta."
+
+msgid "Remove not existing events"
+msgstr "Eliminar eventos no existentes"
+
+msgid "Check the event id (eit) and remove the timer if there is no corresponding EPG event. Due to compatibility issues with SerienRecorder and IPRec, only timer created by AutoTimer are affected."
+msgstr "Verifique la identificación del evento (eit) y elimine el temporizador si no hay un evento EPG correspondiente. Debido a problemas de compatibilidad con SerienRecorder e IPRec, solo se ven afectados los temporizadores creados por AutoTimer."
+
+msgid "Always write config"
+msgstr "Siempre escribe config"
+
+msgid "Write the config file after every change which the user quits by saving."
+msgstr "Escriba el archivo de configuración después de cada cambio que el usuario cierre guardando."
+
+msgid "Minute"
+msgstr "Minuto"
+
+msgid "IMDb search..."
+msgstr "Búsqueda IMDb..."
+
+msgid "search EPG"
+msgstr "búsqueda EPG"
+
+msgid "search EPG from history..."
+msgstr "búsqueda EPG desde historia..."
 
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"

@@ -11694,7 +11694,7 @@ msgid "Service & PIDs"
 msgstr "Servicio & PIDs"
 
 msgid "Tuner setup"
-msgstr "Configuración Tuner"
+msgstr "Configuración Sintonizador"
 
 msgid "Tuner settings values" 
 msgstr "Valores sintonizador"

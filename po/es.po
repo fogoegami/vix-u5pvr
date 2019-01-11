@@ -11675,6 +11675,9 @@ msgstr "Servicio & PIDs"
 msgid "Tuner settings values" 
 msgstr "Valores sintonizador"
 
+msgid "Tuner live values" 
+msgstr "Valores en vivo sintonizador"
+
 msgid "Random password" 
 msgstr "Contraseña aleatoria"
 

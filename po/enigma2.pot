@@ -9973,6 +9973,9 @@ msgstr ""
 msgid "Tuner settings values" 
 msgstr ""
 
+msgid "Tuner live values" 
+msgstr ""
+
 msgid "Random password" 
 msgstr ""
 

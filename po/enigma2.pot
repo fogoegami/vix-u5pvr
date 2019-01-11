@@ -9979,7 +9979,9 @@ msgstr ""
 msgid "New password" 
 msgstr ""
 
-msgid "Setting a password is strongly advised if your STB is open to the internet. This is the case if you have in your router a port forwarded to the STB." 
+msgid ""
+"Setting a password is strongly advised if your STB is open to the internet.\n"
+"This is the case if you have in your router a port forwarded to the STB."
 msgstr ""
 
 msgid "Use picon_lcd directory for picons on color LCD" 

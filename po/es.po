@@ -10222,18 +10222,15 @@ msgstr ""
 "Su conexión a internet está funcionando ahora.\n"
 "\n"
 
+#, python-format
 msgid ""
-"Your %s %s is now ready to use.\n"
-"\n"
 "Your internet connection is working now.\n"
 "\n"
 "Please press OK to continue."
 msgstr ""
-"La %s %s está lista para usarse.\n"
+"Tu conexión a internet está funcionando ahora.\n"
 "\n"
-"La conexión a internet funciona.\n"
-"\n"
-"Pulsa 'OK' para continuar."
+"Por favor presione OK para continuar."
 
 #, python-format
 msgid "Your %s %s is rebooting"
@@ -11763,6 +11760,60 @@ msgstr ""
 "USO: Ajuste la configuración de posición y tamaño de la pantalla para que la capa de interfaz de usuario sombreada *solo* cubra el patrón de prueba en el fondo.\n"
 "\n"
 "Seleccione Sí para continuar o No para salir."
+
+msgid ""
+"Welcome to OpenViX!\n"
+"\n"
+"NOTE: This section of the wizard is intended for people who cannot disable overscan on their television / display.  Please first try to disable overscan before using this feature.\n"
+"\n"
+"USAGE: If you continue adjust the screen size and position settings so that the shaded user interface layer *just* covers the test pattern in the background.\n"
+"\n"
+"Select Yes to change these settings or No to skip this step."
+msgstr ""
+"Bienvenido a OpenViX!\n"
+"\n"
+"NOTA: Esta sección del asistente está dirigida a personas que no pueden desactivar la sobreexploración en su televisor / pantalla. Por favor, primero intente desactivar la exploración excesiva antes de usar esta función.\n"
+"\n"
+"USO: si continúa ajustando el tamaño de la pantalla y la configuración de posición para que la capa de interfaz de usuario *haz que se vea el marco en mi Skin*.\n"
+"\n"
+"Seleccione Sí para cambiar esta configuración o No para omitir este paso."
+
+msgid ""
+"Video input selection\n"
+"\n"
+"Please press OK if you can see this page on your TV (or select a different input port).\n"
+"\n"
+"The next input port will be automatically probed in 10 seconds."
+msgstr ""
+"Selección de entrada de video\n"
+"\n"
+"Presione OK si puede ver esta página en su televisor (o seleccione un puerto de entrada diferente).\n"
+"\n"
+"El siguiente puerto de entrada se probará automáticamente en 10 segundos."
+
+#, python-format
+msgid "Your %s %s has no %s access, please check your network settings and make sure you have network cable connected and try again."
+msgstr "Su %s %s no tiene %s de acceso, verifique la configuración de su red, asegúrese de que tiene el cable de red conectado y vuelva a intentarlo."
+
+#, python-format
+msgid "Your %s %s has no internet access, please check your network settings and make sure you have network cable connected and try again."
+msgstr "Su %s %s no tiene acceso a Internet, verifique la configuración de su red, asegúrese de que tiene el cable de red conectado y vuelva a intentarlo."
+
+#, python-format
+msgid "Your %s %s is not able to connect to the feeds, please try again later. If this persists please report on the OpenViX forum at world-of-satellite.com."
+msgstr "Su  %s %s no se puede conectar a las fuentes, inténtalo de nuevo más tarde. Si esto persiste, informe sobre el foro OpenViX en world-of-satellite.com."
+
+msgid "Do you want to install plugins"
+msgstr "Quieres instalar complementos"
+
+msgid "Plugin install"
+msgstr "Instalar Plugin"
+
+msgid "Do you want to change the default skin"
+msgstr "Quieres cambiar el skin por defecto"
+
+msgid "Skin install"
+msgstr "Instalar Skin"
 
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"

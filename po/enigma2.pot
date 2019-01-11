@@ -10135,3 +10135,21 @@ msgstr ""
 
 msgid "Recording and playback"
 msgstr ""
+
+msgid "Feeds status: Stable"
+msgstr ""
+
+msgid "Feeds status: Unexpected"
+msgstr ""
+
+msgid "Feeds status: Unknown"
+msgstr ""
+
+msgid "Feeds status: Unstable"
+msgstr ""
+
+msgid "Feeds status: Updating"
+msgstr ""
+
+msgid "No updates found, Press OK to exit this screen."
+msgstr ""

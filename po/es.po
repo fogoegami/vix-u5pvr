@@ -5280,7 +5280,7 @@ msgid "Now"
 msgstr "Ahora"
 
 msgid "Now, use the contrast setting to turn up the brightness of the background as much as possible, but make sure that you can still see the difference between the two brightest levels of shades.If you have done that, press OK."
-msgstr "Ahora, use la configuración de contraste para aumentar el brillo del fondo tanto como sea posible, pero asegúrese de que aún pueda ver la diferencia entre los dos niveles de sombras más brillantes. Si lo ha hecho, presione OK."
+msgstr "Ahora, use la configuración de contraste para aumentar el brillo del fondo tanto como sea posible, pero asegúrese de que aún pueda ver la diferencia entre los dos niveles de sombras más brillantes. Si lo ha hecho, Pulse OK."
 
 msgid "Number"
 msgstr "Número"
@@ -5825,7 +5825,7 @@ msgid "Please set up tuner K"
 msgstr "Por favor, configure el sintonizador K"
 
 msgid "Please use the UP/DOWN keys to select your language. Then press the OK button to select it."
-msgstr "Utilice las teclas ARRIBA / ABAJO para seleccionar su idioma. Luego presione el botón OK para seleccionarlo."
+msgstr "Utilice las teclas ARRIBA / ABAJO para seleccionar su idioma. Luego Pulse el botón OK para seleccionarlo."
 
 msgid ""
 "Please use the direction keys to move the PiP window.\n"
@@ -5833,8 +5833,8 @@ msgid ""
 "Press OK to go back to the TV mode or EXIT to cancel the moving."
 msgstr ""
 "Utilice las teclas de dirección para mover la ventana PiP.\n"
-"Presione Bouquet +/- para cambiar el tamaño de la ventana.\n"
-"Presione OK para volver al modo TV o SALIR para cancelar el movimiento."
+"Pulse Bouquet +/- para cambiar el tamaño de la ventana.\n"
+"Pulse OK para volver al modo TV o SALIR para cancelar el movimiento."
 
 msgid "Please wait (downloading channel list)"
 msgstr "Espera por favor (descargando lista de canales)."
@@ -6023,7 +6023,7 @@ msgid "Preparing... Please wait"
 msgstr "Preparando... Espera por favor"
 
 msgid "Press '0' to toggle PiP mode"
-msgstr "Presione '0' para cambiar el modo Pip"
+msgstr "Pulse '0' para cambiar el modo Pip"
 
 msgid "Press INFO on your remote control for additional information."
 msgstr "Pulsa INFO en el mando para obtener información adicional."
@@ -6060,7 +6060,7 @@ msgid "Press OK to select/deselect a CAId."
 msgstr "Pulsa OK para seleccionar/deseleccionar un CAId."
 
 msgid "Press OK to set the MAC address."
-msgstr "Presione OK para configurar la dirección MAC."
+msgstr "Pulse OK para configurar la dirección MAC."
 
 msgid "Press OK to start the scan"
 msgstr "Pulsa OK para iniciar la búsqueda"
@@ -9770,7 +9770,7 @@ msgid ""
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Este asistente de inicio lo guiará a través de la configuración básica de su %s %s.\n"
-"Presione el botón OK en su mando para avanzar al siguiente paso."
+"Pulse el botón OK en su mando para avanzar al siguiente paso."
 
 msgid "West"
 msgstr "Oeste"
@@ -10193,7 +10193,7 @@ msgid ""
 "Press MENU, enter your info, and then try again"
 msgstr ""
 "No ha configurado su información de usuario en la pantalla de configuración\n"
-"Presione MENÚ, ingrese su información y luego intente nuevamente"
+"Pulse MENÚ, ingrese su información y luego intente nuevamente"
 
 #, python-format
 msgid "You have to wait %s!"
@@ -10254,7 +10254,7 @@ msgid ""
 msgstr ""
 "Tu conexión a internet está funcionando ahora.\n"
 "\n"
-"Por favor presione OK para continuar."
+"Por favor Pulse OK para continuar."
 
 #, python-format
 msgid "Your %s %s is rebooting"
@@ -11814,7 +11814,7 @@ msgid ""
 msgstr ""
 "Selección de entrada de video\n"
 "\n"
-"Presione OK si puede ver esta página en su televisor (o seleccione un puerto de entrada diferente).\n"
+"Pulse OK si puede ver esta página en su televisor (o seleccione un puerto de entrada diferente).\n"
 "\n"
 "El siguiente puerto de entrada se probará automáticamente en 10 segundos."
 
@@ -11847,7 +11847,7 @@ msgid ""
 "When you are ready press OK to continue."
 msgstr ""
 "Configure su interfaz de usuario ajustando los valores hasta que los bordes de la caja de la interfaz de usuario cubran el patrón de prueba y toquen los bordes de su televisor.\n"
-"Cuando esté listo, presione OK para continuar."
+"Cuando esté listo, Pulse OK para continuar."
 
 msgid "Tuning info: live values"
 msgstr "Información Tuner: valores en vivo"
@@ -11874,7 +11874,25 @@ msgid "Recording and playback"
 msgstr "Grabaciones & reproductor"
 
 msgid "Tuner config"
-msgstr "Configuración Tuner"
+msgstr "Configuración Sintonizador"
+
+msgid "Feeds status: Stable"
+msgstr "Estado de fuentes: Estable"
+
+msgid "Feeds status: Unexpected"
+msgstr "Estado de fuentes: Inesperado"
+
+msgid "Feeds status: Unknown"
+msgstr "Estado de fuentes: Desconocido"
+
+msgid "Feeds status: Unstable"
+msgstr "Estado de fuentes: Inestable"
+
+msgid "Feeds status: Updating"
+msgstr "Estado de fuentes: Actualizando"
+
+msgid "No updates found, Press OK to exit this screen."
+msgstr "No se encontraron actualizaciones, pulse OK para salir de esta pantalla."
 
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"

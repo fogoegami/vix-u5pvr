@@ -2355,7 +2355,7 @@ msgid "Croatian"
 msgstr "Croata"
 
 msgid "Cron Manager"
-msgstr "Administrador de Cron"
+msgstr "Administrador del Cron"
 
 msgid "Cron manager"
 msgstr "Administrador de Cron"

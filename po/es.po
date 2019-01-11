@@ -2357,6 +2357,9 @@ msgstr "Croata"
 msgid "Cron Manager"
 msgstr "Administrador de Cron"
 
+msgid "Cron manager"
+msgstr "Administrador de Cron"
+
 msgid "CronTimers"
 msgstr "Temporizadores Cron"
 
@@ -11697,6 +11700,9 @@ msgstr "Notas Publicación"
 msgid "Service & PIDs" 
 msgstr "Servicio & PIDs"
 
+msgid "Tuner setup"
+msgstr "Configuración Tuner"
+
 msgid "Tuner settings values" 
 msgstr "Valores sintonizador"
 
@@ -11849,6 +11855,30 @@ msgid ""
 msgstr ""
 "Configure su interfaz de usuario ajustando los valores hasta que los bordes de la caja de la interfaz de usuario cubran el patrón de prueba y toquen los bordes de su televisor.\n"
 "Cuando esté listo, presione OK para continuar."
+
+msgid "Tuning info: live values"
+msgstr "Información Tuner: valores en vivo"
+
+msgid "Tuning info: settings values"
+msgstr "Información Tuner: valores configuración"
+
+msgid "Fallback tuner setup"
+msgstr "Configuración del sintonizador alternativo"
+
+msgid "OSD position"
+msgstr "Ajustar Skin en TV"
+
+msgid "Device"
+msgstr "Hardware de Red"
+
+msgid "Mounts"
+msgstr "Montajes"
+
+msgid "Password setup"
+msgstr "Configuración contraseña"
+
+msgid "Recording and playback"
+msgstr "Grabaciones & reproducciones"
 
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"

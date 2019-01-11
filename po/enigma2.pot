@@ -1558,6 +1558,9 @@ msgstr ""
 msgid "Cron Manager"
 msgstr ""
 
+msgid "Cron manager"
+msgstr ""
+
 msgid "Current CEC address"
 msgstr ""
 
@@ -10106,4 +10109,31 @@ msgstr ""
 msgid ""
 "Please setup your user interface by adjusting the values till the edges of the user interface box are covering the test pattern and touching the edges of your TV.\n"
 "When you are ready press OK to continue."
+msgstr ""
+
+msgid "Tuning info: live values"
+msgstr ""
+
+msgid "Tuning info: settings values"
+msgstr ""
+
+msgid "Tuner setup"
+msgstr ""
+
+msgid "Fallback tuner setup"
+msgstr ""
+
+msgid "OSD position"
+msgstr ""
+
+msgid "Device"
+msgstr ""
+
+msgid "Mounts"
+msgstr ""
+
+msgid "Password setup"
+msgstr ""
+
+msgid "Recording and playback"
 msgstr ""

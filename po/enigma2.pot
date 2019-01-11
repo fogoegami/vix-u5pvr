@@ -9690,11 +9690,6 @@ msgstr ""
 msgid "Configure interface"
 msgstr ""
 
-msgid ""
-"Please setup your user interface by adjusting the values till the edges of the blue box are touching the edges of your TV.\n"
-"When you are ready press OK to continue."
-msgstr ""
-
 msgid "Refresh rate selection."
 msgstr ""
 

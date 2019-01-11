@@ -11622,13 +11622,13 @@ msgid "Configuration..."
 msgstr "Configuración..."
 
 msgid "Fallback address type" 
-msgstr "Tipo de dirección alternativa"
+msgstr "Tipo de dirección del receptor reserva"
 
 msgid "Fallback receiver IP address" 
-msgstr "Dirección IP del receptor alternativo"
+msgstr "Dirección IP del receptor reserva"
 
 msgid "Fallback receiver streaming port" 
-msgstr "Puerto de streaming del receptor alternativo"
+msgstr "Puerto de streaming del receptor reserva"
 
 msgid "Enable usage of tuners from another Enigma2 receiver on the local network. Remote tuners will be used when tuners are not available on this receiver. (No free tuner or service type is not available.)" 
 msgstr "Habilite el uso de sintonizadores desde otro receptor Enigma2 en la red local. Los sintonizadores remotos se utilizarán cuando los sintonizadores no estén disponibles en este receptor. (No hay disponible sintonizador ni tipo de canal)."
@@ -11643,7 +11643,7 @@ msgid "Enter the IP address of the receiver to use for fallback tuners."
 msgstr "Introduzca la dirección IP del receptor que se utilizará para los sintonizadores de reserva."
 
 msgid "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in automatically when you select save." 
-msgstr "Ingrese la URL/IP del receptor remoto alternativo, por ej. '192.168.0.1'. Los demás detalles, como 'http://' y el número de puerto, se rellenarán automáticamente cuando seleccione guardar."
+msgstr "Ingrese la URL/IP del receptor de reserva, por ej. '192.168.0.1'. Los demás detalles, como 'http://' y el número de puerto, se rellenarán automáticamente cuando seleccione guardar."
 
 msgid "Default port is '%d'. Change if required." 
 msgstr "Puerto defecto es '%d'. Cambie si es necesario."

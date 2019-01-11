@@ -10153,3 +10153,6 @@ msgstr ""
 
 msgid "No updates found, Press OK to exit this screen."
 msgstr ""
+
+msgid "Generic"
+msgstr ""

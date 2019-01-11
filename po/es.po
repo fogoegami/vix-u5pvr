@@ -11894,6 +11894,9 @@ msgstr "Estado de fuentes: Actualizando"
 msgid "No updates found, Press OK to exit this screen."
 msgstr "No se encontraron actualizaciones, pulse OK para salir de esta pantalla."
 
+msgid "Generic"
+msgstr "Genérico"
+
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"
 

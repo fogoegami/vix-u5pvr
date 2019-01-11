@@ -10112,6 +10112,9 @@ msgstr ""
 msgid "Tuning info: settings values"
 msgstr ""
 
+msgid "Tuner config"
+msgstr ""
+
 msgid "Tuner setup"
 msgstr ""
 

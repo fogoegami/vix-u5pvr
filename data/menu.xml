@@ -168,7 +168,7 @@ self.session.open(SABnzbdSetupScreen)
 			<menu weight="11" level="1" text="Recording and playback settings" entryID="rec_setup">
 			 	<id val="rec" />
 					<item weight="10" level="0" text="Timeshift" entryID="timshift_setup"><screen module="Timeshift" screen="TimeshiftSettings" /></item>
-					<item weight="15" level="0" text="Recording and playback" entryID="recording_setup"><screen module="Recordings" screen="RecordingSettings" /></item>
+					<item weight="15" level="0" text="Recordings" entryID="recording_setup"><screen module="Recordings" screen="RecordingSettings" /></item>
 			</menu>
 			<!-- Menu / Setup / System (OLD SYSTEM ENTRY FOR COMPATIBILITY) -->
 			<menu weight="98" level="0" text="System" entryID="system_selection">

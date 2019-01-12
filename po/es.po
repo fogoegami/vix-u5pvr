@@ -1818,7 +1818,7 @@ msgid "Choose whether or not to show an icon when a motorised dish is moving."
 msgstr "Elija si desea mostrar o no un icono cuando un plato motorizado se está moviendo."
 
 msgid "Choose which level of menu/settings to display. 'Expert' level shows all items."
-msgstr "Elija qué nivel de menú/configuración visualizar. El nivel 'Experto' muestra todos los artículos."
+msgstr "Elija qué nivel de menú/configuración visualizar. El nivel 'Experto' muestra todos los menús."
 
 msgid "Choose which tuner to configure."
 msgstr "Elegir qué sintonizador configurar."

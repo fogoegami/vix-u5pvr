@@ -10153,3 +10153,12 @@ msgstr ""
 
 msgid "Enter"
 msgstr ""
+
+msgid ""
+"Press up/down to scroll through the selected log\n"
+"\n"
+"Press left/right to see different log types"
+msgstr ""
+
+msgid "Please wait"
+msgstr ""

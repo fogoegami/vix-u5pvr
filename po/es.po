@@ -5266,9 +5266,6 @@ msgstr "Nada que actualizar"
 msgid "Nothing, just leave this menu"
 msgstr "Nada, solo deja este menu"
 
-msgid "Now"
-msgstr "Ahora"
-
 msgctxt "now/next: 'now' event label"
 msgid "Now"
 msgstr "Ahora"
@@ -11869,21 +11866,6 @@ msgstr "Grabaciones & reproductor"
 
 msgid "Tuner config"
 msgstr "Configuración Sintonizador"
-
-msgid "Feeds status: Stable"
-msgstr "Estado de fuentes: Estable"
-
-msgid "Feeds status: Unexpected"
-msgstr "Estado de fuentes: Inesperado"
-
-msgid "Feeds status: Unknown"
-msgstr "Estado de fuentes: Desconocido"
-
-msgid "Feeds status: Unstable"
-msgstr "Estado de fuentes: Inestable"
-
-msgid "Feeds status: Updating"
-msgstr "Estado de fuentes: Actualizando"
 
 msgid "No updates found, Press OK to exit this screen."
 msgstr "No se encontraron actualizaciones, pulse OK para salir de esta pantalla."

@@ -3509,17 +3509,17 @@ msgstr "Avance rápido"
 msgid "Favourites"
 msgstr "Favoritos"
 
-msgid "Feeds status:   Stable"
-msgstr "Estado de feeds:   Estable"
+msgid "Feeds status: Stable"
+msgstr "Estado de feeds: Estable"
 
-msgid "Feeds status:   Unknown"
-msgstr "Estado de feeds:   Desconocido"
+msgid "Feeds status: Unknown"
+msgstr "Estado de feeds: Desconocido"
 
-msgid "Feeds status:   Unstable"
-msgstr "Estado de feeds:   Inestable"
+msgid "Feeds status: Unstable"
+msgstr "Estado de feeds: Inestable"
 
-msgid "Feeds status:   Updating"
-msgstr "Estado de feeds:   Actualizando"
+msgid "Feeds status: Updating"
+msgstr "Estado de feeds: Actualizando"
 
 msgid "File appears to be busy.\n"
 msgstr "El archivo parece estar ocupado.\n"

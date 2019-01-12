@@ -10156,3 +10156,15 @@ msgstr ""
 
 msgid "Generic"
 msgstr ""
+
+msgid "Select locale"
+msgstr ""
+
+msgid "Upper case"
+msgstr ""
+
+msgid "Available locales are:"
+msgstr ""
+
+msgid "Enter"
+msgstr ""

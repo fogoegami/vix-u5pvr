@@ -10156,3 +10156,12 @@ msgstr ""
 
 msgid "Generic"
 msgstr ""
+
+msgid "NEXT"
+msgstr ""
+
+msgid "NOW"
+msgstr ""
+
+msgid "MORE"
+msgstr ""

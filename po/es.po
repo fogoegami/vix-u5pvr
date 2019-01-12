@@ -2355,10 +2355,10 @@ msgid "Croatian"
 msgstr "Croata"
 
 msgid "Cron Manager"
-msgstr "Administrador del Cron"
+msgstr "Administrador Cron"
 
 msgid "Cron manager"
-msgstr "Administrador de Cron"
+msgstr "Administrador Cron"
 
 msgid "CronTimers"
 msgstr "Temporizadores Cron"

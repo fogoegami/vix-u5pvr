@@ -5828,10 +5828,10 @@ msgstr ""
 "Pulse OK para volver al modo TV o SALIR para cancelar el movimiento."
 
 msgid "Please wait (downloading channel list)"
-msgstr "Espera por favor (descargando lista de canales)."
+msgstr "Espera por favor (descargando lista de canales)"
 
 msgid "Please wait (updating packages)"
-msgstr "Espera por favor (actualizando paquetes)."
+msgstr "Espera por favor (actualizando paquetes)"
 
 msgid "Please wait while gathering EPG data..."
 msgstr "Por favor espere mientras recopilamos datos de EPG..."
@@ -5855,7 +5855,7 @@ msgid "Please wait while your network configuration is activated..."
 msgstr "Por favor, espere mientras su configuración de red está activada..."
 
 msgid "Please wait..."
-msgstr "Por favor, espera..."
+msgstr "Espere por favor..."
 
 msgid "Please wait... Loading list..."
 msgstr "Espera... Cargando lista..."

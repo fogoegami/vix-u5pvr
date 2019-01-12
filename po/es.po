@@ -5021,9 +5021,6 @@ msgstr "Nueva versión:"
 msgid "News Current Affairs"
 msgstr "Noticias y actualidad"
 
-msgid "Next"
-msgstr "Siguiente"
-
 msgctxt "now/next: 'next' event label"
 msgid "Next"
 msgstr "Siguiente"

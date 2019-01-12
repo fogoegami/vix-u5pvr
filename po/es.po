@@ -5021,7 +5021,6 @@ msgstr "Nueva versión:"
 msgid "News Current Affairs"
 msgstr "Noticias y actualidad"
 
-msgctxt "button label, 'next screen'"
 msgid "Next"
 msgstr "Siguiente"
 
@@ -5278,9 +5277,6 @@ msgstr "Nada que actualizar"
 
 msgid "Nothing, just leave this menu"
 msgstr "Nada, solo deja este menu"
-
-msgid "Now"
-msgstr "Ahora"
 
 msgctxt "now/next: 'now' event label"
 msgid "Now"
@@ -11903,15 +11899,6 @@ msgstr "No se encontraron actualizaciones, pulse OK para salir de esta pantalla.
 
 msgid "Generic"
 msgstr "Genérico"
-
-msgid "NEXT"
-msgstr "SIGUIENTE"
-
-msgid "NOW"
-msgstr "AHORA"
-
-msgid "MORE"
-msgstr "MÁS"
 
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"

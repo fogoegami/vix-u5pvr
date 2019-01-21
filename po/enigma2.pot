@@ -1567,6 +1567,9 @@ msgstr ""
 msgid "Current Event:"
 msgstr ""
 
+msgid "Current status:"
+msgstr ""
+
 msgid "Current Status:"
 msgstr ""
 
@@ -2437,7 +2440,7 @@ msgstr ""
 msgid "Full transparency"
 msgstr ""
 
-msgid "Fullview resolution"
+msgid "Full view resolution"
 msgstr ""
 
 msgid "GB"
@@ -3416,6 +3419,9 @@ msgstr ""
 msgid "News Current Affairs"
 msgstr ""
 
+msgid "Next"
+msgstr ""
+
 msgctxt "now/next: 'next' event label"
 msgid "Next"
 msgstr ""
@@ -3623,6 +3629,9 @@ msgid "Nothing to upgrade"
 msgstr ""
 
 msgid "Nothing, just leave this menu"
+msgstr ""
+
+msgid "Now"
 msgstr ""
 
 msgctxt "now/next: 'now' event label"
@@ -8177,6 +8186,9 @@ msgstr ""
 msgid "Load/Save"
 msgstr ""
 
+msgid "Load-save-delete"
+msgstr ""
+
 msgid "Logs"
 msgstr ""
 
@@ -10161,4 +10173,476 @@ msgid ""
 msgstr ""
 
 msgid "Please wait"
+msgstr ""
+
+msgid "Use the LEFT/RIGHT buttons on your remote to adjust the height of the user interface. LEFT button decreases the size, RIGHT increases the size."
+msgstr ""
+
+msgid "Use the LEFT/RIGHT buttons on your remote to adjust the width of the user interface. LEFT button decreases the size, RIGHT increases the size."
+msgstr ""
+
+msgid "Use the LEFT/RIGHT buttons on your remote to move the user interface left/right."
+msgstr ""
+
+msgid "Use the LEFT/RIGHT buttons on your remote to move the user interface up/down."
+msgstr ""
+
+msgid ""
+"Use the deletion time to sort Trash directories.\n"
+"Most recently deleted at the top."
+msgstr ""
+
+msgid "When set, each directory will show the previous state used. When off, the default values will be shown."
+msgstr ""
+
+msgid "Show picons in the movie list."
+msgstr ""
+
+msgid "Picon Width"
+msgstr ""
+
+msgid "Sets the root directory of movie list, to remove the '..' from being shown in that folder."
+msgstr ""
+
+msgid "Use adaptive date display"
+msgstr ""
+
+msgid "Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.  It hides the day of the week for recordings made in previous years."
+msgstr ""
+
+msgid "Blue long"
+msgstr ""
+
+msgid "Virtual KeyBoard Functions"
+msgstr ""
+
+msgid "Virtual KeyBoard Text:"
+msgstr ""
+
+msgid "Virtual keyboard"
+msgstr ""
+
+msgid "< Default >"
+msgstr ""
+
+msgid "< Default with Picon >"
+msgstr ""
+
+msgid "Set the sort method for this directory"
+msgstr ""
+
+msgid "Movielist menu"
+msgstr ""
+
+msgid "longest"
+msgstr ""
+
+msgid "shortest"
+msgstr ""
+
+msgid "No clients streaming"
+msgstr ""
+
+msgid "Position of recording icons"
+msgstr ""
+
+msgid "Set the position of the recording icons"
+msgstr ""
+
+msgid "Use separate Picon pack for Front Display *"
+msgstr ""
+
+msgid "Set pin code persistent"
+msgstr ""
+
+msgid "Enter persistent PIN code"
+msgstr ""
+
+msgid "Reset persistent PIN code"
+msgstr ""
+
+msgid "Show CI messages"
+msgstr ""
+
+msgid "bottom"
+msgstr ""
+
+msgid "middle"
+msgstr ""
+
+msgid "hide"
+msgstr ""
+
+msgid "HDMI Colorimetry"
+msgstr ""
+
+msgid "Change the Colorimetry for HDR"
+msgstr ""
+
+msgid "Choose whether multi channel dts sound tracks should be downmixed to stereo."
+msgstr ""
+
+msgid "Enable client mode"
+msgstr ""
+
+msgid "Client mode sets up this receiver to stream from another receiver. In this mode no local tuners will be available and channel lists, EPG, etc, will come from the remote receiver. All tuner settings will be cleared."
+msgstr ""
+
+msgid "Host receiver FTP password"
+msgstr ""
+
+msgid "Enter the FTP password of the host receiver (normally just leave empty)."
+msgstr ""
+
+msgid "Host receiver FTP port"
+msgstr ""
+
+msgid "Enter the FTP port of the host receiver (normally '21')."
+msgstr ""
+
+msgid "Host receiver FTP username"
+msgstr ""
+
+msgid "Enter the FTP username of the host receiver (normally 'root')."
+msgstr ""
+
+msgid "Host receiver IP address"
+msgstr ""
+
+msgid "Enter the IP address of the host receiver."
+msgstr ""
+
+msgid "Host receiver address type"
+msgstr ""
+
+msgid "Select between entering an IP address or a domain."
+msgstr ""
+
+msgid "Host receiver streaming port"
+msgstr ""
+
+msgid "Enter the streaming port of the host receiver (normally '8001')."
+msgstr ""
+
+msgid "FTP passive mode"
+msgstr ""
+
+msgid "Should the FTP connection to the remote receiver be established in passive mode (normally 'no')?"
+msgstr ""
+
+msgid "Schedule EPG and channel list import"
+msgstr ""
+
+msgid "Allows you to set a schedule to import the EPG and channels list. The EPG and channels list will always be imported on reboot or GUI restart."
+msgstr ""
+
+msgid "Configure this tuner using simple or advanced options, or loop it through to another tuner, or copy a configuration from another tuner, or disable it."
+msgstr ""
+
+msgid "Select the protocol used by your SCR device. Choices are 'SCR Unicable' (Unicable), or 'SCR JESS' (JESS, also known as Unicable II)."
+msgstr ""
+
+msgid "Select the satellite which is connected to Port-A of your switch. If you are unsure select 'automatic' and the receiver will attempt to determine this for you. If nothing is connected to this port, select 'nothing connected'."
+msgstr ""
+
+msgid "Select the satellite which is connected to Port-B of your switch. If you are unsure select 'automatic' and the receiver will attempt to determine this for you. If nothing is connected to this port, select 'nothing connected'."
+msgstr ""
+
+msgid "Select the satellite which is connected to Port-C of your switch. If you are unsure select 'automatic' and the receiver will attempt to determine this for you. If nothing is connected to this port, select 'nothing connected'."
+msgstr ""
+
+msgid "Select the satellite which is connected to Port-D of your switch. If you are unsure select 'automatic' and the receiver will attempt to determine this for you. If nothing is connected to this port, select 'nothing connected'."
+msgstr ""
+
+msgid "Select the satellite you want to configure. Once that satellite is configured you can select and configure other satellites that will be accessed using this same tuner."
+msgstr ""
+
+msgid "Select the satellite your dish receives from. If you are unsure select 'automatic' and the receiver will attempt to determine this for you."
+msgstr ""
+
+msgid "Select the tuner that controls the motorised dish."
+msgstr ""
+
+msgid "Select the tuner that this loopthrough depends on."
+msgstr ""
+
+msgid "Select the tuner to which the signal cable of the SCR device is connected."
+msgstr ""
+
+msgid "Select the type of LNB/device being used (normally 'Universal'). If your LNB type is not available select 'user defined'."
+msgstr ""
+
+msgid "Select the type of Single Cable Reception device you are using."
+msgstr ""
+
+msgid "Selecting this option allows you to configure a group of satellites in one block."
+msgstr ""
+
+msgid "Allocate a number to the physical LNB you are configuring. You will be able to select this LNB again for other satellites (e.g. motorised dishes) to save setting up the same LNB multiple times."
+msgstr ""
+
+msgid "This setting is for special setups only. It gives this LNB higher priority over other LNBs with lower values. The free LNB with the highest priority will be the first LNB selected for tuning services."
+msgstr ""
+
+msgid "Select the manufacturer of your SCR device. If the manufacturer is not listed, set 'SCR' to 'user defined' and enter the device parameters manually according to its spec sheet."
+msgstr ""
+
+msgid "Select the model number of your SCR device. If the model number is not listed, set 'SCR' to 'user defined' and enter the device parameters manually according to its spec sheet."
+msgstr ""
+
+msgid "Only change this setting if you are using a SCR device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
+msgstr ""
+
+msgid "Select the User Band channel to be assigned to this tuner. This is an index into the table of frequencies the SCR switch or SCR LNB uses to pass the requested transponder to the tuner."
+msgstr ""
+
+msgid "Select the User Band to be assigned to this tuner. This is an index into the table of frequencies the SCR switch or SCR LNB uses to pass the requested transponder to the tuner."
+msgstr ""
+
+msgid "Select 'yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'no'."
+msgstr ""
+
+msgid "Select '1.0' for standard committed switches, '1.1' for uncommitted switches, and '1.2' for systems using a positioner."
+msgstr ""
+
+msgid "USALS automatically moves a motorised dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
+msgstr ""
+
+msgid "Enter the number stored in the positioner that corresponds to this satellite."
+msgstr ""
+
+msgid "Consult your motor's spec sheet for this information, or leave the default setting."
+msgstr ""
+
+msgid "Select how the satellite dish is set up. i.e. fixed dish, single LNB, DiSEqC switch, positioner, etc."
+msgstr ""
+
+msgid "Only select 'yes' if you are using a multiswich that requires a DiSEqC Port-A command signal. For all other setups select 'no'."
+msgstr ""
+
+msgid "Leave this set to 'yes' unless you fully understand why you are adjusting it."
+msgstr ""
+
+msgid "Select 'yes' to only send the DiSEqC command when changing from one satellite to another, or select 'no' for the DiSEqC command to be resent on every zap."
+msgstr ""
+
+msgid "Press OK to select a group of satellites to configure in one block."
+msgstr ""
+
+msgid "This setting allows the tuner configuration to be a duplication of how another tuner is already configured."
+msgstr ""
+
+msgid "Loop through from"
+msgstr ""
+
+msgid "Select 'polarisation' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
+msgstr ""
+
+msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
+msgstr ""
+
+msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
+msgstr ""
+
+msgid "Select 'enabled' if this tuner has a signal cable connected, otherwise select 'nothing connected'."
+msgstr ""
+
+msgid "Select 'provider' to scan from the predefined list of cable multiplexes. Select 'bands' to only scan certain parts of the spectrum. Select 'steps' to scan in steps of a particular frequency bandwidth."
+msgstr ""
+
+msgid "If using multiple uncommitted switches the DiSEqC commands must be sent multiple times. Set to the number of uncommitted switches in the chain minus one."
+msgstr ""
+
+msgid "Force legacy signal stats"
+msgstr ""
+
+msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
+msgstr ""
+
+msgid "Select Fast DiSEqC if your aerial system supports this. If you are unsure select 'no'."
+msgstr ""
+
+msgid "Select 'A' or 'B' if your aerial system requires this, otherwise select 'none'. If you are unsure select 'none'."
+msgstr ""
+
+msgid "If you are using a DiSEqC committed switch enter the port letter required to access the LNB used for this satellite."
+msgstr ""
+
+msgid "If you are using a DiSEqC uncommitted switch enter the port number required to access the LNB used for this satellite."
+msgstr ""
+
+msgid "Set sequence repeats if your aerial system requires this. Normally if the aerial system has been configured correctly sequence repeats will not be necessary. If yours does, recheck you have command order set correctly."
+msgstr ""
+
+msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
+msgstr ""
+
+msgid "Enter if you are in the east or west hemisphere."
+msgstr ""
+
+msgid "Enter your current longitude. This is the number of degrees you are from zero meridian as a decimal."
+msgstr ""
+
+msgid "Enter if you are north or south of the equator."
+msgstr ""
+
+msgid "Additional motor options allow you to enter details from your motor's spec sheet so enigma can work out how long it will take to move the dish from one satellite to another satellite."
+msgstr ""
+
+msgid "Additional motor options allow you to enter details from your motor's spec sheet so enigma can work out how long it will take to move to another satellite."
+msgstr ""
+
+msgid "If set to 'yes' signal values (SNR, etc) will be calculated from API V3. This is an old API version that has now been superseded."
+msgstr ""
+
+msgid "Select your ATSC provider."
+msgstr ""
+
+msgid "Select your country. If not available select 'all'."
+msgstr ""
+
+msgid "Select your region. If not available change 'Country' to 'all' and select one of the default alternatives."
+msgstr ""
+
+msgid "Enable this setting if your aerial system needs power"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "This setting depends on your cable provider and location. If you don't know the correct setting refer to the menu in the official cable receiver, or get it from your cable provider, or seek help via internet forum."
+msgstr ""
+
+msgid "Select your provider and region. If not present in this list you will need to select one of the other 'service scan types'."
+msgstr ""
+
+msgid "Enter your high band local oscillator frequency. For more information consult the spec sheet of your LNB."
+msgstr ""
+
+msgid "Enter your low band local oscillator frequency. For more information consult the spec sheet of your LNB."
+msgstr ""
+
+msgid "Enter the frequency at which you LNB switches between low band and high band. For more information consult the spec sheet of your LNB."
+msgstr ""
+
+msgid "Type of LNB/device"
+msgstr ""
+
+msgid "FBC SCR (Unicable or JESS)"
+msgstr ""
+
+msgid "SCR (Unicable/JESS)"
+msgstr ""
+
+msgid "Model"
+msgstr ""
+
+msgid "Position"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
+
+msgid "Speed:"
+msgstr ""
+
+msgid "Videocodec, size & format"
+msgstr ""
+
+msgid "Service ID"
+msgstr ""
+
+msgid "Service list"
+msgstr ""
+
+msgid "Channels"
+msgstr ""
+
+msgid "Key"
+msgstr ""
+
+msgid "FTA TV"
+msgstr ""
+
+msgid "Encrypted TV"
+msgstr ""
+
+msgid "Add an autotimer for current event"
+msgstr ""
+
+msgid "Toggle new text inserts before or overwrites existing text"
+msgstr ""
+
+msgid "Seekbar"
+msgstr ""
+
+msgid "Autotimer overview"
+msgstr ""
+
+msgid "Audio channel"
+msgstr ""
+
+#, python-format
+msgid "Last update:\t%s\n"
+msgstr ""
+
+#, python-format
+msgid "Image:\t%s.%s%s (%s)\n"
+msgstr ""
+
+#, python-format
+msgid "E2 (re)starts:\t%s\n"
+msgstr ""
+
+#, python-format
+msgid "Processor temp:\t%s"
+msgstr ""
+
+#, python-format
+msgid "Skin:\t%s"
+msgstr ""
+
+msgid "type"
+msgstr ""
+
+msgid "Automatic language"
+msgstr ""
+
+msgid "Miscellaneous"
+msgstr ""
+
+msgid "Front panel display"
+msgstr ""
+
+msgid "Utilities"
+msgstr ""
+
+msgid "LED display panel"
+msgstr ""
+
+msgid "Stop play TV"
+msgstr ""
+
+#, python-format
+msgid "Do you really want to stop the current recording and delete timer %s?"
+msgstr ""
+
+msgid ""
+"GUI needs a restart to switch modes\n"
+"Do you want to restart the GUI now?"
+msgstr ""
+
+msgid "Connection using the supplied FTP parameters failed. Please recheck the details and try again."
+msgstr ""
+
+msgid "Connected transcoding, limit - no PiP!"
+msgstr ""
+
+msgid "Constellation & FFT mode"
+msgstr ""
+
+msgid "Consult your SCR device spec sheet for this information."
+msgstr ""
+
+msgid "FTP connection failure"
 msgstr ""

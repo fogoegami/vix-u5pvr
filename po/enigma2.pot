@@ -2748,6 +2748,12 @@ msgstr ""
 msgid "Initialize"
 msgstr ""
 
+msgid "Initialize devices"
+msgstr ""
+
+msgid "Initialize Devices"
+msgstr ""
+
 msgid "Initializing storage device..."
 msgstr ""
 
@@ -3631,9 +3637,6 @@ msgstr ""
 msgid "Nothing, just leave this menu"
 msgstr ""
 
-msgid "Now"
-msgstr ""
-
 msgctxt "now/next: 'now' event label"
 msgid "Now"
 msgstr ""
@@ -3677,9 +3680,6 @@ msgstr ""
 msgid "On end of movie"
 msgstr ""
 
-msgid "On reaching the end of a file during playback, you can choose the box's behavior."
-msgstr ""
-
 msgid "Once per day"
 msgstr ""
 
@@ -3701,16 +3701,28 @@ msgstr ""
 msgid "Only free scan"
 msgstr ""
 
-msgid "Open satellites list"
+msgid "Open the favourites list"
+msgstr ""
+
+msgid "Open the satellites list"
 msgstr ""
 
 msgid "Open service list"
 msgstr ""
 
-msgid "Open service list and select next channel"
+msgid "Open the service list"
 msgstr ""
 
-msgid "Open service list and select previous channel"
+msgid "Open service list and select the previous channel"
+msgstr ""
+
+msgid "Open service list and select the next channel"
+msgstr ""
+
+msgid "Open service list and select the previous channel for PiP"
+msgstr ""
+
+msgid "Open service list and select the next channel for PiP"
 msgstr ""
 
 msgid "Open the movie list"
@@ -5366,6 +5378,9 @@ msgstr ""
 msgid "Standard"
 msgstr ""
 
+msgid "standard"
+msgstr ""
+
 msgid "Standby"
 msgstr ""
 
@@ -6854,7 +6869,7 @@ msgstr ""
 msgid "You seem to be in timeshift!"
 msgstr ""
 
-msgid "You seem to be in timeshift, Do you want to leave timeshift ?"
+msgid "You seem to be in timeshift, Do you want to leave timeshift? Streams & IPTV not fully supported!"
 msgstr ""
 
 msgid "You system does not support ext4"
@@ -7290,7 +7305,7 @@ msgstr ""
 msgid "entertainment (6-14 year old)"
 msgstr ""
 
-msgid "equal to"
+msgid "Equal to"
 msgstr ""
 
 msgid "equestrian"
@@ -7473,9 +7488,6 @@ msgid "live broadcast"
 msgstr ""
 
 msgid "locked"
-msgstr ""
-
-msgid "loopthrough to"
 msgstr ""
 
 msgid "magazines/reports/documentary"
@@ -7775,7 +7787,7 @@ msgstr ""
 msgid "science fiction/fantasy/horror"
 msgstr ""
 
-msgid "second cable of motorized LNB"
+msgid "Second cable of motorized LNB"
 msgstr ""
 
 msgid "seconds"
@@ -7922,7 +7934,7 @@ msgstr ""
 msgid "sports magazine"
 msgstr ""
 
-msgid "standard"
+msgid "Date first"
 msgstr ""
 
 msgid "start cut here"
@@ -8666,9 +8678,6 @@ msgstr ""
 msgid "Configure the tuner mode."
 msgstr ""
 
-msgid "Configure the type of status indication icons shown in the movie list."
-msgstr ""
-
 msgid "Configure the vertical position of the subtitles, measured from the bottom of the screen."
 msgstr ""
 
@@ -9242,7 +9251,7 @@ msgstr ""
 msgid "Show message when recording starts"
 msgstr ""
 
-msgid "Show movie lengths in movielist"
+msgid "Show movie lengths in movie list"
 msgstr ""
 
 msgid "Show picon background color"
@@ -10456,7 +10465,7 @@ msgstr ""
 msgid "Force legacy signal stats"
 msgstr ""
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
+msgid "This is a multitype tuner. Available options depend on the hardware."
 msgstr ""
 
 msgid "Select Fast DiSEqC if your aerial system supports this. If you are unsure select 'no'."
@@ -10645,4 +10654,239 @@ msgid "Consult your SCR device spec sheet for this information."
 msgstr ""
 
 msgid "FTP connection failure"
+msgstr ""
+
+msgid "Multiboot ERROR! - no STARTUP in /boot -Please check /etc/fstab for correct boot partition"
+msgstr ""
+
+msgid "Graphical InfobarEPG"
+msgstr ""
+
+msgid "GraphicalEPG"
+msgstr ""
+
+msgid "SingleEPG"
+msgstr ""
+
+msgid "MultiEPG"
+msgstr ""
+
+msgid "Show graphical multi EPG"
+msgstr ""
+
+msgid "Power menu"
+msgstr ""
+
+msgid "CI (Common Interface) Setup"
+msgstr ""
+
+msgid "Show stream clients"
+msgstr ""
+
+msgid "Left long"
+msgstr ""
+
+msgid "Right long"
+msgstr ""
+
+msgid "Multiboot"
+msgstr ""
+
+msgid "Multiboot Image Restart"
+msgstr ""
+
+msgid "SDcard is not initialised for multiboot - Exit and use ViX MultiBoot Manager to initialise"
+msgstr ""
+
+msgid ""
+"Mode 1 suppports Kodi, PiP may not work.\n"
+"Mode 12 supports PiP, Kodi may not work."
+msgstr ""
+
+msgid "Use the cursor keys to select an installed image and then Reboot button."
+msgstr ""
+
+msgid "Retrieving image slots - Please wait..."
+msgstr ""
+
+msgid "Multiboot ERROR! - no STARTUP in boot partition."
+msgstr ""
+
+msgid "Switch to the next channel in history"
+msgstr ""
+
+msgid "Switch to the previous channel in history"
+msgstr ""
+
+msgid "Switch to the next channel"
+msgstr ""
+
+msgid "Switch to the previous channel"
+msgstr ""
+
+msgid "There are no saved playlists to delete!"
+msgstr ""
+
+msgid "There are no saved playlists to load!"
+msgstr ""
+
+msgid "AC3 transcoding"
+msgstr ""
+
+msgid "AC3 downmix"
+msgstr ""
+
+msgid "Allow 10bit"
+msgstr ""
+
+msgid "Allow 12bit"
+msgstr ""
+
+msgid "Change the Colordepth for UHD"
+msgstr ""
+
+msgid "Choose whether multi channel aac+ sound tracks should be downmixed to stereo."
+msgstr ""
+
+msgid "Choose whether multi channel DTSHD sound tracks should be downmixed or transcoded.."
+msgstr ""
+
+msgid "Choose whether WMA Pro sound tracks should be downmixed."
+msgstr ""
+
+msgid "DTS downmix"
+msgstr ""
+
+msgid "DTS-HD HR/DTS-HD MA/DTS"
+msgstr ""
+
+msgid "Enable or disable to force HDR Modes for UHD"
+msgstr ""
+
+msgid "Enable or disable to force HLG Modes for UHD"
+msgstr ""
+
+msgid "Enable or disable to force HDR10 Modes for UHD"
+msgstr ""
+
+msgid "Enable or disable the 12 Bit Color Mode"
+msgstr ""
+
+msgid "Enable or disable the 10 Bit Color Mode"
+msgstr ""
+
+msgid "HDMI HDR Type"
+msgstr ""
+
+msgid "HDMI Colordepth"
+msgstr ""
+
+msgid "HDR, 12bit 4:2:0/4:2:2, no PIP"
+msgstr ""
+
+msgid "HDR10 Support"
+msgstr ""
+
+msgid "HLG Support"
+msgstr ""
+
+msgid "Video Chip Mode*"
+msgstr ""
+
+msgid "WMA Pro downmix"
+msgstr ""
+
+msgid "Use as PiP if possible"
+msgstr ""
+
+msgid "When enabled enigma2 will load unlinked userbouquets. This means that userbouquets that are available, but not included in the bouquets.tv or bouquets.radio files, will still be loaded. This allows you for example to keep your own user bouquet while installed settings are upgraded"
+msgstr ""
+
+msgid "Permanent sort key changes"
+msgstr ""
+
+msgid "Set the global sort method"
+msgstr ""
+
+msgid "When set, sort changes via the sort key will be permanent."
+msgstr ""
+
+msgid "When unset, sort changes will be temporary - just for this view of a directory."
+msgstr ""
+
+msgid "H9 switch Nand and SDcard"
+msgstr ""
+
+msgid "SwaptoNand"
+msgstr ""
+
+msgid "SwaptoSD"
+msgstr ""
+
+msgid "H9 SDcard switch ERROR! - already on Nand"
+msgstr ""
+
+msgid "H9 SDcard switch ERROR! - already on mmc"
+msgstr ""
+
+msgid "H9 SDcard switch ERROR! - H9 root files not transferred to SD card"
+msgstr ""
+
+msgid "H9 USB switch ERROR! - H9 root files not transferred to USB"
+msgstr ""
+
+msgid "Empty slot"
+msgstr ""
+
+#, python-format
+msgid "slot%s - %s mode 1"
+msgstr ""
+
+#, python-format
+msgid "slot%s - %s mode 1 (current image)"
+msgstr ""
+
+#, python-format
+msgid "slot%s - %s mode 12"
+msgstr ""
+
+#, python-format
+msgid "slot%s - %s mode 12 (current image)"
+msgstr ""
+
+#, python-format
+msgid "slot%s -%s - %s (current image)"
+msgstr ""
+
+msgid "Show record indicator"
+msgstr ""
+
+msgid "Configure if and how the record indicator will be shown in the channel selection list."
+msgstr ""
+
+msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
+msgstr ""
+
+msgid "A client is streaming from this box!"
+msgstr ""
+
+msgid "No data received yet"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for ATSC"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr ""
+
+msgid "Hotswitchable tuner"
+msgstr ""
+
+msgid "Switchable tuner types"
 msgstr ""

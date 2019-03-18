@@ -1236,7 +1236,7 @@ def InitNimManager(nimmgr, update_slots = []):
 				def positionsChanged(configEntry):
 					section.positionNumber = ConfigSelection(["%d" % (x+1) for x in range(configEntry.value)], default="%d" % min(lnb, configEntry.value))
 				def scrListChanged(productparameters, srcfrequencylist, configEntry):
-					section.format = ConfigSelection(["unicable", "jess"], default=getformat(productparameters.get("format", "unicable"), configEntry.index))
+					section.format = ConfigSelection([("unicable", _("SCR Unicable")), ("jess", _("SCR JESS"))], default=getformat(productparameters.get("format", "unicable"), configEntry.index))
 					section.scrfrequency = ConfigInteger(default=int(srcfrequencylist[configEntry.index]))
 					section.positions = ConfigInteger(default=int(productparameters.get("positions", 1)))
 					section.positions.addNotifier(positionsChanged)
@@ -1363,7 +1363,7 @@ def InitNimManager(nimmgr, update_slots = []):
 			tmp = ConfigSelection(lnb_choices, lnb_choices_default)
 			tmp.slot_id = x
 			tmp.lnb_id = lnb
-			tmp.addNotifier(configLOFChanged)
+			tmp.addNotifier(configLOFChanged, initial_call=False)
 			section.lof = tmp
 
 	def scpcSearchRangeChanged(configElement):
@@ -1442,7 +1442,7 @@ def InitNimManager(nimmgr, update_slots = []):
 			tmp.rotorposition = ConfigInteger(default=1, limits=(1, 255))
 			lnb = ConfigSelection(advanced_lnb_choices, "0")
 			lnb.slot_id = slot_id
-			lnb.addNotifier(configLNBChanged)
+			lnb.addNotifier(configLNBChanged, initial_call=False)
 			tmp.lnb = lnb
 			nim.advanced.sat[x[0]] = tmp
 		for x in range(3601, 3607):
@@ -1455,7 +1455,7 @@ def InitNimManager(nimmgr, update_slots = []):
 			lnbnum = 65 + x - 3601
 			lnb = ConfigSelection([("0", _("not configured")), (str(lnbnum), "LNB %d"%(lnbnum))], "0")
 			lnb.slot_id = slot_id
-			lnb.addNotifier(configLNBChanged)
+			lnb.addNotifier(configLNBChanged, initial_call=False)
 			tmp.lnb = lnb
 			nim.advanced.sat[x] = tmp
 
@@ -1503,7 +1503,6 @@ def InitNimManager(nimmgr, update_slots = []):
 
 	def tunerTypeChanged(nimmgr, configElement, initial=False):
 		fe_id = configElement.fe_id
-		print "[InitNimManager] tunerTypeChanged: setFrontendType %s" % nimmgr.nim_slots[fe_id].getType()																								   
 		eDVBResourceManager.getInstance().setFrontendType(nimmgr.nim_slots[fe_id].frontend_id, nimmgr.nim_slots[fe_id].getType())
 		try:
 			raw_channel = eDVBResourceManager.getInstance().allocateRawChannel(fe_id)
@@ -1568,7 +1567,6 @@ def InitNimManager(nimmgr, update_slots = []):
 				createConfig(nim, slot)
 			else:
 				print "[InitNimManager] disable hotswitchable tuner"
-				eDVBResourceManager.getInstance().setFrontendType(nimmgr.nim_slots[fe_id].frontend_id, "UNDEFINED")																									   
 				nim.configMode.value = nim.configMode.default = "nothing"
 
 	def createConfig(nim, slot):

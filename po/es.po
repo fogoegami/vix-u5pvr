@@ -2551,7 +2551,7 @@ msgid "Delay after set voltage before measure motor power"
 msgstr "Retraso después del voltaje ajustado antes de medir la potencia del motor"
 
 msgid "Delay after toneburst"
-msgstr "Retraso después toneburst"
+msgstr "Retraso después MiniDiseqC"
 
 msgid "Delay after voltage change before motor command"
 msgstr "Retraso después del cambio de voltaje antes del comando del motor"
@@ -3568,7 +3568,7 @@ msgid "Force LNB Power"
 msgstr "Forzar LNB Alimentación"
 
 msgid "Force ToneBurst"
-msgstr "Forzar ToneBurst"
+msgstr "Forzar MiniDiseqC"
 
 msgid "Force de-interlace"
 msgstr "Fuerza de-interlace"
@@ -5123,9 +5123,6 @@ msgstr "Sin modo en espera"
 
 msgid "No stream clients"
 msgstr "No clientes stream"
-
-msgid "No suitable sat tuner found!"
-msgstr "Ningún sintonizador apropiado encontrado!"
 
 msgid "No tags are set on these movies."
 msgstr "No hay etiquetas en estas películas."
@@ -8423,10 +8420,10 @@ msgstr ""
 
 msgid ""
 "The Filesystem on your Timeshift-Device does not support hardlinks.\n"
-"Make sure it is formatted in EXT2 or EXT3!"
+"Make sure it is formatted in EXT2, EXT3 or EXT4!"
 msgstr ""
 "El sistema de archivos de su dispositivo Timeshift no soporta enlaces físicos.\n"
-"Asegúrate de que esté formateado en EXT2 o EXT3!"
+"Asegúrese de que esté formateado en EXT2, EXT3 o EXT4!"
 
 msgid ""
 "The IMDb plugin is not installed!\n"
@@ -9034,16 +9031,16 @@ msgid "Toggle between bouquet/epg lists"
 msgstr "Alternar entre listas bouquet/epg"
 
 msgid "Tone amplitude"
-msgstr "Amplitud tonal"
+msgstr "Amplitud de tono"
 
 msgid "Tone mode"
 msgstr "Modo tono"
 
 msgid "Toneburst"
-msgstr "Toneburst"
+msgstr "MiniDiseqC"
 
 msgid "Toneburst A/B"
-msgstr "Tonoburst A/B"
+msgstr "MiniDiseqC A/B"
 
 msgid "Top and Bottom"
 msgstr "Arriba y abajo"
@@ -9796,7 +9793,7 @@ msgid "When enabled the LNB power will not be switched off in standby"
 msgstr "Cuando está habilitada, la alimentación de LNB no se apagará en el modo de espera"
 
 msgid "When enabled the LNB toneburst will be forced"
-msgstr "Cuando se habilite se forzará el sonido tonal LNB"
+msgstr "Cuando se habilite forzará MiniDiseqC LNB"
 
 msgid "When enabled the online checker will also check for experimental versions"
 msgstr "Cuando está activado, el verificador online comprabará también las versiones experimentales"
@@ -11872,6 +11869,9 @@ msgstr "Genérico"
 msgid "Select locale"
 msgstr "Seleccionar lugar"
 
+msgid "Lower case"
+msgstr "Minúsculas"
+
 msgid "Upper case"
 msgstr "Mayúsculas"
 
@@ -12557,11 +12557,48 @@ msgstr "Seleccione 'Sí' cuando desee configurar este sintonizador para DVB-S"
 msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
 msgstr "Seleccione 'Sí' cuando desee configurar este sintonizador para DVB-T"
 
-msgid "Hotswitchable tuner"
-msgstr "Sintonizador Conmutable"
+msgid "T2MI RAW Mode"
+msgstr "Modo T2MI RAW"
 
-msgid "Switchable tuner types"
-msgstr "Tipos de sintonizador conmutables"
+msgid "SCPC optimized search range"
+msgstr "SCPC Optimizar búsqueda de rango"
+
+msgid "Your receiver can use tone amplitude. Consult your receiver's manual for more information."
+msgstr "Su receptor puede utilizar la amplitud de tono. Consulte el manual de su receptor para más información."
+
+msgid "Your receiver can use SCPC optimized search range. Consult your receiver's manual for more information."
+msgstr "Su receptor puede utilizar el rango de búsqueda optimizado SCPC. Consulte el manual de su receptor para más información."
+
+msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
+msgstr "Con el modo T2MI RAW deshabilitado (predeterminado) podemos usar una sola desencapsulación T2MI PLP. Con el modo T2MI RAW habilitado podemos usar astra-sm para analizar T2MI"
+
+msgid "Alternative 1"
+msgstr "Alternativa 1"
+
+msgid "Alternative 2"
+msgstr "Alternativa 2"
+
+msgid "Combined"
+msgstr "Conjunto"
+
+msgid "Done"
+msgstr "Hecho"
+
+msgid "Mode"
+msgstr "Modo"
+
+msgid "Modes"
+msgstr "Modos"
+
+msgid "MultiType"
+msgstr "Multitipo"
+
+msgid "Save / Enter text and exit"
+msgstr "Guardar/Entrar texto y salir"
+
+#, python-format
+msgid "Zapped to timer service %s!"
+msgstr "Zapeado al canal de temporizador %s!"
 
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"

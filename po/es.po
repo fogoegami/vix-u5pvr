@@ -5375,13 +5375,13 @@ msgid "Open service list and select the next channel for PiP"
 msgstr "Abra la lista de canales y seleccione el siguiente canal para PiP"
 
 msgid "Open service list and select the previous channel"
-msgstr "Abre la lista de servicios y selecciona el canal anterior"
+msgstr "Abre la lista de canales y selecciona el canal anterior"
 
 msgid "Open service list and select the previous channel for PiP"
 msgstr "Abra la lista de canales y seleccione el canal anterior para PiP"
 
 msgid "Open service list"
-msgstr "Abrir lista de servicios"
+msgstr "Abrir lista de canales"
 
 msgid "Open setup tuner "
 msgstr "Abrir configuración sintonizador "
@@ -5396,7 +5396,7 @@ msgid "Open the satellites list"
 msgstr "Abrir la lista de satélites"
 
 msgid "Open the service list"
-msgstr "Abrir la lista de servicios"
+msgstr "Abrir la lista de canales"
 
 msgid "OpenVPN setup"
 msgstr "Abrir la configuración VPN"
@@ -7547,7 +7547,7 @@ msgid "Show select audio track"
 msgstr "Mostrar la pista de audio seleccionada"
 
 msgid "Show service list"
-msgstr "Mostrar lista de servicios"
+msgstr "Mostrar lista de canales"
 
 msgid "Show service list or movies"
 msgstr "Mostrar lista de servicios o películas"

@@ -5369,16 +5369,16 @@ msgid "Open nameserver configuration"
 msgstr "Configuración abierta del servidor de nombres"
 
 msgid "Open service list and select the next channel"
-msgstr "Abra la lista de servicios y seleccione el siguiente canal"
+msgstr "Abra la lista de canales y seleccione el siguiente canal"
 
 msgid "Open service list and select the next channel for PiP"
-msgstr "Abra la lista de servicios y seleccione el siguiente canal para PiP"
+msgstr "Abra la lista de canales y seleccione el siguiente canal para PiP"
 
 msgid "Open service list and select the previous channel"
 msgstr "Abre la lista de servicios y selecciona el canal anterior"
 
 msgid "Open service list and select the previous channel for PiP"
-msgstr "Abra la lista de servicios y seleccione el canal anterior para PiP"
+msgstr "Abra la lista de canales y seleccione el canal anterior para PiP"
 
 msgid "Open service list"
 msgstr "Abrir lista de servicios"
@@ -12602,6 +12602,15 @@ msgstr "Zapeado al canal de temporizador %s!"
 
 msgid "No images found"
 msgstr "No se encontraron imagénes"
+
+msgid "Really reboot into Recovery Mode?"
+msgstr "Realmente quieres Reiniciar en modo de recuperación?"
+
+msgid "Recovery Mode"
+msgstr "Modo Recuperación"
+
+msgid "Your %s %s is rebooting into Recovery Mode"
+msgstr "Su %s %s esta reiniciando en Modo Recuperación"
 
 #~ msgid "3d mode"
 #~ msgstr "Modo 3D"

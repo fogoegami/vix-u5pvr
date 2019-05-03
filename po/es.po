@@ -8950,7 +8950,7 @@ msgid "Timer type"
 msgstr "Tipo de temporizador"
 
 msgid "Timers"
-msgstr "Temporizadores"
+msgstr "Temporizadores de Grabación"
 
 msgid "Timeshift"
 msgstr "Timeshift"

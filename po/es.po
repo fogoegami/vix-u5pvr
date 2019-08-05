@@ -12665,3 +12665,9 @@ msgstr "Mostrar en modo de espera"
 
 msgid "This option allows you choose how to display the Time or nothing in Standby"
 msgstr "Esta opción le permite elegir cómo mostrar la hora o nada en modo de espera"
+
+msgid "Select the virtual keyboard shifted character set for the next character only"
+msgstr "Seleccione el juego de caracteres desplazados del teclado virtual para el siguiente carácter solamente"
+
+msgid "violet"
+msgstr "morado"

@@ -12674,3 +12674,30 @@ msgstr "Seleccione el juego de caracteres desplazados del teclado virtual para e
 
 msgid "violet"
 msgstr "morado"
+
+msgid "Always select OK"
+msgstr "Seleccione siempre OK"
+
+msgid "In live view wait this many seconds after a numeric key press before assuming the required channel number has been entered. Default: 5 seconds. Setting zero will require confirmation with 'OK'. "
+msgstr "En la vista en vivo, espere estos segundos después de presionar una tecla numérica antes de asumir que se ha ingresado el número de canal requerido. Predeterminado: 5 segundos. Establecer cero requerirá confirmación con 'OK'. "
+
+msgid "Message"
+msgstr "Mensaje"
+
+msgid "MessageBox Functions"
+msgstr "Funciones Mensajes Receptor"
+
+msgid "Really reboot into Android Mode?"
+msgstr "Realmente quieres reiniciar en Modo Android?"
+
+msgid "The commit log cannot be retrieved at the moment - please try again later.\n"
+msgstr "El registro de confirmación no se puede recuperar en este momento. Vuelva a intentarlo más tarde.\n"
+
+msgid "Your %s %s is rebooting into Android Mode"
+msgstr "Su %s %s se reinicia en modo Android"
+
+msgid "Zap key delay for channel number input"
+msgstr "Retardo de tecla Zap para entrada de número de canal"
+
+msgid "no module found"
+msgstr "no se encontró módulo"

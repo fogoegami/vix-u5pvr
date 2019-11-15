@@ -911,8 +911,7 @@ class NumberZap(Screen):
 			self["servicename"].setText(ServiceReference(self.service).getServiceName())
 
 	def keyNumberGlobal(self, number):
-		if config.misc.zapkey_delay.value > 0:
-			self.Timer.start(1000*config.misc.zapkey_delay.value, True)
+		self.Timer.start(5000, True)
 		self.numberString += str(number)
 		self["number"].setText(self.numberString)
 		self["number_summary"].setText(self.numberString)
@@ -957,8 +956,7 @@ class NumberZap(Screen):
 
 		self.Timer = eTimer()
 		self.Timer.callback.append(self.keyOK)
-		if config.misc.zapkey_delay.value > 0:
-			self.Timer.start(1000*config.misc.zapkey_delay.value, True)
+		self.Timer.start(5000, True)
 
 class InfoBarNumberZap:
 	""" Handles an initial number for NumberZapping """

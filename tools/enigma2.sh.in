@@ -157,8 +157,8 @@ ret=$?
 if [ "$ret" -ne "1" ]; then
 	if [ -e /proc/stb/info/boxtype ]; then
 		stbcheck=`cat /proc/stb/info/boxtype`
-		if [ $stbcheck == "viper4k" ] || [ $stbcheck == "sf8008" ] || [ $stbcheck == "u5" ] ; then
-			killall -9 libreader; killall -9 showiframe; sleep 5 
+		if [ $stbcheck == "viper4k" ] || [ $stbcheck == "sf8008" ] || [ $stbcheck == "gbtrio4k" ] ; then
+			killall -9 libreader; sleep 5
 		fi
 	fi
 fi

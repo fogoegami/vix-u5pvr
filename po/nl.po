@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ViX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-14 07:29+0000\n"
-"PO-Revision-Date: 2019-09-14 15:34+0200\n"
+"POT-Creation-Date: 2019-11-08 09:10+0000\n"
+"PO-Revision-Date: 2019-11-08 16:46+0100\n"
 "Last-Translator: Rob van der Does <RobvanderDoes@Gmail.com>\n"
 "Language-Team: Andy Blackburn, Rob van der Does\n"
 "Language: nl\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.4\n"
 
 msgid ""
 "\n"
@@ -963,6 +963,15 @@ msgstr "'%s' bevat  %d bestand(en) en %d sub-mappen.\n"
 
 msgid "'Network peer' automatically detects other Enigma2 receivers on the local network. You can also manually enter the URL or IP address."
 msgstr "'Network peer' detecteert andere Enigma2-ontvangers op het lokale netwerk automatisch. U kunt ook handmatig het IP-adres ingeven."
+
+msgid ""
+"'Save' changes active language.\n"
+"'Add Language' or MENU adds additional language(s).\n"
+"'Delete Language' allows either deletion of all but English and active language OR selected language"
+msgstr ""
+"'Opslaan' verandert de actieve taal.\n"
+"'Voeg taal toe' of 'MENU' voegt additionele taal toe.\n"
+"'Verwijder taal' verwijdert alle talen behalve Engels en de actieve taal OF de geselecteerde taal."
 
 msgid "( All readers)"
 msgstr "(Alle lezers)"
@@ -2953,6 +2962,9 @@ msgstr "Common interface"
 msgid "Common interface assignment"
 msgstr "Common interface toewijzing"
 
+msgid "Common options"
+msgstr "Algemene instellingen"
+
 msgid "Communication"
 msgstr "Communicatie"
 
@@ -3041,6 +3053,9 @@ msgstr "Configureer ondertitel achtergrond."
 
 msgid "Configure if picons will be shown in the service list."
 msgstr "Stel in of de servicetype-iconen worden getoond."
+
+msgid "Configure if service picons will be shown in the channel selection list."
+msgstr "Stel in of picons moeten worden getoond in de kanaallijst.."
 
 msgid "Configure if the subtitle should switch between normal, italic, bold and bolditalic"
 msgstr "Stel in of de ondertitels kunnen wisselen tussen normaal, schuin en vet."
@@ -3888,8 +3903,8 @@ msgstr "Bevestig verwijderen"
 msgid "Delete EPG"
 msgstr "EPG verwijderen"
 
-msgid "Delete Language"
-msgstr "Verwijder taal"
+msgid "Delete Language(s)"
+msgstr "Verwijder talen"
 
 msgid "Delete entry"
 msgstr "Verwijder invoer"
@@ -4538,7 +4553,7 @@ msgid "Enable teletext caching"
 msgstr "Teletekst caching inschakelen"
 
 msgid "Enable this setting if your aerial system needs power"
-msgstr "Schakel dit in als uw antennesysteem stroom benodigt."
+msgstr "Schakel dit in als uw antennesysteem stroom nodig heeft."
 
 msgid "Enable timer conflict detection"
 msgstr "Timer conflict detectie inschakelen"
@@ -5377,9 +5392,6 @@ msgstr "Greece"
 
 msgid "Greek"
 msgstr "Grieks"
-
-msgid "Greek (Modern)"
-msgstr "Grieks (modern)"
 
 msgid "Green"
 msgstr "Groen"
@@ -7639,7 +7651,7 @@ msgid "Open service list and select the previous channel for PiP"
 msgstr "Open de zenderlijst en selecteer de vorige zender voor PiP"
 
 msgid "Open setup tuner "
-msgstr "Open de tunerconfiguratie"
+msgstr "Open de tunerconfiguratie "
 
 msgid "Open the favourites list"
 msgstr "Open de favorietenlijst"
@@ -7651,7 +7663,7 @@ msgid "Open the satellites list"
 msgstr "Open de satellitenlijst"
 
 msgid "Open the service list"
-msgstr "Open de kanaallist"
+msgstr "Open de kanaallijst"
 
 msgid "OpenVPN"
 msgstr "Open-VPN"
@@ -7899,6 +7911,9 @@ msgstr "Picon en kanaalnaam"
 msgid "Picon width"
 msgstr "Picon breedte"
 
+msgid "Picons: Show in channel list"
+msgstr "Picons: Toon in kanaallijst"
+
 msgid "Picture in graphics"
 msgstr "Toon mini-TV"
 
@@ -8119,6 +8134,9 @@ msgstr ""
 "\n"
 "Druk op OK om verder te gaan."
 
+msgid "Please set up the following common options"
+msgstr "Maak de volgende algemene instellingen"
+
 msgid "Please set up tuner A"
 msgstr "Configureer tuner A"
 
@@ -8157,6 +8175,9 @@ msgstr "Configureer tuner Q"
 
 msgid "Please set up tuner R"
 msgstr "Configureer tuner R"
+
+msgid "Please set your time options"
+msgstr "Maak uw tijinstellingen"
 
 msgid ""
 "Please setup your user interface by adjusting the values till the edges of the user interface box are covering the test pattern and touching the edges of your TV.\n"
@@ -8318,6 +8339,15 @@ msgstr "Power-LED status indien actief."
 msgid "Power LED can be turned on or off here."
 msgstr "Power-LED kan hier worden in- of uitgeschakeld."
 
+msgid "Power On/Off display Normal Mode."
+msgstr "Power Aan/Uit vertoon normale modus."
+
+msgid "Power On/Off display Standby Mode."
+msgstr "Power Aan/Uit vertoon stand-by modus."
+
+msgid "Power On/Off display Suspend Mode."
+msgstr "Power Aan/Uit vertoon opgeschorte modus."
+
 msgid "Power long"
 msgstr "Power lang"
 
@@ -8414,9 +8444,6 @@ msgstr "Peuters"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Druk op  '0' om te schakelen tussen de PiP-modi"
 
-msgid "Press 'Add Language' or MENU to add additional language(s). English language can not be deleted"
-msgstr "Druk op MENU of 'Voeg taal toe' om extra talen te installeren. Engels kan niet worden verwijderd."
-
 msgid "Press INFO on your remote control for additional information."
 msgstr "Druk op INFO voor aanvullende informatie."
 
@@ -8440,7 +8467,7 @@ msgid "Press OK to get further details for %s"
 msgstr "Druk op OK voor meer details van: %s"
 
 msgid "Press OK to scan"
-msgstr "Druk OK om te scannen."
+msgstr "Druk OK om te scannen"
 
 msgid "Press OK to select a group of satellites to configure in one block."
 msgstr "Druk op OK om een groep satellieten in één keer te kiezen."
@@ -8452,7 +8479,7 @@ msgid "Press OK to select a service."
 msgstr "Druk op OK om een kanaal te kiezen."
 
 msgid "Press OK to select satellites"
-msgstr "Druk op OK om satellieten te kiezen."
+msgstr "Druk op OK om satellieten te kiezen"
 
 msgid "Press OK to select/deselect a CAId."
 msgstr "Druk op OK om de CAId aan/uit te zetten."
@@ -8461,7 +8488,7 @@ msgid "Press OK to set the MAC address."
 msgstr "Druk op OK om MAC-adres in te stellen."
 
 msgid "Press OK to toggle the selection"
-msgstr "Druk op OK om de selectie te wisselen."
+msgstr "Druk op OK om de selectie te wisselen"
 
 msgid "Press OK to toggle the selection."
 msgstr "Druk op OK om de selectie te (de)activeren."
@@ -8553,7 +8580,7 @@ msgid "Protect on epg age"
 msgstr "Beveilig op EPG-leeftijd"
 
 msgid "Protect plugin browser"
-msgstr "Beveilig de pluginbrowser."
+msgstr "Beveilig de pluginbrowser"
 
 msgid "Protect screens"
 msgstr "Beveilig schermen"
@@ -9314,10 +9341,10 @@ msgid "Save timeshift and zap"
 msgstr "Sla timeshiftbestand op en zap"
 
 msgid "Save timeshift as movie and continue recording"
-msgstr "Bewaar timeshift als opname en ga door met opnemen."
+msgstr "Bewaar timeshift als opname en ga door met opnemen"
 
 msgid "Save timeshift as movie and stop recording"
-msgstr "Bewaar timeshift als opname en stop opname."
+msgstr "Bewaar timeshift als opname en stop opname"
 
 msgid "Saving EPG Cache..."
 msgstr "Bezig EPG-cache op te slaan..."
@@ -9486,12 +9513,12 @@ msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) devi
 msgstr "Kies 'FBC SCR' als deze tuner is aangesloten op een SCR-apparaat (Unicable/JESS). Voor alle andere situaties kiest u 'FBC automatisch'."
 
 msgid ""
-"Select 'Yes' to delete all languages except English and your chosen language:\n"
+"Select 'Yes' to delete all languages except English and current language:\n"
 "\n"
 "Select 'No' to delete only the chosen language:\n"
 "\n"
 msgstr ""
-"Kies 'Ja' om alle talen te verwijderen behalve Engels en de door u geselecteerde taal:\n"
+"Kies 'Ja' om alle talen te verwijderen behalve Engels en de huidige taal:\n"
 "\n"
 "Kies 'Nee' om alleen de door u geselecteerde taal te verwijderen.\n"
 
@@ -9517,7 +9544,7 @@ msgid "Select 'polarisation' if using a 'universal' LNB, otherwise consult your 
 msgstr "Kies 'polarisatie als u een universele LNB gebruikt. Consulteer de specs van uw LNB."
 
 msgid "Select 'provider' to scan from the predefined list of cable multiplexes. Select 'bands' to only scan certain parts of the spectrum. Select 'steps' to scan in steps of a particular frequency bandwidth."
-msgstr "Kies 'provider' om te scannen vanuit de voorgedefinieerde lijst van kable multiplexen. Kies 'type' om alleen een deel van het spectrum te scannen. Kies 'stappen' om in stappen een bepaald deel van het spectrum te scannen. "
+msgstr "Kies 'provider' om te scannen vanuit de voorgedefinieerde lijst van kabel multiplexen. Kies 'type' om alleen een deel van het spectrum te scannen. Kies 'stappen' om in stappen een bepaald deel van het spectrum te scannen. "
 
 msgid "Select 'yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'no'."
 msgstr "Kies 'ja' als deze tuner verbonden is met een SCR-apparaat, anders kiest u 'nee'."
@@ -9547,7 +9574,7 @@ msgid "Select Fast DiSEqC if your aerial system supports this. If you are unsure
 msgstr "Kies 'snelle DiSEqC' als uw antennesysteem dat ondersteunt. Als u er niet zeker va bent, kiest u 'nee'."
 
 msgid "Select a receiver to use for fallback tuners. If the host receiver is not listed, manually enter the URL or IP address"
-msgstr "Kies een ontvanger om te gebruiken als fallback tuner. Als de gast-ontvanger niet getoond wordt, kunt u de URL of IP-adres handmatig ingeven."
+msgstr "Kies een ontvanger om te gebruiken als fallback-tuner. Als de gast-ontvanger niet getoond wordt, kunt u de URL of IP-adres handmatig ingeven."
 
 msgid "Select a wireless network"
 msgstr "Kies een draadloos netwerk"
@@ -9713,7 +9740,7 @@ msgid "Select the virtual keyboard shifted character set"
 msgstr "Selecteer 'shifted' karakterset"
 
 msgid "Select the virtual keyboard shifted character set for the next character only"
-msgstr "Kies 'shifted' karakterset voor alleen het volgende karakter."
+msgstr "Kies 'shifted' karakterset voor alleen het volgende karakter"
 
 msgid "Select upgrade source"
 msgstr "Kies de upgrade-bron"
@@ -9770,7 +9797,7 @@ msgid "Send DiSEqC only on satellite change"
 msgstr "Verstuur DiSEqC enkel bij satellietwijziging"
 
 msgid "Send yourself a copy"
-msgstr "Kopie aan uzelf sturen?"
+msgstr "Stuur kopie naar uzelf"
 
 msgid "Senegal"
 msgstr "Senegal"
@@ -9850,7 +9877,7 @@ msgstr ""
 "(Timeout reading PMT)"
 
 msgid "Service list"
-msgstr "Kanaallist"
+msgstr "Kanaallijst"
 
 msgid "Service name"
 msgstr "Kanaalnaam"
@@ -9977,7 +10004,7 @@ msgid "Set the desired primetime (minutes)."
 msgstr "Stel de gewenste primetime in (minuten)."
 
 msgid "Set the global sort method"
-msgstr "Kies de globale sorteermethode."
+msgstr "Kies de globale sorteermethode"
 
 msgid "Set the jump-size of the seekbar."
 msgstr "Stel hier de grootte van de tijdsprong van de zoekbalk in."
@@ -9986,7 +10013,7 @@ msgid "Set the name the recording will get."
 msgstr "Geef de naam die de opname krijgt."
 
 msgid "Set the position of the recording icons"
-msgstr "Kies de positie van de opname-iconen."
+msgstr "Kies de positie van de opname-iconen"
 
 msgid "Set the repeat interval of the schedule."
 msgstr "Stel hier het herhaalinterval van het schema in."
@@ -10001,7 +10028,7 @@ msgid "Set the sort method for this directory"
 msgstr "Kies de sortering voor deze map"
 
 msgid "Set the time before checking video source for resolution/refresh rate infomation."
-msgstr "Stel de tijd in voordat u de videobron op resolutie/verversingsfrequentie controleert"
+msgstr "Stel de tijd in voordat u de videobron op resolutie/verversingsfrequentie controleert."
 
 msgid "Set the time delay before hiding the infobar."
 msgstr "Stel de tijd in waarna de infobalk verdwijnt."
@@ -10170,7 +10197,7 @@ msgid "Show PIP in the Front Display"
 msgstr "Toon PiP in LCD"
 
 msgid "Show PVR status in Movie Player infobar"
-msgstr "Toon de PVR-status in de informatiebalk (als uw skin dat ondersteunt)."
+msgstr "Toon de PVR-status in de informatiebalk (als uw skin dat ondersteunt)"
 
 msgid "Show RFmod setup..."
 msgstr "Toon RFmod instellingen..."
@@ -10188,7 +10215,7 @@ msgid "Show Transponder Remaining/Elapsed as"
 msgstr "Toon resterende/verstreken tijd als"
 
 msgid "Show True/False as graphical switch"
-msgstr "Toon Waar/Niet waar als grafische schakelaar."
+msgstr "Toon Waar/Niet waar als grafische schakelaar"
 
 msgid "Show VCR scart on main menu"
 msgstr "VCR-Scart in hoofdmenu weergeven"
@@ -10218,7 +10245,7 @@ msgid "Show bouquet on launch"
 msgstr "Toon favorieten na opstarten"
 
 msgid "Show channel number in infobar"
-msgstr "Toon kanaalnummers in informatiebalk."
+msgstr "Toon kanaalnummers in informatiebalk"
 
 msgid "Show channel numbers in channel selection"
 msgstr "Toon kanaalnummers in kanaallijst"
@@ -10230,7 +10257,7 @@ msgid "Show crypto icons"
 msgstr "Toon iconen voor versleutelde kanalen"
 
 msgid "Show crypto info in infobar"
-msgstr "Laat crypto-informatie zien in informatiebalk."
+msgstr "Laat crypto-informatie zien in informatiebalk"
 
 msgid "Show detailed event info"
 msgstr "Toon gedetailleerde programma info"
@@ -10336,7 +10363,7 @@ msgid "Show picons in service list"
 msgstr "Toon picons in opnamelijst"
 
 msgid "Show picons in the movie list."
-msgstr "Toon picons in opnamelijst"
+msgstr "Toon picons in opnamelijst."
 
 msgid "Show positioner movement"
 msgstr "Rotorbewegingen zichtbaar"
@@ -10360,10 +10387,10 @@ msgid "Show select audio track"
 msgstr "Toon 'Kies audiospoor'"
 
 msgid "Show service list"
-msgstr "Toon kanaallist"
+msgstr "Toon kanaallijst"
 
 msgid "Show service list or movies"
-msgstr "Toon kanaallist of opnames"
+msgstr "Toon kanaallijst of opnames"
 
 msgid "Show service type icons"
 msgstr "Toon iconen voor servicetype"
@@ -10396,7 +10423,7 @@ msgid "Show the list of autotimers."
 msgstr "Toon de AutoTimers."
 
 msgid "Show the list of timers."
-msgstr "Toon timers"
+msgstr "Toon timers."
 
 msgid "Show the plugin browser.."
 msgstr "Toon de pluginbrowser.."
@@ -10684,7 +10711,7 @@ msgid "Sorry your MiniDLNA config is missing"
 msgstr "MiniDLNA configuratie ontbreekt"
 
 msgid "Sorry your uShare config is missing"
-msgstr "uShare configuratie ontbreekt"
+msgstr "Configuratie van uShare ontbreekt"
 
 #, python-format
 msgid "Sorry, %s has not been installed!"
@@ -10827,7 +10854,7 @@ msgid "Start from the beginning"
 msgstr "Start vanaf het begin"
 
 msgid "Start instant recording"
-msgstr "Directe Opname starten?"
+msgstr "Start directe opname"
 
 msgid "Start offline decode"
 msgstr "Start offline decoderen"
@@ -11058,7 +11085,7 @@ msgid "Sunday"
 msgstr "zondag"
 
 msgid "Support at"
-msgstr "Ondersteuning op  "
+msgstr "Ondersteuning op"
 
 #, python-format
 msgid "Support at %s"
@@ -11438,7 +11465,7 @@ msgstr ""
 "Installeer deze eerst."
 
 msgid "The password can not be blank."
-msgstr "Het wachtwoordveld mag niet leeg zijn"
+msgstr "Het wachtwoordveld mag niet leeg zijn."
 
 #, python-format
 msgid "The path %s already exists."
@@ -11590,9 +11617,6 @@ msgstr "Hiermee schakelt u het 'smoothing filter' in voor het 'dithering process
 
 msgid "This option allows you enable the vertical scaler dejagging."
 msgstr "Met deze optie schakelt u de 'vertical scaler dejagging' in/uit."
-
-msgid "This option allows you to Power Off the display."
-msgstr "Hiermee kunt u het display uitschakelen."
 
 msgid "This option allows you to boost the blue tones in the picture."
 msgstr "Met deze instelling kunt u de blauwe kleuren in het beeld versterken."
@@ -15673,6 +15697,9 @@ msgstr "zapte"
 #~ msgid "GraphicalEPG settings"
 #~ msgstr "Grafische EPG instellingen"
 
+#~ msgid "Greek (Modern)"
+#~ msgstr "Grieks (modern)"
+
 #~ msgid "Hard disk settings"
 #~ msgstr "Harde schijf instellingen"
 
@@ -15937,6 +15964,9 @@ msgstr "zapte"
 
 #~ msgid "Prepare another USB stick for image flashing"
 #~ msgstr "Maak een andere USB-stick klaar voor het flashen"
+
+#~ msgid "Press 'Add Language' or MENU to add additional language(s). English language can not be deleted"
+#~ msgstr "Druk op MENU of 'Voeg taal toe' om extra talen te installeren. Engels kan niet worden verwijderd."
 
 #~ msgid "Press OK to start the scan"
 #~ msgstr "Druk OK om te scannen."
@@ -16234,6 +16264,9 @@ msgstr "zapte"
 
 #~ msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
 #~ msgstr "Dit is een ontvanger met meerdere tunertypes. De beschikbare opties zijn afhankelijk van de hardware. Kabel en terrestrial kunnen niet tegelijkertijd worden geconfigureerd. Als u kabel + satelliet of terrestrial + satelliet wilt gebruiken, configureert eerst de enen en slaat dan op. Vervolgens configureert u de andere."
+
+#~ msgid "This option allows you to Power Off the display."
+#~ msgstr "Hiermee kunt u het display uitschakelen."
 
 #~ msgid ""
 #~ "This plugin creates a USB stick which can be used to update the firmware of your %s %s without the need for a network or WLAN connection.\n"

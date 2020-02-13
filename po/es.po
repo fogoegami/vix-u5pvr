@@ -12804,6 +12804,45 @@ msgstr "Picons: Mostrarlos en lista de Canales"
 msgid "Please set up the following common options"
 msgstr "Configura las siguientes opciones"
 
+msgid "< Pending restart >"
+msgstr "< Reinicio Pendiente >"
+
+msgid "Cancel any changes to the currently active skin"
+msgstr "Cancelar cualquier cambio en skin actualmente activo"
+
+msgid "Cancel any changes to the currently active skin and exit all menus"
+msgstr "Cancele cualquier cambio en skin actualmente activo y salga de todos los menús"
+
+msgid "No subtitles available"
+msgstr "Subtítulos no disponibles"
+
+msgid "Save and activate the currently selected skin"
+msgstr "Guardar y activar el skin seleccionado actualmente"
+
+msgid "Subtitle Long"
+msgstr "Subtítulos Largo"
+
+msgid "Subtitles off"
+msgstr "Subtítulos apagados"
+
+msgid "Subtitles on"
+msgstr "Subtítulos activos"
+
+msgid "To apply the selected '%s' skin the GUI needs to restart. Would you like to restart the GUI now?"
+msgstr "Para aplicar el skin '%s' seleccionado, la GUI debe reiniciarse. ¿Desea reiniciar la GUI ahora?"
+
+msgid "To save and apply the selected '%s' skin the GUI needs to restart. Would you like to save the selection and restart the GUI now?"
+msgstr "Para guardar y aplicar el skin '%s' seleccionado, la GUI debe reiniciarse. ¿Desea guardar la selección y reiniciar la GUI ahora?"
+
+msgid "Toggle default subtitles"
+msgstr "Alternar subtítulos predeterminados"
+
+msgid "Toggle the default subtitles"
+msgstr "Alternar los subtítulos por defecto"
+
+msgid "activatePiP long"
+msgstr "activate PiP largo"
+
 #~ msgid "Select locale"
 #~ msgstr "Seleccionar lugar"
 

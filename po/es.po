@@ -12843,6 +12843,20 @@ msgstr "Alternar los subtítulos por defecto"
 msgid "activatePiP long"
 msgstr "activate PiP largo"
 
+msgid ""
+"The Linux kernel has changed, an update is not permitted. \n"
+"Install latest image using USB stick or Image Manager."
+msgstr ""
+"El kernel de Linux ha cambiado, no se permite una actualización. \n"
+"Instale la última imagen con un dispositivo USB o en Administrador de imágenes."
+
+msgid ""
+"The Linux kernel has changed, plugins are not compatible. \n"
+"Install latest image using USB stick or Image Manager."
+msgstr ""
+"El kernel de Linux ha cambiado, los complementos no son compatibles. \n"
+"Instale la última imagen con un dispositivo USB o en Administrador de imágenes."
+
 #~ msgid "Select locale"
 #~ msgstr "Seleccionar lugar"
 

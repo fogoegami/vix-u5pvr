@@ -12354,8 +12354,8 @@ msgstr "Izquierda (prolongado)"
 msgid "Right long"
 msgstr "Derecha (prolongado)"
 
-msgid "Multiboot"
-msgstr "Multiboot"
+msgid "Multiboot Image Selector"
+msgstr "Selector Imagen Multiboot"
 
 msgid "Multiboot Image Restart"
 msgstr "Multiboot Reiniciar Imagen"

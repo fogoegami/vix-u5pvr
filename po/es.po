@@ -12857,6 +12857,12 @@ msgstr ""
 "El kernel de Linux ha cambiado, los complementos no son compatibles. \n"
 "Instale la última imagen con un dispositivo USB o en Administrador de imágenes."
 
+msgid "Show picons during channel number input"
+msgstr "Mostrar picons durante la entrada del número de canal"
+
+msgid "Configure whether service picons will be shown in number zap."
+msgstr "Configure si los picons de canales se mostrarán en número zap."
+
 #~ msgid "Select locale"
 #~ msgstr "Seleccionar lugar"
 

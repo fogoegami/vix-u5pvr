@@ -12863,6 +12863,12 @@ msgstr "Mostrar picons durante la entrada del número de canal"
 msgid "Configure whether service picons will be shown in number zap."
 msgstr "Configure si los picons de canales se mostrarán en número zap."
 
+msgid "Select whether your SCR device is externally powered."
+msgstr "Seleccione si su dispositivo SCR tiene alimentación externa."
+
+msgid "Externally powered"
+msgstr "Alimentado externamente"
+
 #~ msgid "Select locale"
 #~ msgstr "Seleccionar lugar"
 

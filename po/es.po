@@ -12513,8 +12513,8 @@ msgid "slot%s - %s mode 12 (current image)"
 msgstr "slot%s - %s modalidad 12 (imagen actual)"
 
 #, python-format
-msgid "slot%s - %s (current image)"
-msgstr "slot%s - %s (imagen actual)"
+msgid "slot%s -%s - %s (Current image)"
+msgstr "slot%s -%s - %s (Imagen actual)"
 
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
 msgstr "Ingrese el tamaño de paso de frecuencia para que el sintonizador use cuando busque multiplexos de cable. Para más información consulte la documentación de su proveedor de cable."

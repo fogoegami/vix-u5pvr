@@ -12816,7 +12816,7 @@ msgid "No subtitles available"
 msgstr "Subtítulos no disponibles"
 
 msgid "Save and activate the currently selected skin"
-msgstr "Guardar y activar el skin seleccionado actualmente"
+msgstr "Guardar y activar skin seleccionado actualmente"
 
 msgid "Subtitle Long"
 msgstr "Subtítulos Largo"

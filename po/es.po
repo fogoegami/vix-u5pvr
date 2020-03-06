@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-23 19:30+0200\n"
-"PO-Revision-Date: 2019-01-04 21:54+0100\n"
+"PO-Revision-Date: 2020-03-06 19:21+0100\n"
 "Last-Translator: Fogo\n"
 "Language-Team: ViX\n"
 "Language: es\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.3\n"
 
 msgid ""
 "\n"
@@ -11567,155 +11567,155 @@ msgstr "Ignorar DVB-T en subred espacio de nombres"
 msgid "On valid ONIDs, ignore frequency sub network part"
 msgstr "En ONIDs válidos, ignorar la parte de frecuencia de subred"
 
-msgid "Send 'sourceactive' before zap timers" 
+msgid "Send 'sourceactive' before zap timers"
 msgstr "Enviar 'código activo' antes de los temporizadores zap"
 
-msgid "Cover dashed flickering line for this service" 
+msgid "Cover dashed flickering line for this service"
 msgstr "Cubrir la línea de arriba blanca discontinua para este canal"
 
-msgid "Uncover dashed flickering line for this service" 
+msgid "Uncover dashed flickering line for this service"
 msgstr "Descubrir la línea de arriba blanca discontinua para este canal"
 
-msgid "Center DVB subs on this service" 
+msgid "Center DVB subs on this service"
 msgstr "Centre subtítulos DVB en este canal"
 
-msgid "Do not center DVB subs on this service" 
+msgid "Do not center DVB subs on this service"
 msgstr "No centre subtítulos DVB en este canal"
 
-msgid "Configuration..." 
+msgid "Configuration..."
 msgstr "Configuración..."
 
-msgid "Fallback address type" 
+msgid "Fallback address type"
 msgstr "Tipo de dirección del receptor reserva"
 
-msgid "Fallback receiver IP address" 
+msgid "Fallback receiver IP address"
 msgstr "Dirección IP del receptor reserva"
 
-msgid "Fallback receiver streaming port" 
+msgid "Fallback receiver streaming port"
 msgstr "Puerto de streaming del receptor reserva"
 
-msgid "Enable usage of tuners from another Enigma2 receiver on the local network. Remote tuners will be used when tuners are not available on this receiver. (No free tuner or service type is not available.)" 
+msgid "Enable usage of tuners from another Enigma2 receiver on the local network. Remote tuners will be used when tuners are not available on this receiver. (No free tuner or service type is not available.)"
 msgstr "Habilite el uso de sintonizadores desde otro receptor Enigma2 en la red local. Los sintonizadores remotos se utilizarán cuando los sintonizadores no estén disponibles en este receptor. (No hay disponible sintonizador ni tipo de canal)."
 
-msgid "'Network peer' automatically detects other Enigma2 receivers on the local network. You can also manually enter the URL or IP address." 
+msgid "'Network peer' automatically detects other Enigma2 receivers on the local network. You can also manually enter the URL or IP address."
 msgstr "'Compañero Red' detecta automáticamente otros receptores Enigma2 en la red local. También puede introducir manualmente la dirección URL o IP."
 
-msgid "Select a receiver to use for fallback tuners. If the host receiver is not listed, manually enter the URL or IP address" 
+msgid "Select a receiver to use for fallback tuners. If the host receiver is not listed, manually enter the URL or IP address"
 msgstr "Seleccione un receptor para utilizar para sintonizadores de reserva. Si el receptor central no está en la lista, ingrese manualmente la URL o la dirección IP"
 
-msgid "Enter the IP address of the receiver to use for fallback tuners." 
+msgid "Enter the IP address of the receiver to use for fallback tuners."
 msgstr "Introduzca la dirección IP del receptor que se utilizará para los sintonizadores de reserva."
 
-msgid "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in automatically when you select save." 
+msgid "Enter the URL/IP of the fallback remote receiver, e.g. '192.168.0.1'. The other details such as 'http://' and port number will be filled in automatically when you select save."
 msgstr "Ingrese la URL/IP del receptor de reserva, por ej. '192.168.0.1'. Los demás detalles, como 'http://' y el número de puerto, se rellenarán automáticamente cuando seleccione guardar."
 
-msgid "Default port is '%d'. Change if required." 
+msgid "Default port is '%d'. Change if required."
 msgstr "Puerto defecto es '%d'. Cambie si es necesario."
 
-msgid "Client mode" 
+msgid "Client mode"
 msgstr "Modo cliente"
 
-msgid "Choose the layout view mode (Text or Graphics)." 
+msgid "Choose the layout view mode (Text or Graphics)."
 msgstr "Elija el modo de vista de diseño (Texto o Gráficos)."
 
-msgid "Choose the layout view mode (Text / Graphics Multi channel EPG or Single channel EPG)." 
+msgid "Choose the layout view mode (Text / Graphics Multi channel EPG or Single channel EPG)."
 msgstr "Elija el modo de vista de diseño (EPG multicanal de texto / gráficos o EPG de un solo canal)."
 
-msgid "Highlight current events" 
+msgid "Highlight current events"
 msgstr "Resaltar eventos actuales"
 
-msgid "Enable to highlight events that are currently in progress." 
+msgid "Enable to highlight events that are currently in progress."
 msgstr "Habilitar para resaltar eventos que están actualmente en progreso."
 
-msgid "Alignment of service names" 
+msgid "Alignment of service names"
 msgstr "Alineación de nombres de los canales"
 
-msgid "Configure alignment of the service names." 
+msgid "Configure alignment of the service names."
 msgstr "Configurar la alineación de los nombres de los canales."
 
-msgid "Alignment of service numbers" 
+msgid "Alignment of service numbers"
 msgstr "Alineación de números de los canales"
 
-msgid "Configure alignment of the service numbers." 
+msgid "Configure alignment of the service numbers."
 msgstr "Configurar la alineación de los números de los canales."
 
-msgid "Alignment of events" 
+msgid "Alignment of events"
 msgstr "Alineación de eventos"
 
-msgid "Configure alignment of service events." 
+msgid "Configure alignment of service events."
 msgstr "Configurar alineación de eventos de los canales."
 
-msgid "Alignment of timeline date" 
+msgid "Alignment of timeline date"
 msgstr "Alineación de la fecha de la línea de tiempo"
 
-msgid "Configure alignment of the timeline date." 
+msgid "Configure alignment of the timeline date."
 msgstr "Configurar la alineación de la fecha de la línea de tiempo."
 
-msgid "Release notes" 
+msgid "Release notes"
 msgstr "Notas Publicación"
 
-msgid "Service & PIDs" 
+msgid "Service & PIDs"
 msgstr "Servicio & PIDs"
 
 msgid "Tuner setup"
 msgstr "Configuración Sintonizador"
 
-msgid "Tuner settings values" 
+msgid "Tuner settings values"
 msgstr "Valores sintonizador"
 
-msgid "Tuner live values" 
+msgid "Tuner live values"
 msgstr "Valores en vivo sintonizador"
 
-msgid "Random password" 
+msgid "Random password"
 msgstr "Contraseña aleatoria"
 
-msgid "New password" 
+msgid "New password"
 msgstr "Nueva Contraseña"
 
 msgid ""
 "Setting a password is strongly advised if your STB is open to the internet.\n"
-"This is the case if you have in your router a port forwarded to the STB." 
+"This is the case if you have in your router a port forwarded to the STB."
 msgstr ""
 "Se recomienda establecer una contraseña si su STB está abierto a internet.\n"
 "Este es el caso si tiene en su router un puerto reenviado a su STB."
 
-msgid "Use picon_lcd directory for picons on color LCD" 
+msgid "Use picon_lcd directory for picons on color LCD"
 msgstr "Use el directorio picon_lcd para picons color LCD"
 
-msgid "Configure the brightness level of the front panel display for dimmed operation." 
+msgid "Configure the brightness level of the front panel display for dimmed operation."
 msgstr "Configure el nivel de brillo del display para una operación atenuada."
 
-msgid "Dim the LCD after specified time." 
+msgid "Dim the LCD after specified time."
 msgstr "Atenuar la pantalla LCD después de un tiempo especificado."
 
-msgid "Delay in milliseconds before start of scrolling text on display." 
+msgid "Delay in milliseconds before start of scrolling text on display."
 msgstr "Retardo en milisegundos antes del inicio del texto de desplazamiento en la pantalla."
 
-msgid "Delay in milliseconds after finish scrolling text on display." 
+msgid "Delay in milliseconds after finish scrolling text on display."
 msgstr "Retardo en milisegundos después de que termine de desplazar el texto en la pantalla."
 
-msgid "Enable blinking rec symbol on the LCD Display" 
+msgid "Enable blinking rec symbol on the LCD Display"
 msgstr "Habilitar el símbolo de grabación parpadeante en la pantalla LCD"
 
-msgid "In the Standby Record on the LCD Display" 
+msgid "In the Standby Record on the LCD Display"
 msgstr "En Modo de Espera grabación en la pantalla LCD"
 
-msgid "Set CI assignment for detection of available services." 
+msgid "Set CI assignment for detection of available services."
 msgstr "Establecer asignación de CI para la detección de canales disponibles."
 
-msgid "This option allows you to choose whether or not to display genre information for the event." 
+msgid "This option allows you to choose whether or not to display genre information for the event."
 msgstr "Esta opción le permite elegir si desea mostrar o no la información de género para el evento."
 
-msgid "This option allows you to show menu number quick links." 
+msgid "This option allows you to show menu number quick links."
 msgstr "Esta opción le permite mostrar enlaces rápidos de números de menú."
 
-msgid "Change the Colorspace from Auto to RGB" 
+msgid "Change the Colorspace from Auto to RGB"
 msgstr "Cambia el espacio de color de Auto a RGB"
 
-msgid "Choose whether multi channel ac3 sound tracks should be downmixed to stereo." 
+msgid "Choose whether multi channel ac3 sound tracks should be downmixed to stereo."
 msgstr "Elija si las pistas de sonido ac3 multicanal se deben mezclar en estéreo."
 
-msgid "Choose whether multi channel aac sound tracks should be downmixed to stereo." 
+msgid "Choose whether multi channel aac sound tracks should be downmixed to stereo."
 msgstr "Elija si las pistas de sonido aac multicanal se deben mezclar en estéreo."
 
 msgid "Timezone area"
@@ -12366,13 +12366,6 @@ msgstr "Multiboot Reiniciar Imagen"
 msgid "SDcard is not initialised for multiboot - Exit and use ViX MultiBoot Manager to initialise"
 msgstr "La tarjeta SD no está inicializada para arranque múltiple: salga y use ViX MultiBoot Manager para iniciar"
 
-msgid ""
-"Mode 1 suppports Kodi, PiP may not work.\n"
-"Mode 12 supports PiP, Kodi may not work."
-msgstr 
-"Modo 1 es compatible con Kodi, PiP puede no funcionar.\n"
-"El modo 12 es compatible con PiP, Kodi puede no funcionar."
-
 msgid "Use the cursor keys to select an installed image and then Reboot button."
 msgstr "Use las teclas del cursor para seleccionar una imagen instalada y luego el botón Reiniciar."
 
@@ -12874,387 +12867,3 @@ msgstr "Seleccione si su dispositivo SCR tiene alimentación externa."
 
 msgid "Externally powered"
 msgstr "Alimentado externamente"
-
-#~ msgid "Select locale"
-#~ msgstr "Seleccionar lugar"
-
-#~ msgid "3d mode"
-#~ msgstr "Modo 3D"
-
-#~ msgid "A recording is currently running. Please stop the recording before trying to start the satfinder."
-#~ msgstr "Hay una grabación en curso. Detén la grabación antes de iniciar el buscador de satélites."
-
-#~ msgid "AA"
-#~ msgstr "AA"
-
-#~ msgid "AB"
-#~ msgstr "AB"
-
-#~ msgid "Action on long power button press"
-#~ msgstr "Acción con pulsación larga de la tecla de encendido"
-
-#~ msgid "Action on short power button press"
-#~ msgstr "Acción con pulsación corta de la tecla de encendido"
-
-#~ msgid "Adjust 3D settings"
-#~ msgstr "Ajustar configuración 3D"
-
-#~ msgid "Advanced video setup"
-#~ msgstr "Configuración avanzada de vídeo"
-
-#~ msgid "Allows more detailed information to be in the crash log"
-#~ msgstr "Permite más detalles en el historial de caídas"
-
-#~ msgid "BA"
-#~ msgstr "BA"
-
-#~ msgid "BB"
-#~ msgstr "BB"
-
-#~ msgid "Change pin code"
-#~ msgstr "Cambiar código pin"
-
-#~ msgid "Change service PIN"
-#~ msgstr "Cambiar el PIN de canal"
-
-#~ msgid "Change service PINs"
-#~ msgstr "Cambiar los PIN de canal"
-
-#~ msgid "Changelog"
-#~ msgstr "Cambios de historial"
-
-#~ msgid "Channel +/- button mode"
-#~ msgstr "Modo de tecla de canal +/-"
-
-#~ msgid "Checking Feeds"
-#~ msgstr "Comprobando fuentes"
-
-#~ msgid "Configure the function of a long press of the power button."
-#~ msgstr "Configurar la función de una pulsación larga de la tecla de encendido."
-
-#~ msgid "Configure the function of a short press of the power button."
-#~ msgstr "Configurar la función de una pulsación corta de la tecla de encendido."
-
-#~ msgid "Configure the refresh rate of the screen."
-#~ msgstr "Configurar la velocidad de actualización de la pantalla."
-
-#~ msgid "Connected!"
-#~ msgstr "¡Conectado!"
-
-#~ msgid "Could not connect to %s %s .NFI image feed server:"
-#~ msgstr "No pudo conectarse a %s %s .NFI servidor feed de imagen:"
-
-#~ msgid "Create more detailed crash log"
-#~ msgstr "Crear historial de fallo más detallado"
-
-#~ msgid "Currently installed image"
-#~ msgstr "Imagen actualmente instalada"
-
-#~ msgid "Delete..."
-#~ msgstr "Borrar..."
-
-#~ msgid "Device Information"
-#~ msgstr "Información del dispositivo:"
-
-#~ msgid "Dialing:"
-#~ msgstr "Marcando:"
-
-#~ msgid "Disconnect"
-#~ msgstr "Desconectar"
-
-#~ msgid "Display"
-#~ msgstr "Ajustes de visualización"
-
-#~ msgid "Do you want to download the image to %s ?"
-#~ msgstr "Quieres descargar la imagen a %s ?"
-
-#~ msgid "Download %s from server"
-#~ msgstr "Descargar %s del servidor"
-
-#~ msgid "Download .NFI-files for USB-flasher"
-#~ msgstr "Descargar archivos .NFI para USB-Flasher"
-
-#~ msgid "Edit bouquets list"
-#~ msgstr "Editar lista de grupos"
-
-#~ msgid "Edit services list"
-#~ msgstr "Editar la lista de canales"
-
-#~ msgid "Enables a feature so that the receiver can decrypt streams (if the ECM data is included in the stream and a valid card is available)."
-#~ msgstr "Habilita una función para que el receptor pueda descodificar streams (si los datos ECM se incluyen en el stream y hay una tarjeta válida)."
-
-#~ msgid "External (CF)"
-#~ msgstr "Externo (CF)"
-
-#~ msgid "Finished restarting your network"
-#~ msgstr "Se ha terminado de reiniciar la red"
-
-#~ msgid "Flash"
-#~ msgstr "Flash"
-
-#~ msgid "Flashing failed"
-#~ msgstr "Ha fallado el parpadeo"
-
-#~ msgid "Free Memory:"
-#~ msgstr "Memoria libre:"
-
-#~ msgid "Ftpd service type: Vsftpd server"
-#~ msgstr "Tipo de servicio Ftpd: servidor Vsftpd"
-
-#~ msgid "Get latest experimental image"
-#~ msgstr "Obtener la última imagen experimental"
-
-#~ msgid "Get latest release image"
-#~ msgstr "Obtener la última versión de la imagen "
-
-#~ msgid "Image Information"
-#~ msgstr "Información de Image"
-
-#~ msgid "Inadyn Log"
-#~ msgstr "Historial Inadyn"
-
-#~ msgid "Memory Information"
-#~ msgstr "Información de la memoria"
-
-#~ msgid "MiniDLNA Log"
-#~ msgstr "Historial MiniDLNA"
-
-#~ msgid "Move to other directory"
-#~ msgstr "Ir a otro directorio"
-
-#~ msgid "NFI image flashing"
-#~ msgstr "Imagen NFI Flashing"
-
-#~ msgid "NFI image flashing completed. Press Yellow to Reboot!"
-#~ msgstr "Se ha descargado correctamente la imagen NFI Flashing. Pulsa la tecla amarilla para reiniciar!"
-
-#~ msgid "Network Information"
-#~ msgstr "Información de red"
-
-#~ msgid "New PIN"
-#~ msgstr "Nuevo PIN"
-
-#~ msgid "No details for this image file"
-#~ msgstr "Sin detalles para este fichero de imagen"
-
-#~ msgid "No updates available. Please try again later."
-#~ msgstr "Sin actualizaciones disponibles. Inténtalo más tarde."
-
-#~ msgid ""
-#~ "No valid service PIN found!\n"
-#~ "Do you like to change the service PIN now?\n"
-#~ "When you say 'No' here the service protection stay disabled!"
-#~ msgstr ""
-#~ "No se ha encontrado un PIN válido de canales!\n"
-#~ "¿Quieres cambiar el PIN de canal ahora?\n"
-#~ "Si respondes 'No', la protección de canales seguirá desabilitada."
-
-#~ msgid ""
-#~ "No valid setup PIN found!\n"
-#~ "Do you like to change the setup PIN now?\n"
-#~ "When you say 'No' here the setup protection stay disabled!"
-#~ msgstr ""
-#~ "No se ha encontrado un PIN válido de configuración!\n"
-#~ "¿Quieres cambiar el PIN de configuración ahora?\n"
-#~ "¡Si dices que 'No' la protección de configuración seguirá desabilitada!"
-
-#~ msgid "OpenVpn Log"
-#~ msgstr "Abrir el historial Vpn"
-
-#~ msgid "Parental control editor"
-#~ msgstr "Editor de control paterno"
-
-#~ msgid "Parental control setup"
-#~ msgstr "Configuración del control paterno"
-
-#~ msgid "Parental control type"
-#~ msgstr "Tipo de control paterno"
-
-#~ msgid "Phone number"
-#~ msgstr "Número de teléfono"
-
-#~ msgid "Please check your network settings!"
-#~ msgstr "Comprueba la configuración de red!"
-
-#~ msgid "Please select an NFI file and press green key to flash!"
-#~ msgstr "Seleccione un fichero NFI y pulsa la tecla verde para flashear!"
-
-#~ msgid "Please wait for activation of your network configuration..."
-#~ msgstr "Espera a la activación de su configuración de red..."
-
-#~ msgid "Please wait whilst feeds state is checked."
-#~ msgstr "Espera hasta que se verifique el estado de las fuentes."
-
-#~ msgid "PowerTimer Overview"
-#~ msgstr "Vista rápida del temporizador de alimentación"
-
-#~ msgid "Prepare another USB stick for image flashing"
-#~ msgstr "Preparar otra memoria USB para Flashing de imagen"
-
-#~ msgid "Reenter new PIN"
-#~ msgstr "Volver a introducir el nuevo PIN"
-
-#~ msgid "Restart enigma"
-#~ msgstr "Reiniciar Enigma"
-
-#~ msgid "Restore is running..."
-#~ msgstr "Restauración en curso..."
-
-#~ msgid "Samba Log"
-#~ msgstr "Historial Samba"
-
-#~ msgid "Select an image to be downloaded"
-#~ msgstr "Seleccionar imagen para descargar"
-
-#~ msgid "Select default EPG type..."
-#~ msgstr "Seleccionar el tipo de EPG por defecto..."
-
-#~ msgid "Select desired image from feed list"
-#~ msgstr "Seleccionar la imagen deseada de la lista feed"
-
-#~ msgid "Select if you want the Subservice mode to be activated."
-#~ msgstr "Selecciona si quieres que el modo Subcanal se active."
-
-#~ msgid "Select if you want to use the ViX colored buttons (set to 'no' if you want to use (Multi Quick Button)."
-#~ msgstr "Selecciona si quieres utilizar los botones de color de ViX. Marca 'no' si quieres usar el botón rápido (multi)."
-
-#~ msgid "Select what you want the Channel +/- buttons to activate."
-#~ msgstr "Selecciona lo que quieres que active la tecla de canal +/-."
-
-#~ msgid "Select what you want the TV button to activate."
-#~ msgstr "Selecciona lo que quieres que active la tecla TV."
-
-#~ msgid "Shall the USB stick wizard proceed and program the image file %s into flash memory?"
-#~ msgstr "¿El asistente de USB programará el fichero de imagen %s en la memoria flash?"
-
-#~ msgid "Show services beginning with"
-#~ msgstr "Mostrar canales que empiecen por"
-
-#~ msgid "Show status icons in movielist"
-#~ msgstr "Ver iconos de estado en la lista de películas"
-
-#~ msgid "Show tag menu"
-#~ msgstr "Ver menú de etiquetas"
-
-#~ msgid "Single transponder"
-#~ msgstr "Transpondedor único"
-
-#~ msgid "Subservice mode"
-#~ msgstr "Modo subcanal"
-
-#~ msgid "TV button mode"
-#~ msgstr "Modo de tecla tv"
-
-#~ msgid ""
-#~ "The USB stick was prepared to be bootable.\n"
-#~ "Now you can download an NFI image file!"
-#~ msgstr ""
-#~ "La memoria USB se ha preparado para arrancarse.\n"
-#~ "Ya puedes descargar un archivo NFI de imagen!"
-
-#~ msgid ""
-#~ "The following device was found:\n"
-#~ "\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Do you want to write the USB flasher to this stick?"
-#~ msgstr ""
-#~ "Se ha encontrado el siguiente dispositivo:\n"
-#~ "\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Quieres escribir el flash USB en este dispositivo?"
-
-#~ msgid "The md5sum validation failed, the file may be corrupted!"
-#~ msgstr "La validación md5sum ha fallado. El fichero podría estar corrupto!"
-
-#~ msgid "The wizard found a configuration backup. Do you want to restore your old settings from %s?"
-#~ msgstr "El asistente encontró una configuración guardada. ¿Quieres restaurar la configuración antigua desde %s?"
-
-#~ msgid ""
-#~ "This plugin creates a USB stick which can be used to update the firmware of your %s %s without the need for a network or WLAN connection.\n"
-#~ "First, a USB stick needs to be prepared so that it becomes bootable.\n"
-#~ "In the next step, an NFI image file can be downloaded from the update server and saved on the USB stick.\n"
-#~ "If you already have a prepared bootable USB stick, please insert it now. Otherwise plug in a USB stick with a minimum size of 64 MB!"
-#~ msgstr ""
-#~ "Este complemento crea un pen USB que puede utilizarse para actualizar el Firmware de su %s %s sin necesidad de red o conexión WLAN.\n"
-#~ "Primero, se preparará la memoria USB para que sea arrancable.\n"
-#~ "Después, puede descargarse una imagen NFI desde el servidor de actualizaciones y guardarse en la memoria.\n"
-#~ "Si ya tienes una memoria USB arrancable, insértala ahora. De lo contrario inserta una memoria USB con un tamaño mínimo de 64 MB!"
-
-#~ msgid "Timer log"
-#~ msgstr "Historial de temporizadores"
-
-#~ msgid ""
-#~ "To update your %s %s firmware, please follow these steps:\n"
-#~ "1) Turn off your box with the rear power switch and make sure the bootable USB stick is plugged in.\n"
-#~ "2) Turn mains back on and hold the DOWN button on the front panel pressed for 10 seconds.\n"
-#~ "3) Wait for bootup and follow instructions of the wizard."
-#~ msgstr ""
-#~ "Para actualizar el Firmware de su %s %s sigue estos pasos:\n"
-#~ "1) Apaga el receptor con el botón de encendido trasero y asegúrate de que la memoria USB arrancable esté conectada.\n"
-#~ "2) Vuelve a encenderlo y pulsa el botón ABAJO en el display durante 10 segundos.\n"
-#~ "3) Espera al reinicio y sigue las instrucciones del asistente."
-
-#~ msgid "USB stick wizard"
-#~ msgstr "Asistente de memoria USB"
-
-#~ msgid "Uncommitted DiSEqC command"
-#~ msgstr "No comprometido Comando DiSEqC 1.1"
-
-#~ msgid "Use ViX colored Buttons*"
-#~ msgstr "Usar las botones de colores de VIX*"
-
-#~ msgid "Version:\t%s"
-#~ msgstr "Versión:\t%s"
-
-#~ msgid "Video fine tuning"
-#~ msgstr "Ajuste fino de vídeo"
-
-#~ msgid "Video fine-tuning"
-#~ msgstr "Ajuste fino de vídeo"
-
-#~ msgid "Video setup"
-#~ msgstr "Configuración de vídeo"
-
-#~ msgid "Video wizard"
-#~ msgstr "Asistente de vídeo"
-
-#~ msgid "When enabled, the original line breaks will be removed from the teletext subtitles."
-#~ msgstr "Cuando está activado, los saltos de línea originales se eliminan de los subtítulos de teletexto."
-
-#~ msgid "You can disable Telnet Server and use ssh to login."
-#~ msgstr "Puedes desactivar el servidor Telnet y usar ssh para conectarte."
-
-#~ msgid "You have chosen to create a new .NFI flasher bootable USB stick. This will repartition the USB stick and therefore all data on it will be erased."
-#~ msgstr "Has elegido crear una nueva memoria USB .NFI Flasher autoarrancable. Se reparticionará la memoria USB y todos los datos serán borrados."
-
-#~ msgid "complex"
-#~ msgstr "Complejo"
-
-#~ msgid "continue"
-#~ msgstr "Continuar"
-
-#~ msgid "currently installed image: %s"
-#~ msgstr "Imagen actualmente instalada: %s"
-
-#~ msgid "fine-tune your display"
-#~ msgstr "Afinar los ajustes del display"
-
-#~ msgid "leave movie player..."
-#~ msgstr "Salir del reproductor de películas..."
-
-#~ msgid "service PIN"
-#~ msgstr "PIN del canal"
-
-#~ msgid "setup PIN"
-#~ msgstr "Configurar PIN"
-
-#~ msgid "special characters"
-#~ msgstr "Caracteres especiales"
-
-#~ msgid "uShare Log"
-#~ msgstr "Historial de uShare"
-
-#~ msgid "whitelist"
-#~ msgstr "Lista blanca"

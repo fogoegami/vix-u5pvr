@@ -6020,8 +6020,11 @@ msgstr "Pulsa MENÚ en el mando para obtener opciones adicionales."
 msgid "Press OK on your remote control to continue."
 msgstr "Pulsa OK en el mando para continuar."
 
-msgid "Press OK to activate the selected skin."
-msgstr "Pulsa OK para activar el Skin seleccionado."
+msgid "Press OK to activate the selected%s skin."
+msgstr "Presione OK para activar el skin%s seleccionado."
+
+msgid "Press OK to keep the currently selected%s skin."
+msgstr "Presione OK para mantener el skin seleccionado%s actualmente."
 
 msgid "Press OK to activate the settings."
 msgstr "Pulsa OK para activar la configuración."

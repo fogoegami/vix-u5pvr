@@ -9,7 +9,7 @@ import subprocess
 
 #		#default layout for 				Zgemma H7/Mut@nt HD51						 Giga4K						SF8008/trio4K
 # boot								/dev/mmcblk0p1						/dev/mmcblk0p1				/dev/mmcblk0p3
-# STARTUP_1 			Image 1: boot emmcflash0.kernel1 'root=/dev/mmcblk0p3 rw rootwait'	boot emmcflash0.kernel1: 'root=/dev/mmcblk0p5		boot emmcflash0.kernel 'root=/dev/mmcblk0p13 
+# STARTUP_1 			Image 1: boot emmcflash0.kernel1 'root=/dev/mmcblk0p3 rw rootwait'	boot emmcflash0.kernel1: 'root=/dev/mmcblk0p5		boot emmcflash0.kernel 'root=/dev/mmcblk0p13
 # STARTUP_2 			Image 2: boot emmcflash0.kernel2 'root=/dev/mmcblk0p5 rw rootwait'      boot emmcflash0.kernel2: 'root=/dev/mmcblk0p7		boot usb0.sda1 'root=/dev/sda2
 # STARTUP_3		        Image 3: boot emmcflash0.kernel3 'root=/dev/mmcblk0p7 rw rootwait'	boot emmcflash0.kernel3: 'root=/dev/mmcblk0p9		boot usb0.sda3 'root=/dev/sda4
 # STARTUP_4		        Image 4: boot emmcflash0.kernel4 'root=/dev/mmcblk0p9 rw rootwait'	NOT IN USE due to Rescue mode in mmcblk0p3		NOT IN USE due to only 4 partitions on SDcard
@@ -55,7 +55,7 @@ def getMultibootslots():
 								slot['kernel'] = "/dev/sda%s" %line.split('sda', 1)[1].split(' ', 1)[0]
 							else:
 								slot['kernel'] = "%sp%s" %(device.split("p")[0], int(device.split("p")[1])-1)
-								
+
 						break
 				if slot:
 					bootslots[int(slotnumber)] = slot
@@ -110,11 +110,11 @@ class GetImagelist():
 			self.container.ePopen('mount %s %s' % (SystemInfo["canMultiBoot"][self.slot]['device'], Imagemount), self.appClosed)
 
 	def appClosed(self, data="", retval=0, extra_args=None):
-		BuildVersion = "  "	
+		BuildVersion = "  "
 		Build = " "	#ViX Build No.#
 		Dev = " "	#ViX Dev No.#
 		Creator = " " 	#Openpli Openvix Openatv etc #
-		Date = " "	
+		Date = " "
 		BuildType = " "	#release etc #
 		if retval:
 			self.imagelist[self.slot] = { 'imagename': _("Empty slot") }
@@ -160,12 +160,12 @@ class GetImagelist():
 			self.callback(self.imagelist)
 
 
-class boxbranding_reader:		# many thanks to Huevos for creating this reader - well beyond my skill levels! 
+class boxbranding_reader:		# many thanks to Huevos for creating this reader - well beyond my skill levels!
 	def __init__(self, OsPath):
-		if pathExists('%s/usr/lib64' %OsPath):
-			self.branding_path = "%s/usr/lib64/enigma2/python/" %OsPath
-		else:
+		if pathExists('%s/usr/lib' %OsPath):
 			self.branding_path = "%s/usr/lib/enigma2/python/" %OsPath
+		else:
+			self.branding_path = "%s/usr/lib64/enigma2/python/" %OsPath
 		self.branding_file = "boxbranding.so"
 		self.tmp_path = "/tmp/"
 		self.helper_file = "helper.py"
@@ -210,7 +210,7 @@ class boxbranding_reader:		# many thanks to Huevos for creating this reader - we
 				self.output[att] = output[att]
 
 	def addBrandingMethods(self): # this creates reader.getBoxType(), reader.getImageDevBuild(), etc
-		l =  {}                
+		l =  {}
 		for att in self.output.keys():
 			exec("def %s(self): return self.output['%s']" % (att, att), None, l)
 		for name, value in l.items():
@@ -267,7 +267,7 @@ class EmptySlot():
 		else:
 			self.container.ePopen('mount %s /tmp/testmount' %(SystemInfo["canMultiBoot"][self.slot]['device']) if self.phase == self.MOUNT else 'umount /tmp/testmount', self.appClosed)
 
-	
+
 	def appClosed(self, data, retval, extra_args):
 		if retval == 0 and self.phase == self.MOUNT:
 			if SystemInfo["HasRootSubdir"]:

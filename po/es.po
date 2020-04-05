@@ -9256,7 +9256,7 @@ msgid "Update"
 msgstr "Actualizar"
 
 msgid "Update channel list only"
-msgstr "Actualizar la lista de canales solo"
+msgstr "Actualizar solo la lista de canales"
 
 #, python-format
 msgid "Update completed, %d package was installed."

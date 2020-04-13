@@ -12873,4 +12873,3 @@ msgstr "Alimentado externamente"
 
 msgid "Restart last movie"
 msgstr "Reproducir última película"
-

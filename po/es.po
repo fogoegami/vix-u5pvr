@@ -12870,3 +12870,7 @@ msgstr "Seleccione si su dispositivo SCR tiene alimentación externa."
 
 msgid "Externally powered"
 msgstr "Alimentado externamente"
+
+msgid "Restart last movie"
+msgstr "Reproducir última película"
+

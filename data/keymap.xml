@@ -301,6 +301,7 @@
 		<key id="KEY_FILE" mapto="showMovies" flags="b"/>
 		<key id="KEY_MEDIA" mapto="showMovies" flags="b"/>
 		<key id="KEY_LIST" mapto="showMovies" flags="b"/>
+		<key id="KEY_HOMEPAGE" mapto="showMovies" flags="b"/>
 		<key id="KEY_PVR" mapto="showMovies" flags="b"/>
 		<key id="KEY_TEXT" mapto="showText" flags="b"/>
 		<key id="KEY_WWW" mapto="showMovies" flags="m" />

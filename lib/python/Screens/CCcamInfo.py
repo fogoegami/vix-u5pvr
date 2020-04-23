@@ -535,7 +535,7 @@ class CCcamInfoMain(Screen):
 				self.session.openWithCallback(self.workingFinished, CCcamInfoConfigSwitcher)
 
 			else:
-				self.showInfo(_("CCcam Info %s\nby AliAbdul %s\n\nThis plugin shows you the status of your CCcam.") % (VERSION, DATE), _("About"))
+				self.showInfo(_("CCcam Info %s\nby AliAbdul %s\n\nThis module shows you the status of your CCcam.") % (VERSION, DATE), _("About"))
 
 	def red(self):
 		self.keyNumberGlobal(10)

@@ -12873,3 +12873,18 @@ msgstr "Alimentado externamente"
 
 msgid "Restart last movie"
 msgstr "Reproducir última película"
+
+msgid "CCcam Info - Main Menu"
+msgstr "Menú Principal - CCcam Info"
+
+msgid ""
+"CCcam Info %s\n"
+"by AliAbdul %s\n"
+"\n"
+"This module shows you the status of your CCcam."
+msgstr ""
+"CCcam Info %s\n"
+"by AliAbdul %s\n"
+"\n"
+"Este módulo le muestra el estado de su CCcam."
+

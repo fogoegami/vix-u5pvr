@@ -12894,3 +12894,9 @@ msgid ""
 msgstr ""
 "Problema al recuperar la lista de actualizaciones.\n"
 "Si este problema persiste, informe a álvaro"
+
+msgid "Feeds status: stable"
+msgstr "Feeds estado: Estable"
+
+msgid "Feeds status: Unexpected"
+msgstr "Feeds status: Inestable"

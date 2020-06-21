@@ -12800,7 +12800,7 @@ msgstr ""
 msgid "Please set your time options"
 msgstr "Por favor configure sus opciones de horario"
 
-msgid "Picons: Show in channel list"
+msgid "Picons: Mostrarlos en lista de Canales"
 msgstr "Picons: Mostrarlos en lista de Canales"
 
 msgid "Please set up the following common options"
@@ -12887,4 +12887,3 @@ msgstr ""
 "by AliAbdul %s\n"
 "\n"
 "Este módulo le muestra el estado de su CCcam."
-

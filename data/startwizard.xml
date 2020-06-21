@@ -377,7 +377,7 @@ self.selectKey("OK")
 		</step>
 
 		<step id="timeoptions" nextstep="wizardoptions">
-			<text value="Por favor configure sus opciones de horarioc" />
+			<text value="Por favor configure sus opciones de horario" />
 			<displaytext value="Please set your time options" />
 			<config screen="Setup" module="Setup" args="time" type="ConfigList" />
 			<code>

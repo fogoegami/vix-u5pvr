@@ -157,7 +157,7 @@ def restoreSlots():
 
 class boxbranding_reader:		# many thanks to Huevos for creating this reader - well beyond my skill levels!
 	def __init__(self, OsPath):
-		if pathExists('%s/usr/lib' %OsPath):
+		if path.exists('%s/usr/lib' %OsPath):
 			self.branding_path = "%s/usr/lib/enigma2/python/" %OsPath
 		else:
 			self.branding_path = "%s/usr/lib64/enigma2/python/" %OsPath

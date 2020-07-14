@@ -12905,4 +12905,4 @@ msgid "(Current)"
 msgstr "(Actual)"
 
 msgid "Deleted image"
-msgstr "Eliminar imagen"
+msgstr "Imagen Eliminada"

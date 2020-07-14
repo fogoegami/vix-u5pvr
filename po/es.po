@@ -12900,3 +12900,9 @@ msgstr "Feeds estado: Estable"
 
 msgid "Feeds status: Unexpected"
 msgstr "Feeds status: Inestable"
+
+msgid "(Current)"
+msgstr "(Actual)"
+
+msgid "Deleted image"
+msgstr "Eliminar imagen"

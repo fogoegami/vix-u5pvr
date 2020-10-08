@@ -12301,9 +12301,6 @@ msgstr "tipo"
 msgid "Automatic language"
 msgstr "Lenguaje Automático"
 
-msgid "Miscellaneous"
-msgstr "Prioridad sintonizador"
-
 msgid "Utilities"
 msgstr "Utilidades"
 

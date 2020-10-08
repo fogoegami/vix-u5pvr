@@ -782,9 +782,6 @@ msgstr "Añadir"
 msgid "Add Autotimer"
 msgstr "Añadir Autotemporizador"
 
-msgid "AutoTimers"
-msgstr "AutoTemporizadores"
-
 msgid "Add Timer"
 msgstr "Añadir temporizador"
 
@@ -1716,6 +1713,9 @@ msgstr "Modo de previsualización de canales"
 msgid "Channel Selection"
 msgstr "Configurar Lista de Canales"
 
+msgid "Channel selection"
+msgstr "Configurar Lista de Canales"
+
 msgid "Channel selection settings"
 msgstr "Selección de Canales configuración"
 
@@ -2353,8 +2353,8 @@ msgstr "Croata"
 msgid "Cron Timers"
 msgstr "Temporizadores Cron"
 
-msgid "Cron manager"
-msgstr "Administrador Cron"
+msgid "Cron Manager"
+msgstr "Temporizadores Cron"
 
 msgid "CronTimers"
 msgstr "Temporizadores Cron"
@@ -2410,6 +2410,9 @@ msgstr "Personalizar intervalo de salto de los botones '7'/'9'"
 
 msgid "Customize"
 msgstr "Configurar"
+
+msgid "Customize settings"
+msgstr "Ajustes Configurar"
 
 msgid "Cut"
 msgstr "Cortar"
@@ -2592,7 +2595,7 @@ msgstr "¿Borrar %s?"
 msgid "Delete Confirmation"
 msgstr "Borrar confirmación"
 
-msgid "Delete EPG"
+msgid "Delete EPG Cache"
 msgstr "Borrar EPG"
 
 msgid "Delete entry"
@@ -3629,8 +3632,11 @@ msgstr "Viernes"
 msgid "From :"
 msgstr "Desde:"
 
+msgid "Front panel settings"
+msgstr "Ajustes Display"
+
 msgid "Front Panel Display"
-msgstr "Panel Frontal Display"
+msgstr "Ajustes Display"
 
 #, python-format
 msgid "Frontprocessor version: %d"
@@ -4139,8 +4145,8 @@ msgstr "Inotificar el seguimiento"
 msgid "Input"
 msgstr "Entrada"
 
-msgid "Input device setup"
-msgstr "Configuración del dispositivo de entrada"
+msgid "Input Device Setup"
+msgstr "Ajustes Entrada Dispositivos"
 
 msgid "Input Devices"
 msgstr "Entrada Dispositivos"
@@ -4336,6 +4342,9 @@ msgstr "Mapa del teclado"
 msgid "Keyboard setup"
 msgstr "Configurar teclado"
 
+msgid "Keyboard settings"
+msgstr "Ajustes Teclado"
+
 msgid "LAN adapter"
 msgstr "Adaptador LAN"
 
@@ -4500,7 +4509,7 @@ msgstr "Lituano"
 msgid "Load"
 msgstr "Cargar"
 
-msgid "Load EPG"
+msgid "Load EPG Cache"
 msgstr "Cargar EPG"
 
 msgid "Load playlist"
@@ -4510,18 +4519,21 @@ msgid "Load-save-delete"
 msgstr "Guardar-Cargar-Borrar"
 
 msgid "Grid EPG"
-msgstr "Cuadrícula EPG"
+msgstr "EPG Gráfico"
 
 msgid "Infobar Single EPG"
 msgstr "Infobar Simple EPG"
 
 msgid "Infobar Grid EPG"
-msgstr "Infobar Cuadrícula EPG"
+msgstr "EPG Infobar Gráfico"
 
 msgid "Automatic Language"
 msgstr "Lenguaje Automático"
 
 msgid "Miscellaneous"
+msgstr "Prioridad Tuners"
+
+msgid "Tuner miscellaneous"
 msgstr "Prioridad Tuners"
 
 msgid "Load unlinked userbouquets"
@@ -5331,6 +5343,9 @@ msgstr "Solicitud de nombre OSD"
 msgid "OSD settings"
 msgstr "Ajustes OSD"
 
+msgid "GUI settings"
+msgstr "Ajustes GUI"
+
 msgid "OScam Info"
 msgstr "Información OScam"
 
@@ -5971,6 +5986,9 @@ msgstr "PowerMenu"
 
 msgid "Power Timers"
 msgstr "Temporizadores Alimentación"
+
+msgid "Power Timer List"
+msgstr "Lista Temporizadores Alimentación"
 
 msgid "Predefined"
 msgstr "Predefinido"
@@ -6736,7 +6754,7 @@ msgstr "Sábado"
 msgid "Save"
 msgstr "Guardar"
 
-msgid "Save EPG"
+msgid "Save EPG Cache"
 msgstr "Guardar EPG"
 
 msgid "Save and record"
@@ -7811,8 +7829,11 @@ msgstr "SoftcamCheck"
 msgid "Software"
 msgstr "Software"
 
+msgid "Software update"
+msgstr "Actualización de Software"
+
 msgid "Software Update"
-msgstr "Actualización de software"
+msgstr "Actualización de Software"
 
 msgid "Software management"
 msgstr "Administrar software"
@@ -11672,7 +11693,7 @@ msgstr "Notas Publicación"
 msgid "Service & PIDs"
 msgstr "Servicio & PIDs"
 
-msgid "Tuner setup"
+msgid "Tuner Setup"
 msgstr "Configuración Sintonizador"
 
 msgid "Tuner settings values"
@@ -11836,6 +11857,9 @@ msgstr "Información Tuner: valores configuración"
 
 msgid "Fallback tuner setup"
 msgstr "Configuración del sintonizador alternativo"
+
+msgid "OSD position"
+msgstr "Ajustar Skin en TV"
 
 msgid "OSD Position"
 msgstr "Ajustar Skin en TV"
@@ -12921,3 +12945,12 @@ msgstr "Use Geolocalización"
 
 msgid "Geolocation has been used to set the time zone."
 msgstr "Se ha utilizado la geolocalización para establecer la zona horaria."
+
+msgid "Video & Audio Settings"
+msgstr "Ajustes Audio & Video"
+
+msgid "Recovery Mode"
+msgstr "Modo Recovery"
+
+msgid "Log Manager"
+msgstr "Administrador Log"

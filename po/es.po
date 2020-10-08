@@ -1461,8 +1461,8 @@ msgstr "Bus: "
 msgid "Button"
 msgstr "Tecla"
 
-msgid "Button setup"
-msgstr "Configuración de teclas"
+msgid "Button Setup"
+msgstr "Configurar Teclas"
 
 msgid "Button setup for"
 msgstr "Button setup for"
@@ -1710,7 +1710,7 @@ msgstr "El canal no está en la lista"
 msgid "Channel preview mode"
 msgstr "Modo de previsualización de canales"
 
-msgid "Channel selection"
+msgid "Channel Selection"
 msgstr "Configuración Lista de Canales"
 
 msgid "Channel selection settings"
@@ -2347,8 +2347,8 @@ msgstr "Creando partición"
 msgid "Croatian"
 msgstr "Croata"
 
-msgid "Cron Manager"
-msgstr "Administrador Cron"
+msgid "Cron Timers"
+msgstr "Temporizadores Cron"
 
 msgid "Cron manager"
 msgstr "Administrador Cron"
@@ -3118,8 +3118,8 @@ msgstr "Activar editar bouquet"
 msgid "Enable debug logs *"
 msgstr "Activar registros de depuración *"
 
-msgid "Enable fallback remote receiver"
-msgstr "Activar receptor remoto de reserva"
+msgid "Fallback Configuration"
+msgstr "Configuración Tuner Reserva"
 
 msgid "Enable favourite edit"
 msgstr "Activar edición favoritos"
@@ -3465,8 +3465,8 @@ msgstr "Configuración FTP"
 msgid "FTP setup"
 msgstr "Configuración FTP"
 
-msgid "Factory reset"
-msgstr "Reinicio de fábrica"
+msgid "Factory Reset"
+msgstr "Reinicio de Fábrica"
 
 msgid "Fade the infobar when hiding"
 msgstr "Desvanece la barra de información al esconderse"
@@ -3626,7 +3626,7 @@ msgstr "Viernes"
 msgid "From :"
 msgstr "Desde:"
 
-msgid "Front panel display"
+msgid "Front Panel Display"
 msgstr "Panel Frontal Display"
 
 #, python-format
@@ -4139,8 +4139,8 @@ msgstr "Entrada"
 msgid "Input device setup"
 msgstr "Configuración del dispositivo de entrada"
 
-msgid "Input devices"
-msgstr "Dispositivos de entrada"
+msgid "Input Devices"
+msgstr "Entrada Dispositivos"
 
 msgid "Install"
 msgstr "Instalar"
@@ -4473,8 +4473,8 @@ msgstr "Enumerar funciones del EPG..."
 msgid "List available networks"
 msgstr "Enumerar redes disponibles"
 
-msgid "List of storage devices"
-msgstr "Dispositivos de almacenamiento"
+msgid "Storage"
+msgstr "Almacenamiento"
 
 #, python-format
 msgid "List version %d, found %d channel"
@@ -4505,6 +4505,21 @@ msgstr "Cargar lista de reproducción"
 
 msgid "Load-save-delete"
 msgstr "Guardar-Cargar-Borrar"
+
+msgid "Grid EPG"
+msgstr "Cuadrícula EPG"
+
+msgid "Infobar Single EPG"
+msgstr "Infobar Simple EPG"
+
+msgid "Infobar Grid EPG"
+msgstr "Infobar Cuadrícula EPG"
+
+msgid "Automatic Language"
+msgstr "Lenguaje Automático"
+
+msgid "Miscellaneous"
+msgstr "Prioridad Tuners"
 
 msgid "Load unlinked userbouquets"
 msgstr "Cargar userbouquets no vinculados"
@@ -5491,8 +5506,8 @@ msgstr "Pánico a"
 msgid "Parent directory"
 msgstr "Directorio matriz"
 
-msgid "Parental control"
-msgstr "Control paterno"
+msgid "Parental Control"
+msgstr "Control Paterno"
 
 msgid "Password"
 msgstr "Contraseña"
@@ -5951,8 +5966,8 @@ msgstr "Entrada del administrador de alimentación"
 msgid "PowerMenu"
 msgstr "PowerMenu"
 
-msgid "PowerTimer List"
-msgstr "Lista Temporizadores Alimentación"
+msgid "Power Timers"
+msgstr "Temporizadores Alimentación"
 
 msgid "PowerTimers"
 msgstr "Temporizadores de alimentación"
@@ -7705,7 +7720,7 @@ msgstr "Ajustes de Skin"
 msgid "Skin name:\t%s\n"
 msgstr "Nombre Skin:\t%s\n"
 
-msgid "Skin setup"
+msgid "Skin Setup"
 msgstr "Ajustes de Skin"
 
 msgid "Skins"
@@ -7793,9 +7808,6 @@ msgstr "SoftcamCheck"
 msgid "Software"
 msgstr "Software"
 
-msgid "Software Update"
-msgstr "Actualización de software"
-
 msgid "Software management"
 msgstr "Administrar software"
 
@@ -7805,8 +7817,8 @@ msgstr "Configuración del administrador de software"
 msgid "Software restore"
 msgstr "Restaurar software"
 
-msgid "Software update"
-msgstr "Actualizar software"
+msgid "Software Update"
+msgstr "Actualizar Software"
 
 msgid "Software update settings"
 msgstr "Ajustes de actualización de software"
@@ -8095,8 +8107,8 @@ msgstr "Stream-tv"
 msgid "Streaming"
 msgstr "Streaming"
 
-msgid "Streaming clients info"
-msgstr "Streaming clientes info"
+msgid "Streaming Clients"
+msgstr "Clientes Streaming"
 
 msgid "Streaming port of the fallback remote receiver. By default this is '8001'"
 msgstr "Puerto de transmisión del receptor remoto alternativo. Por defecto esto es '8001'"
@@ -9441,8 +9453,8 @@ msgstr "Definido por el usuario"
 msgid "User defined transponder"
 msgstr "Transpondedor definido por el usuario"
 
-msgid "User interface"
-msgstr "Interfaz de usuario"
+msgid "User Interface"
+msgstr "Interfaz de Usuario"
 
 msgid "User interface settings"
 msgstr "Configuración de la interfaz de usuario"
@@ -11822,7 +11834,7 @@ msgstr "Información Tuner: valores configuración"
 msgid "Fallback tuner setup"
 msgstr "Configuración del sintonizador alternativo"
 
-msgid "OSD position"
+msgid "OSD Position"
 msgstr "Ajustar Skin en TV"
 
 msgid "Device"
@@ -11837,8 +11849,8 @@ msgstr "Configuración contraseña"
 msgid "Recording and playback"
 msgstr "Grabaciones & reproductor"
 
-msgid "Tuners & scanning"
-msgstr "Sintonizadores & búsqueda"
+msgid "Tuners & Scanning"
+msgstr "Sintonizadores & Búsqueda"
 
 msgid "No updates found, Press OK to exit this screen."
 msgstr "No se encontraron actualizaciones, pulse OK para salir de esta pantalla."
@@ -12867,3 +12879,9 @@ msgstr "Seleccione si su dispositivo SCR tiene alimentación externa."
 
 msgid "Externally powered"
 msgstr "Alimentado externamente"
+
+msgid "Use Geolocation"
+msgstr "Use Geolocalización"
+
+msgid "Geolocation has been used to set the time zone."
+msgstr "Se ha utilizado la geolocalización para establecer la zona horaria."

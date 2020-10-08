@@ -4602,8 +4602,8 @@ msgstr "MAC:"
 msgid "MB"
 msgstr "MB"
 
-msgid "Main menu"
-msgstr "Menú principal"
+msgid "Main Menu"
+msgstr "Menú Principal"
 
 msgid "Mainmenu"
 msgstr "Menú principal"

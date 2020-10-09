@@ -8137,6 +8137,9 @@ msgstr "Streaming"
 msgid "Streaming Clients"
 msgstr "Clientes Streaming"
 
+msgid "Streaming clients info"
+msgstr "Info clientes Streaming"
+
 msgid "Streaming port of the fallback remote receiver. By default this is '8001'"
 msgstr "Puerto de transmisión del receptor remoto alternativo. Por defecto esto es '8001'"
 

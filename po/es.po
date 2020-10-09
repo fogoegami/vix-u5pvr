@@ -3938,6 +3938,12 @@ msgstr "Dirección IP"
 msgid "IP:"
 msgstr "IP:"
 
+msgid "search EPG"
+msgstr "búsqueda EPG"
+
+msgid "IMDb Search"
+msgstr "Búsqueda IMDb"
+
 msgid "ISO file is too large for this filesystem!"
 msgstr "El archivo ISO es demasiado grande para este sistema de archivos!"
 

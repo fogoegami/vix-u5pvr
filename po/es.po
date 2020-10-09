@@ -2992,15 +2992,6 @@ msgstr "EPG"
 msgid "EPG Cache Check"
 msgstr "Comprobando caché EPG"
 
-msgid "EPG Search"
-msgstr "Búsqueda EPG"
-
-msgid "search EPG"
-msgstr "búsqueda EPG"
-
-msgid "search EPG fron history..."
-msgstr "búsqueda EPG desde historia..."
-
 msgid "Select default action of EPG button"
 msgstr "Seleccionar por defecto acción botón EPG"
 
@@ -3937,12 +3928,6 @@ msgstr "Húngaro"
 
 msgid "IMDB search for current event"
 msgstr "Búsqueda IMDB del programa actual"
-
-msgid "IMDb Search"
-msgstr "Búsqueda IMDb"
-
-msgid "IMDb search..."
-msgstr "Búsqueda IMDb..."
 
 msgid "IP address"
 msgstr "Dirección IP"
@@ -12966,3 +12951,6 @@ msgstr "Modo Recovery"
 
 msgid "Log Manager"
 msgstr "Administrador Log"
+
+msgid "HDD settings"
+msgstr "Ajustes HDD"

@@ -4528,7 +4528,7 @@ msgid "Infobar Single EPG"
 msgstr "Infobar Simple EPG"
 
 msgid "Infobar Grid EPG"
-msgstr "EPG Infobar Gráfico"
+msgstr "Cuadrícula Infobar EPG"
 
 msgid "Automatic Language"
 msgstr "Lenguaje Automático"
@@ -8137,8 +8137,8 @@ msgstr "Streaming"
 msgid "Streaming Clients"
 msgstr "Clientes Streaming"
 
-msgid "Streaming clients info"
-msgstr "Info clientes Streaming"
+msgid "Streaming Clients Info"
+msgstr "Info Clientes Streaming"
 
 msgid "Streaming port of the fallback remote receiver. By default this is '8001'"
 msgstr "Puerto de transmisión del receptor remoto alternativo. Por defecto esto es '8001'"
@@ -12963,3 +12963,6 @@ msgstr "Administrador Log"
 
 msgid "HDD settings"
 msgstr "Ajustes HDD"
+
+msgid "Choose the layout. Single channel, Graphics Grid EPG or Text Grid EPG."
+msgstr "Elija el diseño. Canal único, EPG de cuadrícula de gráficos o EPG de cuadrícula de texto."

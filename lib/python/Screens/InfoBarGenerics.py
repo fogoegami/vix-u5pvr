@@ -445,7 +445,7 @@ class SecondInfoBar(Screen, HelpableScreen):
 		for timer in self.session.nav.RecordTimer.timer_list:
 			if timer.eit == eventid and timer.service_ref.ref.toString() == refstr:
 				cb_func = lambda ret : not ret or self.removeTimer(timer)
-				self.session.openWithCallback(cb_func, MessageBox, _("Do you really want to delete %s?") % event.getEventName())
+				self.session.openWithCallback(cb_func, MessageBox, _("Do you really want to delete %s?") % event.getEventName(), simple=True)
 				break
 		else:
 			newEntry = RecordTimerEntry(self.currentService, checkOldTimers = True, dirname = preferredTimerPath(), *parseEvent(self.event, service=serviceref))
@@ -1339,7 +1339,7 @@ class InfoBarChannelSelection:
 
 		elif self.LongButtonPressed:
 			if not hasattr(self.session, 'pip') and not self.session.pipshown:
-				self.session.open(MessageBox, _("Please open Picture in Picture first"), MessageBox.TYPE_ERROR)
+				self.session.open(MessageBox, _("Please open Picture in Picture first"), MessageBox.TYPE_ERROR, simple=True)
 				return
 
 			from Screens.ChannelSelection import ChannelSelection
@@ -1398,7 +1398,7 @@ class InfoBarChannelSelection:
 			self.servicelist.zap(enable_pipzap = True)
 		elif self.LongButtonPressed:
 			if not hasattr(self.session, 'pip') and not self.session.pipshown:
-				self.session.open(MessageBox, _("Please open Picture in Picture first"), MessageBox.TYPE_ERROR)
+				self.session.open(MessageBox, _("Please open Picture in Picture first"), MessageBox.TYPE_ERROR, simple=True)
 				return
 
 			from Screens.ChannelSelection import ChannelSelection
@@ -1462,7 +1462,7 @@ class InfoBarMenu:
 		else:
 			config.av.aspect.value = "auto"
 		config.av.aspect.save()
-		self.session.open(MessageBox, _("AV aspect is %s." % ASPECT_MSG[config.av.aspect.value]), MessageBox.TYPE_INFO, timeout=5)
+		self.session.open(MessageBox, _("AV aspect is %s." % ASPECT_MSG[config.av.aspect.value]), MessageBox.TYPE_INFO, timeout=5, simple=True)
 
 	def showSystemMenu(self):
 		menulist = mdom.getroot().findall('menu')
@@ -1550,7 +1550,7 @@ class InfoBarEPG:
 
 		# Note regarding INFO button on the RCU. Some RCUs do not have an INFO button, but to make matters 
 		# more complicated they have an EPG button that sends KEY_INFO instead of KEY_EPG. To deal with 
-		# this the INFO button methods check SystemInfo["HasInfoButton"] to see if the RCU has an INFO button 
+		# this the INFO button methods check SystemInfo["mapKeyInfoToEpgFunctions"] to see if the RCU has an INFO button 
 		# and if not the event is rerouted to the corresponding EPG button method of the same name.
 		
 		self["EPGActions"] = HelpableActionMap(self, "InfobarEPGActions",
@@ -1646,13 +1646,13 @@ class InfoBarEPG:
 			self.session.openWithCallback(self.EventPluginChosenCallback, ChoiceBox, title=_("Please choose an extension..."), list = pluginlist, skin_name = "EPGExtensionsList")
 
 	def _helpShowEventInfoPlugins(self):
-		if not SystemInfo["HasInfoButton"]:
+		if SystemInfo["mapKeyInfoToEpgFunctions"]:
 			return self._helpShowEventGuidePlugins()
 		if isStandardInfoBar(self) or isMoviePlayerInfoBar(self):
 			return _("Select default action of INFO button")
 
 	def showEventInfoPlugins(self):
-		if not SystemInfo["HasInfoButton"]:
+		if SystemInfo["mapKeyInfoToEpgFunctions"]:
 			self.showEventGuidePlugins()
 			return
 		self.selectDefaultInfoPlugin()
@@ -1833,14 +1833,14 @@ class InfoBarEPG:
 		self.EPGPressed()
 
 	def _helpShowDefaultINFO(self):
-		if not SystemInfo['HasInfoButton']:
+		if SystemInfo['mapKeyInfoToEpgFunctions']:
 			return self._helpShowDefaultEPG()
 		if self.defaultINFOType is not None:
 			return _("Show %s") % config.usage.defaultINFOType.description[config.usage.defaultINFOType.value]
 		return self._helpINFOPressed()
 
 	def showDefaultINFO(self):
-		if not SystemInfo['HasInfoButton']:
+		if SystemInfo['mapKeyInfoToEpgFunctions']:
 			self.showDefaultEPG()
 			return
 		if self.defaultINFOType is not None:
@@ -2104,11 +2104,8 @@ class InfoBarSeek:
 				"playpauseService": (self.playpauseService, _("Pause/Continue playback")),
 				"pauseService": (self.pauseService, _("Pause playback")),
 				"unPauseService": (self.unPauseService, _("Continue playback")),
-				"seekFwdManual": (self.seekFwdManual, lambda: self._helpSeekManualSeekbar(config.seek.baractivation.value != "leftright", True)),
-				"seekBackManual": (self.seekBackManual, lambda: self._helpSeekManualSeekbar(config.seek.baractivation.value != "leftright", False)),
-
-				"SeekbarFwd": (self.seekFwdSeekbar, lambda: self._helpSeekManualSeekbar(config.seek.baractivation.value == "leftright", True)),
-				"SeekbarBack": (self.seekBackSeekbar, lambda: self._helpSeekManualSeekbar(config.seek.baractivation.value == "leftright", False)),
+				"seekFwd": (self.seekFwd, _("Seek forward")),
+				"seekBack": (self.seekBack, _("Seek backward")),
 			}, prio=-1, description=_("Skip, pause, rewind and fast forward timeshift")) # give them a little more priority to win over color buttons
 		self["SeekActionsPTS"].setEnabled(False)
 
@@ -2334,7 +2331,7 @@ class InfoBarSeek:
 		seek = self.getSeek()
 		if seek and not (seek.isCurrentlySeekable() & 2):
 			if not self.fast_winding_hint_message_showed and (seek.isCurrentlySeekable() & 1):
-				self.session.open(MessageBox, _("No fast winding possible yet.. but you can use the number buttons to skip forward/backward!"), MessageBox.TYPE_INFO, timeout=10)
+				self.session.open(MessageBox, _("No fast winding possible yet.. but you can use the number buttons to skip forward/backward!"), MessageBox.TYPE_INFO, timeout=10, simple=True)
 				self.fast_winding_hint_message_showed = True
 				return
 			return 0 # trade as unhandled action
@@ -2370,7 +2367,7 @@ class InfoBarSeek:
 		seek = self.getSeek()
 		if seek and not (seek.isCurrentlySeekable() & 2):
 			if not self.fast_winding_hint_message_showed and (seek.isCurrentlySeekable() & 1):
-				self.session.open(MessageBox, _("No fast winding possible yet.. but you can use the number buttons to skip forward/backward!"), MessageBox.TYPE_INFO, timeout=10)
+				self.session.open(MessageBox, _("No fast winding possible yet.. but you can use the number buttons to skip forward/backward!"), MessageBox.TYPE_INFO, timeout=10, simple=True)
 				self.fast_winding_hint_message_showed = True
 				return
 			return 0 # trade as unhandled action
@@ -2835,13 +2832,13 @@ class InfoBarExtensions:
 		if autotimerFunc is not None:
 			autotimerFunc(self.session)
 		else:
-			self.session.open(MessageBox, _("The AutoTimer plugin is not installed!\nPlease install it."), type = MessageBox.TYPE_INFO,timeout = 10 )
+			self.session.open(MessageBox, _("The AutoTimer plugin is not installed!\nPlease install it."), type = MessageBox.TYPE_INFO,timeout = 10, simple=True )
 
 	def showEPGSearch(self):
 		try:
 			from Plugins.Extensions.EPGSearch.EPGSearch import EPGSearch
 		except ImportError:
-			self.session.open(MessageBox, _("The EPGSearch plugin is not installed!\nPlease install it."), type = MessageBox.TYPE_INFO,timeout = 10 )
+			self.session.open(MessageBox, _("The EPGSearch plugin is not installed!\nPlease install it."), type = MessageBox.TYPE_INFO,timeout = 10, simple=True )
 			return
 		s = self.session.nav.getCurrentService()
 		if s:
@@ -2875,14 +2872,14 @@ class InfoBarExtensions:
 				name = event and event.getEventName() or ''
 				self.session.open(IMDB, name)
 		except ImportError:
-			self.session.open(MessageBox, _("The IMDb plugin is not installed!\nPlease install it."), type = MessageBox.TYPE_INFO,timeout = 10 )
+			self.session.open(MessageBox, _("The IMDb plugin is not installed!\nPlease install it."), type = MessageBox.TYPE_INFO,timeout = 10, simple=True )
 
 	def showDreamPlex(self):
 		try:
 			from Plugins.Extensions.DreamPlex.plugin import DPS_MainMenu
 			self.session.open(DPS_MainMenu)
 		except ImportError:
-			self.session.open(MessageBox, _("The DreamPlex plugin is not installed!\nPlease install it."), type = MessageBox.TYPE_INFO,timeout = 10 )
+			self.session.open(MessageBox, _("The DreamPlex plugin is not installed!\nPlease install it."), type = MessageBox.TYPE_INFO,timeout = 10, simple=True )
 
 from Tools.BoundFunction import boundFunction
 import inspect
@@ -3060,7 +3057,7 @@ class InfoBarPiP:
 						self.session.pipshown = False
 						del self.session.pip
 			else:
-				self.session.open(MessageBox, _("No active channel found."), type = MessageBox.TYPE_INFO,timeout = 5 )
+				self.session.open(MessageBox, _("No active channel found."), type = MessageBox.TYPE_INFO, timeout = 5, simple=True )
 		if self.session.pipshown and hasattr(self, "screenSaverTimer"):
 			self.screenSaverTimer.stop()
 
@@ -3152,7 +3149,7 @@ class InfoBarInstantRecord:
 				msg = _("Stop and delete recording:")
 			msg += "\n"
 			msg += " - " + self.recording[entry].name + "\n"
-			self.session.openWithCallback(confirm, MessageBox, msg, MessageBox.TYPE_YESNO)
+			self.session.openWithCallback(confirm, MessageBox, msg, MessageBox.TYPE_YESNO, simple=True)
 
 	def stopAllCurrentRecordings(self, list):
 		def confirm(answer=False):
@@ -3168,7 +3165,7 @@ class InfoBarInstantRecord:
 		msg += "\n"
 		for entry in list:
 			msg += " - " + entry[0].name + "\n"
-		self.session.openWithCallback(confirm, MessageBox, msg, MessageBox.TYPE_YESNO)
+		self.session.openWithCallback(confirm, MessageBox, msg, MessageBox.TYPE_YESNO, simple=True)
 
 	def getProgramInfoAndEvent(self, info, name):
 		service = hasattr(self, "SelectedInstantServiceRef") and self.SelectedInstantServiceRef or self.session.nav.getCurrentlyPlayingServiceOrGroup()
@@ -3217,7 +3214,7 @@ class InfoBarInstantRecord:
 				end = info["end"]
 		else:
 			if limitEvent:
-				self.session.open(MessageBox, _("No event info found, recording indefinitely."), MessageBox.TYPE_INFO)
+				self.session.open(MessageBox, _("No event info found, recording indefinitely."), MessageBox.TYPE_INFO, simple=True)
 
 		if isinstance(serviceref, eServiceReference):
 			serviceref = ServiceReference(serviceref)
@@ -3243,11 +3240,11 @@ class InfoBarInstantRecord:
 				if recording.setAutoincreaseEnd():
 					self.session.nav.RecordTimer.record(recording)
 					self.recording.append(recording)
-					self.session.open(MessageBox, _("Record time limited due to conflicting timer %s") % name_date, MessageBox.TYPE_INFO)
+					self.session.open(MessageBox, _("Record time limited due to conflicting timer %s") % name_date, MessageBox.TYPE_INFO, simple=True)
 				else:
-					self.session.open(MessageBox, _("Could not record due to a conflicting timer %s") % name, MessageBox.TYPE_INFO)
+					self.session.open(MessageBox, _("Could not record due to a conflicting timer %s") % name, MessageBox.TYPE_INFO, simple=True)
 			else:
-				self.session.open(MessageBox, _("Could not record due to an invalid service %s") % serviceref, MessageBox.TYPE_INFO)
+				self.session.open(MessageBox, _("Could not record due to an invalid service %s") % serviceref, MessageBox.TYPE_INFO, simple=True)
 			recording.autoincrease = False
 
 	def isInstantRecordRunning(self):
@@ -3406,7 +3403,7 @@ class InfoBarInstantRecord:
 			if not pirr:
 				pirr = ""
 			self.session.open(MessageBox, _("Missing ") + "\n" + pirr +
-						 "\n" + _("No HDD found or HDD not initialized!"), MessageBox.TYPE_ERROR)
+						 "\n" + _("No HDD found or HDD not initialized!"), MessageBox.TYPE_ERROR, simple=True)
 			return
 
 		if isStandardInfoBar(self):
@@ -3596,12 +3593,12 @@ class InfoBarSubserviceSelection:
 				self.bsel = self.session.openWithCallback(self.bouquetSelClosed, BouquetSelector, self.bouquets, self.addSubserviceToBouquet)
 			elif cnt == 1:
 				self.addSubserviceToBouquet(self.bouquets[0][1])
-				self.session.open(MessageBox, _("The service has been added to the favourites."), MessageBox.TYPE_INFO)
+				self.session.open(MessageBox, _("The service has been added to the favourites."), MessageBox.TYPE_INFO, simple=True)
 
 	def bouquetSelClosed(self, confirmed):
 		self.bouquets = self.bsel = self.selectedSubservice = None
 		if confirmed:
-			self.session.open(MessageBox, _("The service has been added to the selected bouquet."), MessageBox.TYPE_INFO)
+			self.session.open(MessageBox, _("The service has been added to the selected bouquet."), MessageBox.TYPE_INFO, simple=True)
 
 	def addSubserviceToBouquet(self, dest):
 		self.servicelist.addServiceToBouquet(dest, self.selectedSubservice)

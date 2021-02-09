@@ -1043,9 +1043,8 @@ msgstr "Cualquier actividad"
 msgid "Arabic"
 msgstr "Árabe"
 
-#, python-format
-msgid "Are you ready to remove \"%s\" ?"
-msgstr "Listo para eliminar \"%s\" ?"
+msgid "Are you ready to remove %s ?"
+msgstr "Estas listo para eliminar %s ?"
 
 msgid "Are you sure to remove this entry?"
 msgstr "Estás seguro de eliminar esta entrada?"
@@ -12817,8 +12816,8 @@ msgstr ""
 "Su receptor se reiniciará después de la instalación del servicio.\n"
 "Estás listo para instalar \"%s\" ?"
 
-msgid "Are you ready to install \"%s\" ?"
-msgstr "Estás listo para instalar \"%s\" ?"
+msgid "Are you ready to install %s ?"
+msgstr "Estas listo para instalar %s ?"
 
 msgid "Please wait while feeds state is being checked."
 msgstr "Espere mientras se verifica el estado de los feeds."
